@@ -3,10 +3,15 @@
   text-align: center;
 }
 .general-content__heading {
+  margin-top: 0;
   margin-bottom: 20px;
 }
 .general-content__content {
   font-size: 22px;
+  line-height: 24px;
+}
+.general-content__content p {
+  margin: 0;
 }
 
 @media only screen and (min-width: 769px) {
@@ -18,5 +23,6 @@
   }
   .general-content__content {
     font-size: 48px;
+    line-height: 60px;
   }
 }
