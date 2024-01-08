@@ -4,7 +4,7 @@
 
 <div class="home-banner">
     {%- if section.settings.image -%}
-        {{ section.settings.image | image_tag: class: 'home-banner__image' }}
+        {{ section.settings.image | image_url: 'master' | image_tag: class: 'home-banner__image' }}
     {%- endif -%}
     <div class="home-banner__slider">
         {%- for block in section.blocks -%}
@@ -19,7 +19,7 @@
                     {%- endif -%}
                 {%- endif -%}
                 {%- if block.settings.image -%}
-                    {{ block.settings.image | image_tag }}
+                    {{ block.settings.image | image_url: 'master' | image_tag }}
                 {%- endif -%}
             </div>
         {%- endfor -%}
