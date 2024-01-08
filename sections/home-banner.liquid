@@ -12,10 +12,10 @@
                 {%- if block.settings.video or block.settings.video_url -%}
                     {%- if block.settings.video -%}
                         {{ block.settings.video | video_tag: controls: false, loop: true, muted: true, playsinline: true }}
-                    {%- else -%}
+                    {% comment %} {%- else -%}
                         <video controls loop muted playsinline>
                             <source src="{{ block.settings.video_url }}" type="video/mp4">
-                        </video>
+                        </video> {% endcomment %}
                     {%- endif -%}
                 {%- endif -%}
                 {%- if block.settings.image -%}
@@ -65,11 +65,6 @@
                     "type": "video",
                     "id": "video",
                     "label": "Video"
-                },
-                {
-                    "type": "video_url",
-                    "id": "video_url",
-                    "label": "Video URL"
                 }
             ]
         }
