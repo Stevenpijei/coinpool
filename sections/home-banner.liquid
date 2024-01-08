@@ -1,5 +1,5 @@
-{{ 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js' | script_tag }}
-{{ 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css' | stylesheet_tag }}
+{{ 'https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js' | script_tag }}
+{{ 'https://unpkg.com/flickity@2/dist/flickity.min.css' | stylesheet_tag }}
 {{ 'section-home-banner.css' |  asset_url |  stylesheet_tag }}
 
 <div class="home-banner">
@@ -27,15 +27,14 @@
 </div>
 
 <script>
-    $(document).ready(function(){
-        $('.home-banner__slider').slick({
-            dots: false,
-            arrows: false,
-            autoplay: true,
-            autoplaySpeed: 5000,
-            fade: true,
-            cssEase: 'linear'
-        });
+    var flkty = new Flickity('.home-banner__slider', {
+        cellAlign: 'left',
+        contain: true,
+        wrapAround: true,
+        prevNextButtons: false,
+        pageDots: false,
+        autoPlay: 5000,
+        pauseAutoPlayOnHover: false
     });
 </script>
 
