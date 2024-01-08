@@ -1,0 +1,88 @@
+{{ 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js' | script_tag }}
+{{ 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css' | stylesheet_tag }}
+{{ 'section-home-banner.css' |  asset_url |  stylesheet_tag }}
+
+<div class="home-banner">
+    {%- if section.settings.image -%}
+        {{ section.settings.image | image_tag: class: 'home-banner__image' }}
+    {%- endif -%}
+    <div class="home-banner__slider">
+        {%- for block in section.blocks -%}
+            <div class="home-banner__slide">
+                {%- if block.settings.video or block.settings.video_url -%}
+                    {%- if block.settings.video -%}
+                        {{ block.settings.video | video_tag: controls: false, loop: true, muted: true, playsinline: true }}
+                    {%- else -%}
+                        <video controls loop muted playsinline>
+                            <source src="{{ block.settings.video_url }}" type="video/mp4">
+                        </video>
+                    {%- endif -%}
+                {%- endif -%}
+                {%- if block.settings.image -%}
+                    {{ block.settings.image | image_tag | img_url: 'master' }}
+                {%- endif -%}
+            </div>
+        {%- endfor -%}
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(){
+        $('.home-banner__slider').slick({
+            dots: false,
+            arrows: false,
+            autoplay: true,
+            autoplaySpeed: 5000,
+            fade: true,
+            cssEase: 'linear'
+        });
+    });
+</script>
+
+{% schema %}
+{
+    "name": "Home Banner",
+    "tag": "section",
+    "class": "home-banner-section",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "slide",
+            "name": "Slide",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Background Image"
+                },
+                {
+                    "type": "video",
+                    "id": "video",
+                    "label": "Video"
+                },
+                {
+                    "type": "video_url",
+                    "id": "video_url",
+                    "label": "Video URL"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Home Banner",
+            "blocks": [
+                {
+                    "type": "slide"
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}
