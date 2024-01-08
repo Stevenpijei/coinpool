@@ -18,7 +18,7 @@
       ],
       "settings": {
         "color_scheme": "scheme-2265e6a2-fc95-40f7-adfd-5ae963be3f3e",
-        "show_line_separator": true,
+        "show_line_separator": false,
         "show_social": false,
         "auto_rotate": false,
         "change_slides_speed": 5,
