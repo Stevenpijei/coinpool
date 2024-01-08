@@ -17,7 +17,7 @@
         "announcement-bar-0"
       ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "scheme-2265e6a2-fc95-40f7-adfd-5ae963be3f3e",
         "show_line_separator": true,
         "show_social": false,
         "auto_rotate": false,
@@ -34,7 +34,7 @@
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
-        "color_scheme": "background-1",
+        "color_scheme": "scheme-2265e6a2-fc95-40f7-adfd-5ae963be3f3e",
         "menu_color_scheme": "background-1",
         "enable_country_selector": false,
         "enable_language_selector": false,
