@@ -1,0 +1,15 @@
+:root {
+  --font-body-family: 'Tiempos', sans-serif;
+  --font-heading-family: 'Store Norske Ja Trial', sans-serif;
+}
+
+.t-heading {
+  font: 600 12px/1.5 var(--font-heading-family);
+  letter-spacing: 0.1em;
+}
+
+@media only screen and (min-width: 769px) {
+  .t-heading {
+    font-size: 16px;
+  }
+}

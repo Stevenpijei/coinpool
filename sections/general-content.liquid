@@ -1,0 +1,39 @@
+{{ 'section-general-content.css' |  asset_url |  stylesheet_tag }}
+
+<div class="general-content">
+    <div class="page-width">
+        {% if section.settings.title %}
+            <h2 class="general-content__heading t-heading">{{ section.settings.title }}</h2>
+        {% endif %}
+        {% if section.settings.content %}
+            <div class="general-content__content">
+                {{ section.settings.content }}
+            </div>
+        {% endif %}
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "General Content",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+        },
+        {
+            "type": "textarea",
+            "id": "content",
+            "label": "Content"
+        }
+    ],
+    "presets": [
+        {
+            "name": "General Content"
+        }
+    ]
+}
+{% endschema %}

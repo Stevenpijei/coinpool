@@ -1,0 +1,22 @@
+.general-content {
+  margin: 30px 0;
+  text-align: center;
+}
+.general-content__heading {
+  margin-bottom: 20px;
+}
+.general-content__content {
+  font-size: 22px;
+}
+
+@media only screen and (min-width: 769px) {
+  .general-content {
+    margin: 75px 0;
+  }
+  .general-content__heading {
+    margin-bottom: 45px;
+  }
+  .general-content__content {
+    font-size: 48px;
+  }
+}
