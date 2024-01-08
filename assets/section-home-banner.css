@@ -10,7 +10,8 @@
 }
 .home-banner__slide {
   position: relative;
-  height: calc(100vh - var(--header-height) - var(--announcement-height));
+  width: 100vw;
+  height: var(--banner-height);
 }
 .home-banner__slide img, 
 .home-banner__slide video {

@@ -27,6 +27,17 @@
 </div>
 
 <script>
+    const announcementBar = document.querySelector('.announcement-bar-section');
+    const header = document.querySelector('.section-header');
+    
+    function cssVariables() {
+        const announcementBarHeight = announcementBar ? announcementBar.offsetHeight : 0;
+        const headerHeight = header ? header.offsetHeight : 0;
+        const bannerHeight = window.innerHeight - (announcementBarHeight + headerHeight);
+        document.documentElement.style.setProperty('--banner-height', `${bannerHeight}px`);
+    }
+    cssVariables();
+    window.addEventListener('resize', cssVariables);
     var flkty = new Flickity('.home-banner__slider', {
         prevNextButtons: false,
         pageDots: false,
