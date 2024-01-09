@@ -18,6 +18,9 @@
   .general-content {
     margin: 75px 0;
   }
+  .general-content .page-width {
+    max-width: 1200px;
+  }
   .general-content__heading {
     margin-bottom: 45px;
   }

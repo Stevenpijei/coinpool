@@ -3,10 +3,10 @@
 <div class="general-content">
     <div class="page-width">
         {% if section.settings.title %}
-            <h2 class="general-content__heading t-h6">{{ section.settings.title }}</h2>
+            <h2 class="general-content__heading t-h6{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">{{ section.settings.title }}</h2>
         {% endif %}
         {% if section.settings.content %}
-            <div class="general-content__content">
+            <div class="general-content__content{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
                 {{ section.settings.content }}
             </div>
         {% endif %}

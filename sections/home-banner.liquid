@@ -2,14 +2,16 @@
 
 <div class="home-banner">
     {%- if section.settings.image -%}
-        {{ section.settings.image | image_url: width: 440 | image_tag: class: 'home-banner__image' }}
+        <div class="{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+            {{ section.settings.image | image_url: width: 440 | image_tag: class: 'home-banner__image' }}
+        </div>
     {%- endif -%}
     <div class="home-banner__slider">
         {%- for block in section.blocks -%}
             <div class="home-banner__slide">
                 {%- if block.settings.video or block.settings.video_url -%}
                     {%- if block.settings.video -%}
-                        {{ block.settings.video | video_tag: controls: false, loop: true, muted: true, playsinline: true }}
+                        {{ block.settings.video | video_tag: controls: false, loop: true, muted: true, playsinline: true, autoplay: true }}
                     {% comment %} {%- else -%}
                         <video controls loop muted playsinline>
                             <source src="{{ block.settings.video_url }}" type="video/mp4">

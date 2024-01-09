@@ -66,6 +66,7 @@
   }
   .vacations-grid-item {
     border: 10px solid #4f98d2;
+    transform: none !important;
   }
   .vacations-grid-item-text {
     font-size: 16px;
