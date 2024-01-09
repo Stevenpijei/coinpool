@@ -38,8 +38,8 @@
             freeScroll: true
         });
         // on desktop slide carousel on scroll
-        let lastScroll = document.querySelector('.story-carousel').getBoundingClientRect().top + window.scrollY;
-        window.addEventListener('scroll', onScrollStoryCarousel, false)
+        let lastScroll = document.querySelector('.story-carousel').getBoundingClientRect().top;
+        window.addEventListener('scroll', onScrollStoryCarousel, false);
 
         function onScrollStoryCarousel() {
             storyCarousel.isFreeScrolling = true;

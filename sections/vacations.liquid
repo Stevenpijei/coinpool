@@ -1,0 +1,88 @@
+{{ 'section-vacations.css' |  asset_url |  stylesheet_tag }}
+
+<div class="vacations">
+    <div class="page-width">
+        {%- if section.settings.title -%}
+            <h2 class="vacations-heading t-h6">{{ section.settings.title }}</h2>
+        {%- endif -%}
+        <div class="vacations-grid">
+            {%- for block in section.blocks -%}
+                <div class="vacations-grid-item">
+                    <div class="vacations-grid-item-image">
+                        <img src="{{ block.settings.image | img_url: '895x745' }}" alt="{{ block.settings.title }}">
+                    </div>
+                    <div class="vacations-grid-item-content">
+                        <h3 class="vacations-grid-item-title t-2">{{ block.settings.title }}</h3>
+                        <img class="vacations-grid-item-goat" src="{{ 'logo-white.svg' | asset_url }}" alt="">
+                        <div class="vacations-grid-item-text">
+                            {{ block.settings.content }}
+                        </div>
+                    </div>
+                </div>
+            {%- endfor -%}
+        </div>
+    </div>
+</div>
+
+<script>
+    if (document.querySelectorAll('.vacations-grid-item').length > 0) {
+       // init flickity slider on mobile devices only
+        if (window.matchMedia("(max-width: 768px)").matches) {
+            var flkty = new Flickity('.vacations-grid', {
+                prevNextButtons: false,
+                pageDots: true,
+                draggable: true,
+                wrapAround: true,
+                autoPlay: 5000,
+                pauseAutoPlayOnHover: false
+            });
+        }
+    }
+</script>
+
+{% schema %}
+{
+    "name": "Vacations",
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Vacations"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "vacation",
+            "name": "Vacation",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Image"
+                },
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Title"
+                },
+                {
+                    "type": "text",
+                    "id": "content",
+                    "label": "Content"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Vacations",
+            "blocks": [
+                {
+                    "type": "vacation"
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}

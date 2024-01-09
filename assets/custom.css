@@ -1,6 +1,14 @@
 :root {
   --font-body-family: 'Tiempos', sans-serif;
   --font-heading-family: 'Store Norske Ja Trial', sans-serif;
+  --gutter: 20px;
+  --page-width: 100%;
+}
+
+@media only screen and (min-width: 769px) {
+  :root {
+    --gutter: 40px;
+  }
 }
 
 body {
@@ -40,6 +48,12 @@ body {
   background-color: #000;
   color: #fff;
 }
+
+.page-width {
+  padding-left: var(--gutter);
+  padding-right: var(--gutter);
+}
+
 /* Announcement Bar */
 .announcement-bar__message {
   font-weight: 600;
@@ -47,7 +61,7 @@ body {
 
 /* Header */
 .header {
-  padding: 20px 40px !important;
+  padding: 20px var(--gutter) !important;
   max-width: 100%;
 }
 .header .header__heading-logo-wrapper img {
@@ -70,19 +84,19 @@ body {
   }
 }
 
-.t-heading {
-  font: 600 12px/1.5 var(--font-heading-family);
-  letter-spacing: 0.1em;
-}
 .t-h2 {
   font: 400 18px/1.5 var(--font-body-family);
 }
+.t-h6 {
+  font: 600 12px/1.5 var(--font-heading-family);
+  letter-spacing: 0.1em;
+}
 
 @media only screen and (min-width: 769px) {
-  .t-heading {
-    font-size: 16px;
-  }
   .t-h2 {
     font-size: 48px;
+  }
+  .t-h6 {
+    font-size: 16px;
   }
 }
