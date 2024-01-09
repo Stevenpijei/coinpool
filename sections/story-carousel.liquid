@@ -34,8 +34,27 @@
             pageDots: true,
             autoPlay: 5000,
             pauseAutoPlayOnHover: false,
-            wrapAround: true
+            wrapAround: true,
+            freeScroll: true
         });
+        // on desktop slide carousel on scroll
+        let lastScroll = document.querySelector('.story-carousel').getBoundingClientRect().top + window.scrollY;
+        window.addEventListener('scroll', onScrollStoryCarousel, false)
+
+        function onScrollStoryCarousel() {
+            storyCarousel.isFreeScrolling = true;
+            storyCarousel.startAnimation();
+            let diff = window.scrollY - lastScroll
+            lastScroll = window.scrollY
+
+
+            storyCarousel.velocity += diff * -0.1;
+            storyCarousel.x += storyCarousel.velocity;
+            storyCarousel.velocity *= 1 - 0.03;
+
+            let previousX = storyCarousel.x
+            storyCarousel.positionSlider();
+        }
     }
 </script>
 
