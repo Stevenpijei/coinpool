@@ -5,6 +5,10 @@
 .vacations-heading {
   margin: 0 0 20px;
 }
+.vacations-grid:after {
+  content: 'flickity';
+  display: none; /* hide :after */
+}
 .vacations-grid-item {
   position: relative;
 }
