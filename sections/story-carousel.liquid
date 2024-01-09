@@ -1,0 +1,77 @@
+{{ 'section-story-carousel.css' |  asset_url |  stylesheet_tag }}
+
+<div class="story-carousel">
+    <div class="story-carousel__title">
+        <h2>{{ section.settings.Title }}</h2>
+    </div>
+    <div class="story-carousel__carousel">
+        <div class="story-carousel__carousel__container">
+            {% for block in section.blocks %}
+                <div class="story-carousel__carousel__item">
+                    <div class="story-carousel__carousel__item__image">
+                        <img src="{{ block.settings.image | img_url: 'master' }}" alt="">
+                    </div>
+                    <div class="story-carousel__carousel__item__content">
+                        {{ block.settings.content }}
+                        {% if section.settings.button_link and section.settings.button_text %}
+                            <a href="{{ section.settings.button_link }}" class="btn btn--primary">{{ section.settings.button_text }}</a>
+                        {% endif %}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Story Carousel",
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Our Story"
+        },
+        {
+            "type": "text",
+            "id": "button_text",
+            "label": "Button Text",
+            "default": "Find Out More"
+        },
+        {
+            "type": "url",
+            "id": "button_link",
+            "label": "Button Link"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "story",
+            "name": "Story",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Image"
+                },
+                {
+                    "type": "richtext",
+                    "id": "content",
+                    "label": "content"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Story Carousel",
+            "blocks": [
+                {
+                    "type": "story"
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}

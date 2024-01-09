@@ -8,6 +8,7 @@
   max-width: 188px;
   transform: translate(-50%, -50%);
   z-index: 1;
+  pointer-events: none;
 }
 .home-banner__slide {
   position: relative;
