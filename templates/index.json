@@ -34,7 +34,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "New Arrivals",
+        "title": "New <em>Arrivals<\/em>",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
