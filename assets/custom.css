@@ -16,10 +16,13 @@ body {
 }
 
 .btn {
-  padding: 3px;
+  display: inline-block;
+  appearance: none;
+  padding: 10px;
   font: 600 12px/1.5 var(--font-heading-family);
   letter-spacing: 1.2px;
   text-transform: uppercase;
+  text-decoration: none;
   border-radius: 1px;
 }
 .btn--primary {

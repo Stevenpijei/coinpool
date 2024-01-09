@@ -9,7 +9,7 @@
             {% for block in section.blocks %}
                 <div class="story-carousel__item">
                     {%- if block.settings.image -%}
-                        <div class="story-carousel__item__image">
+                        <div class="story-carousel__item__image bg-cover">
                             <img src="{{ block.settings.image | img_url: '530x605' }}" alt="">
                         </div>
                     {%- endif -%}
