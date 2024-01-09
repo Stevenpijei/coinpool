@@ -58,11 +58,56 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "aa501fe8-d5f0-48d5-a22c-3829ed3a4fd7": {
+      "type": "story-carousel",
+      "blocks": {
+        "template--17199788261597__aa501fe8-d5f0-48d5-a22c-3829ed3a4fd7-story-1": {
+          "type": "story",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_0010_1_1.png",
+            "content": "<h4>01<\/h4><h3><em>Upgrade <\/em>the \u2028After-Water Experience<\/h3><p>No more soggy, stinky towels. Bring a wearable essential designed to upgrade every vacation or activity \u2028at the water's edge.<\/p>"
+          }
+        },
+        "821b2958-929b-4473-9488-a3b6da96116e": {
+          "type": "story",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_0028_1.png",
+            "content": "<h4>02<\/h4><h2><em>Innovate <\/em>Terry Technology<\/h2><p>Our revolutionary Dri-Rite™ terry technology is the first dual-knit, antimicrobial fabric with moisture-wicking finish to speed up after-water dry times. <\/p>"
+          }
+        },
+        "23528417-f17b-4d24-8abd-716fe63a124d": {
+          "type": "story",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image0_2.png",
+            "content": "<h4>03<\/h4><h2><em>Innovate <\/em>Terry Technology<\/h2><p>Our revolutionary Dri-Rite™ terry technology is the first dual-knit, antimicrobial fabric with moisture-wicking finish to speed up after-water dry times. <\/p>"
+          }
+        },
+        "3e2a8703-7960-4a79-ba51-1c2d2beef95b": {
+          "type": "story",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image32.png",
+            "content": "<h4>04<\/h4><h2><em>Innovate <\/em>Terry Technology<\/h2><p>Our revolutionary Dri-Rite™ terry technology is the first dual-knit, antimicrobial fabric with moisture-wicking finish to speed up after-water dry times. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17199788261597__aa501fe8-d5f0-48d5-a22c-3829ed3a4fd7-story-1",
+        "821b2958-929b-4473-9488-a3b6da96116e",
+        "23528417-f17b-4d24-8abd-716fe63a124d",
+        "3e2a8703-7960-4a79-ba51-1c2d2beef95b"
+      ],
+      "settings": {
+        "title": "Our Story",
+        "button_text": "Find Out More",
+        "button_link": "shopify:\/\/pages\/about-us"
+      }
     }
   },
   "order": [
     "ba5e677b-020e-4739-a602-c7c3124a5444",
     "76728588-9f2f-43e0-9575-5857139a6158",
-    "featured_collection"
+    "featured_collection",
+    "aa501fe8-d5f0-48d5-a22c-3829ed3a4fd7"
   ]
 }
