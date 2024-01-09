@@ -2,6 +2,7 @@
   position: relative;
   padding: 20px 20px 60px;
   background-color: #FFCC8B;
+  overflow: hidden;
 }
 .story-carousel__title {
   margin-top: 0;
@@ -87,8 +88,12 @@
     display: flex;
     margin-right: 30px;
     width: calc(50% - 30px);
-    height: inherit;
+    min-width: 700px;
+    height: 100%;
     align-items: flex-end;
+  }
+  .story-carousel__item__image {
+    height: 31.25vw;
   }
   .story-carousel__item__content {
     margin-left: 35px;

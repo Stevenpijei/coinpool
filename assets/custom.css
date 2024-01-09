@@ -29,10 +29,16 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   border-radius: 1px;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
 }
 .btn--primary {
   background-color: #fff;
   color: #000;
+}
+.btn--primary:hover {
+  background-color: #000;
+  color: #fff;
 }
 /* Announcement Bar */
 .announcement-bar__message {
