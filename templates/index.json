@@ -102,12 +102,41 @@
         "button_text": "Find Out More",
         "button_link": "shopify:\/\/pages\/about-us"
       }
+    },
+    "39a5b0d0-9a16-46ca-b151-11750a6fe2b9": {
+      "type": "vacations",
+      "blocks": {
+        "template--17199788261597__39a5b0d0-9a16-46ca-b151-11750a6fe2b9-vacation-1": {
+          "type": "vacation",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hawai.png",
+            "title": "O’ahu, Hawai",
+            "content": "BREATH IN AND EXPLORE"
+          }
+        },
+        "7d3cb9a1-012d-477f-9a32-280d7c83e3d9": {
+          "type": "vacation",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/malibu.png",
+            "title": "Century Lake, Malibu",
+            "content": "THE FAMILY WHO EXPLORES"
+          }
+        }
+      },
+      "block_order": [
+        "template--17199788261597__39a5b0d0-9a16-46ca-b151-11750a6fe2b9-vacation-1",
+        "7d3cb9a1-012d-477f-9a32-280d7c83e3d9"
+      ],
+      "settings": {
+        "title": "Vacations"
+      }
     }
   },
   "order": [
     "ba5e677b-020e-4739-a602-c7c3124a5444",
     "76728588-9f2f-43e0-9575-5857139a6158",
     "featured_collection",
-    "aa501fe8-d5f0-48d5-a22c-3829ed3a4fd7"
+    "aa501fe8-d5f0-48d5-a22c-3829ed3a4fd7",
+    "39a5b0d0-9a16-46ca-b151-11750a6fe2b9"
   ]
 }
