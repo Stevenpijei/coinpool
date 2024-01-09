@@ -17,6 +17,7 @@
   top: 50%;
   left: 50%;
   width: 100%;
+  padding: 20px;
   color: #fff;
   transform: translate(-50%, -50%);
 }
@@ -33,6 +34,15 @@
   .vacations-heading {
     font: 400 18px/1.5 var(--font-body-family);
     text-align: left;
+  }
+  .vacations .flickity-page-dots  {
+    bottom: -35px;
+  }
+  .vacations .flickity-page-dots .dot {
+    background-color: #FFCC8B;
+  }
+  .vacations .flickity-page-dots .dot::after {
+    border-color: #FFCC8B;
   }
 }
 @media only screen and (min-width: 769px) {

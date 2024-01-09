@@ -28,31 +28,6 @@
   .story-carousel .flickity-page-dots {
     bottom: -35px;
   }
-  .story-carousel .flickity-page-dots .dot {
-    position: relative;
-    margin: 0 4px;
-    width: 8px;
-    height: 8px;
-    background-color: #fff;
-    opacity: 1;
-    transition: all .3s ease-in-out;
-  }
-  .story-carousel .flickity-page-dots .dot::after {
-    position: absolute;
-    content: '';
-    top: 50%;
-    left: 50%;
-    width: 12px;
-    height: 12px;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    opacity: 0;
-    transform: translate(-50%, -50%);
-    transition: all .3s ease-in-out;
-  }
-  .story-carousel .flickity-page-dots .dot.is-selected::after {
-    opacity: 1;
-  }
   .story-carousel__item {
     padding-right: 40px;
   }
