@@ -1,0 +1,56 @@
+.vacations {
+  margin: 30px 0 70px;
+  text-align: center;
+}
+.vacations-heading {
+  margin: 0 0 20px;
+}
+.vacations-grid-item {
+  position: relative;
+}
+.vacations-grid-item-image {
+  width: 100%;
+  height: 100%;
+}
+.vacations-grid-item-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  color: #fff;
+  transform: translate(-50%, -50%);
+}
+.vacations-grid-item-title {
+  margin: 0 0 20px;
+  color: #fff;
+}
+.vacations-grid-item-text {
+  margin: 20px 0 0;
+  font: 600 10px/1.5 var(--font-heading-family);
+  letter-spacing: 1px;
+}
+@media only screen and (max-width: 768px) {
+  .vacations-heading {
+    font: 400 18px/1.5 var(--font-body-family);
+    text-align: left;
+  }
+}
+@media only screen and (min-width: 769px) {
+  .vacations {
+    margin: 70px 0;
+  }
+  .vacations-heading {
+    margin-bottom: 60px;
+  }
+  .vacations-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-gap: 20px;
+  }
+  .vacations-grid-item {
+    border: 10px solid #4f98d2;
+  }
+  .vacations-grid-item-text {
+    font-size: 16px;
+  }
+}

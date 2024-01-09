@@ -89,6 +89,7 @@ body {
 }
 .t-h6 {
   font: 600 12px/1.5 var(--font-heading-family);
+  text-transform: uppercase;
   letter-spacing: 0.1em;
 }
 

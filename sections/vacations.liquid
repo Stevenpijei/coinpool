@@ -8,11 +8,11 @@
         <div class="vacations-grid">
             {%- for block in section.blocks -%}
                 <div class="vacations-grid-item">
-                    <div class="vacations-grid-item-image">
+                    <div class="vacations-grid-item-image bg-cover">
                         <img src="{{ block.settings.image | img_url: '895x745' }}" alt="{{ block.settings.title }}">
                     </div>
                     <div class="vacations-grid-item-content">
-                        <h3 class="vacations-grid-item-title t-2">{{ block.settings.title }}</h3>
+                        <h3 class="vacations-grid-item-title t-h2">{{ block.settings.title }}</h3>
                         <img class="vacations-grid-item-goat" src="{{ 'logo-white.svg' | asset_url }}" alt="">
                         <div class="vacations-grid-item-text">
                             {{ block.settings.content }}
