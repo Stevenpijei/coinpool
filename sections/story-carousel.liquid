@@ -27,12 +27,11 @@
 
 <script>
     if (document.querySelectorAll('.story-carousel__item').length > 1) {
-        // hide pageDots on desktop and show on mobile
         var storyCarousel = new Flickity('.story-carousel__carousel__container', {
             cellAlign: 'left',
             contain: true,
             prevNextButtons: false,
-            pageDots: false,
+            pageDots: true,
             autoPlay: 5000,
             pauseAutoPlayOnHover: false,
         });
