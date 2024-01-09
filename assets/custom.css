@@ -7,6 +7,11 @@ body {
   color: var(--color-foreground);
 }
 
+*:focus-visible {
+  box-shadow: none;
+  outline: none;
+}
+
 .bg-cover img,
 .bg-cover video {
   display: block;

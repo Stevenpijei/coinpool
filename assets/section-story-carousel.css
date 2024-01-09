@@ -21,6 +21,28 @@
   font: 400 15px/17px var(--font-heading-family);
 }
 @media only screen and (max-width: 768px) {
+  .story-carousel .flickity-viewport {
+    overflow: visible;
+  }
+  .story-carousel .flickity-page-dots {
+    bottom: -35px;
+  }
+  .story-carousel .flickity-page-dots .dot {
+    margin: 0 4px;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    opacity: 1;
+    transition: all .3s ease-in-out;
+  }
+  .story-carousel .flickity-page-dots .dot.is-selected {
+    border-color: #fff;
+  }
+  .story-carousel__item {
+    padding-right: 40px;
+  }
   .story-carousel__item__image {
     margin-bottom: 27px;
     height: 260px; 
