@@ -1,17 +1,19 @@
 {{ 'section-story-carousel.css' |  asset_url |  stylesheet_tag }}
 
 <div class="story-carousel">
-    <div class="story-carousel__title">
-        <h2>{{ section.settings.Title }}</h2>
-    </div>
+    {%- if section.settings.title -%}
+        <h2 class="story-carousel__title t-h2">{{ section.settings.title }}</h2>
+    {%- endif -%}
     <div class="story-carousel__carousel">
         <div class="story-carousel__carousel__container">
             {% for block in section.blocks %}
-                <div class="story-carousel__carousel__item">
-                    <div class="story-carousel__carousel__item__image">
-                        <img src="{{ block.settings.image | img_url: 'master' }}" alt="">
-                    </div>
-                    <div class="story-carousel__carousel__item__content">
+                <div class="story-carousel__item">
+                    {%- if block.settings.image -%}
+                        <div class="story-carousel__item__image">
+                            <img src="{{ block.settings.image | img_url: '530x605' }}" alt="">
+                        </div>
+                    {%- endif -%}
+                    <div class="story-carousel__item__content">
                         {{ block.settings.content }}
                         {% if section.settings.button_link and section.settings.button_text %}
                             <a href="{{ section.settings.button_link }}" class="btn btn--primary">{{ section.settings.button_text }}</a>
@@ -22,6 +24,20 @@
         </div>
     </div>
 </div>
+
+<script>
+    if (document.querySelectorAll('.story-carousel__item').length > 1) {
+        // hide pageDots on desktop and show on mobile
+        var storyCarousel = new Flickity('.story-carousel__carousel__container', {
+            cellAlign: 'left',
+            contain: true,
+            prevNextButtons: false,
+            pageDots: false,
+            autoPlay: 5000,
+            pauseAutoPlayOnHover: false,
+        });
+    }
+</script>
 
 {% schema %}
 {
