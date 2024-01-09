@@ -2,9 +2,7 @@
 
 <div class="home-banner">
     {%- if section.settings.image -%}
-        <div class="{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-            {{ section.settings.image | image_url: width: 440 | image_tag: class: 'home-banner__image' }}
-        </div>
+        {{ section.settings.image | image_url: width: 440 | image_tag: class: 'home-banner__image' }}
     {%- endif -%}
     <div class="home-banner__slider">
         {%- for block in section.blocks -%}

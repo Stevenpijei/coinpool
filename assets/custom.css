@@ -28,7 +28,7 @@ body {
   object-fit: cover;
 }
 
-.btn {
+.button {
   display: inline-block;
   appearance: none;
   padding: 3px 10px;
@@ -40,13 +40,21 @@ body {
   transition: all .3s ease-in-out;
   cursor: pointer;
 }
-.btn--primary {
+.button--primary {
   background-color: #fff;
   color: #000;
 }
-.btn--primary:hover {
+.button--primary:hover {
   background-color: #000;
   color: #fff;
+}
+.button--secondary {
+  background-color: #000;
+  color: #fff;
+}
+.button--secondary:hover {
+  background-color: #fff;
+  color: #000;
 }
 
 .page-width {

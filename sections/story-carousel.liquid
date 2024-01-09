@@ -1,6 +1,6 @@
 {{ 'section-story-carousel.css' |  asset_url |  stylesheet_tag }}
 
-<div class="story-carousel">
+<div class="story-carousel{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
     {%- if section.settings.title -%}
         <h2 class="story-carousel__title t-h2">{{ section.settings.title }}</h2>
     {%- endif -%}
@@ -16,7 +16,7 @@
                     <div class="story-carousel__item__content">
                         {{ block.settings.content }}
                         {% if section.settings.button_link and section.settings.button_text %}
-                            <a href="{{ section.settings.button_link }}" class="btn btn--primary">{{ section.settings.button_text }}</a>
+                            <a href="{{ section.settings.button_link }}" class="button button--primary">{{ section.settings.button_text }}</a>
                         {% endif %}
                     </div>
                 </div>
