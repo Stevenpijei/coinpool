@@ -33,6 +33,9 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "custom_css": [
+        ".card-information {display: none;}"
+      ],
       "settings": {
         "title": "New <em>Arrivals<\/em>",
         "heading_size": "h2",
@@ -53,7 +56,7 @@
         "show_vendor": false,
         "show_rating": false,
         "enable_quick_add": false,
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 44,
         "padding_bottom": 36
