@@ -15,6 +15,49 @@
         "content": "<p>When the traditional towel couldn’t keep up with our aquatic lifestyle, we decided it was due for an upgrade. Our revolutionary Dri-Rite™ terry technology is the first dual-knit, antimicrobial fabric with moisture-wicking finish to speed up after-water dry.  <br\/><\/p>"
       }
     },
+    "59db039f-40fe-4b24-ba34-705571e24221": {
+      "type": "our-impact",
+      "blocks": {
+        "template--17210911850717__59db039f-40fe-4b24-ba34-705571e24221-impact-1": {
+          "type": "impact",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-mark-stebnicki-13924868_2.png",
+            "title": "Fairtrade"
+          }
+        },
+        "3504e4d2-d275-4034-ae9a-776559d835f1": {
+          "type": "impact",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-arina-krasnikova-7002972_1.png",
+            "title": "Our Fabric"
+          }
+        },
+        "0cc3984e-0e47-46d1-bd27-5c4a3b0b8103": {
+          "type": "impact",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-emiliano-arano-3608311_1.png",
+            "title": "Less Washing More Splashing"
+          }
+        },
+        "487670e9-0e4b-48d0-a2bc-01e84473806a": {
+          "type": "impact",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-monstera-production-7794422_2.png",
+            "title": "Our Packaging"
+          }
+        }
+      },
+      "block_order": [
+        "template--17210911850717__59db039f-40fe-4b24-ba34-705571e24221-impact-1",
+        "3504e4d2-d275-4034-ae9a-776559d835f1",
+        "0cc3984e-0e47-46d1-bd27-5c4a3b0b8103",
+        "487670e9-0e4b-48d0-a2bc-01e84473806a"
+      ],
+      "settings": {
+        "title": "Our <i>Impact<\/i>",
+        "content": "<p>Environmental sustainability is a priority and ongoing practice at Absorb Island. At every level of our ecosystem, we strive to responsibily source solutions for the betterment and health of our planet. <\/p>"
+      }
+    },
     "68055b5d-2761-4257-8e25-3b94de2d35d2": {
       "type": "large-content-image",
       "settings": {
@@ -29,6 +72,7 @@
   "order": [
     "main",
     "73414ec2-ccb8-4290-8c04-409262771225",
+    "59db039f-40fe-4b24-ba34-705571e24221",
     "68055b5d-2761-4257-8e25-3b94de2d35d2"
   ]
 }
