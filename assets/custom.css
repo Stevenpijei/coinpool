@@ -56,6 +56,14 @@ body {
   background-color: #fff;
   color: #000;
 }
+.btn--yellow {
+  background-color: #FFCC8B;
+  color: #000;
+}
+.btn--yellow:hover {
+  background-color: #000;
+  color: #fff;
+}
 
 .page-width {
   padding-left: var(--gutter);
@@ -191,6 +199,7 @@ body {
 }
 .js .header .menu-drawer__submenu {
   position: static;
+  margin-top: 15px;
   transform: translate(0) !important;
   visibility: visible !important;
   background: #ffcc8b;
