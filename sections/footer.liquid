@@ -88,7 +88,6 @@
                   {%- when 'link_list' -%}
                     {%- if block.settings.menu != blank -%}
                       <ul class="footer-block__details-content list-unstyled">
-                      {{ block.settings.menu }}
                         {%- for link in block.settings.menu.links -%}
                           <li>
                             <a
