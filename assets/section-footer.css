@@ -551,11 +551,13 @@
 .footer .newsletter-form__button {
   position: static;
   background: #000 !important;
+  color: #fff !important;
   width: auto;
   flex-shrink: 0;
 }
 .footer .newsletter-form__button:hover {
   background: #fff !important;
+  color: #000 !important;
 }
 .footer-block__details-content {
   margin-bottom: 0;
@@ -610,6 +612,9 @@
   .footer .newsletter-form__button {
     margin-top: 10px;
     font-size: 8px;
+  }
+  .footer-block__image-wrapper {
+    max-width: 40px !important;
   }
 }
 @media screen and (min-width: 769px) {
