@@ -2,13 +2,33 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 0,
         "padding_bottom": 100
       }
+    },
+    "73414ec2-ccb8-4290-8c04-409262771225": {
+      "type": "general-content",
+      "settings": {
+        "title": "WELCOME TO ABSORB ISLAND",
+        "content": "<p>When the traditional towel couldn’t keep up with our aquatic lifestyle, we decided it was due for an upgrade. Our revolutionary Dri-Rite™ terry technology is the first dual-knit, antimicrobial fabric with moisture-wicking finish to speed up after-water dry.  <br\/><\/p>"
+      }
+    },
+    "68055b5d-2761-4257-8e25-3b94de2d35d2": {
+      "type": "large-content-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image9_3.png",
+        "title": "Absorb Island <i>Vacations<\/i>",
+        "content": "<p>Our dual-knit terry with Dri-Rite technology is the first anti-odor, antimicrobial fabric with moisture-wicking finish to achieve optimal dry time. Quality and durability is at the forefront of our product.<\/p>",
+        "button_url": "shopify:\/\/pages\/vacations",
+        "button_text": "Find Out More"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "73414ec2-ccb8-4290-8c04-409262771225",
+    "68055b5d-2761-4257-8e25-3b94de2d35d2"
   ]
 }
