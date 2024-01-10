@@ -90,14 +90,31 @@
                       <ul class="footer-block__details-content list-unstyled">
                       {{ block.settings.menu }}
                         {%- for link in block.settings.menu.links -%}
-                          <li>
-                            <a
-                              href="{{ link.url }}"
-                              class="link link--text list-menu__item list-menu__item--link{% if link.active %} list-menu__item--active{% endif %}"
-                            >
-                              {{ link.title }}
-                            </a>
-                          </li>
+                          {%- if link.links == blank -%}
+                            <li>
+                              <a
+                                href="{{ link.url }}"
+                                class="link link--text list-menu__item list-menu__item--link{% if link.active %} list-menu__item--active{% endif %}"
+                              >
+                                {{ link.title }}
+                              </a>
+                            </li>
+                          {%- else -%}
+                            <li>
+                              <ul class="sub-menu">
+                                {%- for childlink in link.links -%}
+                                  <li>
+                                    <a
+                                      href="{{ childlink.url }}"
+                                      class="link link--text list-menu__item list-menu__item--link{% if link.active %} list-menu__item--active{% endif %}"
+                                    >
+                                      {{ childlink.title }}
+                                    </a>
+                                  </li>
+                                {%- endfor -%}
+                              </ul>
+                            </li>
+                          {%- endif -%}
                         {%- endfor -%}
                       </ul>
                     {%- endif -%}
