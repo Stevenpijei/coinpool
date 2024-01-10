@@ -528,11 +528,11 @@
   text-align: left;
   letter-spacing: 0;
 }
-.newsletter-form,
-.newsletter-form__field-wrapper {
+.footer .newsletter-form,
+.footer .newsletter-form__field-wrapper {
   max-width: none;
 }
-.newsletter-form__field-wrapper .field__input {
+.footer .newsletter-form__field-wrapper .field__input {
   display: block;
   margin: 0;
   padding: 2px 8px;
@@ -545,16 +545,16 @@
   height: auto;
   text-transform: uppercase;
 }
-.newsletter-form__field-wrapper .field__input::placeholder {
+.footer .newsletter-form__field-wrapper .field__input::placeholder {
   color: #000;
 }
-.newsletter-form__button {
+.footer .newsletter-form__button {
   position: static;
   background: #000 !important;
   width: auto;
   flex-shrink: 0;
 }
-.newsletter-form__button:hover {
+.footer .newsletter-form__button:hover {
   background: #fff !important;
 }
 .footer-block__details-content {
@@ -583,11 +583,11 @@
   font: 300 8px var(--font-heading-family);
 }
 @media screen and (max-width: 768px) {
-  .newsletter-form__field-wrapper {
+  .footer .newsletter-form__field-wrapper {
     text-align: left;
     line-height: 0;
   }
-  .newsletter-form__button {
+  .footer .newsletter-form__button {
     margin-top: 10px;
     font-size: 8px;
   }
@@ -600,11 +600,11 @@
     font-size: 12px;
     max-width: 300px;
   }
-  .newsletter-form__field-wrapper {
+  .footer .newsletter-form__field-wrapper {
     display: flex;
     align-items: center;
   }
-  .newsletter-form__field-wrapper .field__input {
+  .footer .newsletter-form__field-wrapper .field__input {
     margin-right: 10px;
     padding: 5px 10px;
     font-size: 12px;
