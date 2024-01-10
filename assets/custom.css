@@ -159,6 +159,7 @@ body {
 .collection .card__heading {
   font: 600 10px/1.5 var(--font-heading-family);
   letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 @media only screen and (min-width: 768px) {
   .collection__title h2 {
