@@ -1,22 +1,26 @@
 {{ 'section-large-content-image.css' |  asset_url |  stylesheet_tag }}
 
 <div class="large-content-image">
-    <div class="large-content-image__content{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-        {%- if section.settings.title -%}
-            <h2 class="large-content-image__heading">{{ section.settings.title }}</h2>
-        {%- endif -%}
-        {%- if section.settings.content -%}
-            <div class="large-content-image__content">
-                {{ section.settings.content }}
+    <div class="page-width">
+        <div class="large-content-image__content{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+            {%- if section.settings.title -%}
+                <h2 class="large-content-image__heading t-h3">{{ section.settings.title }}</h2>
+            {%- endif -%}
+            {%- if section.settings.content -%}
+                <div class="large-content-image__copy">
+                    {{ section.settings.content }}
+                </div>
+            {%- endif -%}
+            {%- if section.settings.button_url and section.settings.button_text -%}
+                <a href="{{ section.settings.button_url }}" class="btn btn--yellow">{{ section.settings.button_text }}</a>
+            {%- endif -%}
+        </div>
+        {%- if section.settings.image -%}
+            <div class="large-content-image__image bg-cover">
+                <img class="{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" src="{{ section.settings.image | img_url: '1480x565' }}" alt="{{ section.settings.title }}">
             </div>
         {%- endif -%}
-        {%- if section.settings.button_url and section.settings.button_text -%}
-            <a href="{{ section.settings.button_url }}" class="btn btn--yellow">{{ section.settings.button_text }}</a>
-        {%- endif -%}
     </div>
-    {%- if section.settings.image -%}
-        <img class="{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" src="{{ section.settings.image | img_url: '1480x565' }}" alt="{{ section.settings.title }}">
-    {%- endif -%}
 </div>
 
 {% schema %}
