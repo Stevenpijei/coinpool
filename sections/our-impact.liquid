@@ -1,0 +1,80 @@
+{{ 'section-our-impact.css' |  asset_url |  stylesheet_tag }}
+
+<div class="our-impact">
+    <div class="page-width">
+        {%- if section.settings.title -%}
+            <h2 class="our-impact__heading t-h3{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">{{ section.settings.title }}</h2>
+        {%- endif -%}
+        {%- if section.settings.content -%}
+            <div class="our-impact__content{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+                {{ section.settings.content }}
+            </div>
+        {%- endif -%}
+
+        <div class="our-impact__grid">
+            {%- for block in section.blocks -%}
+                <div class="our-impact__item bg-cover{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                    {% if settings.animations_reveal_on_scroll %}
+                    data-cascade
+                    style="--animation-order: {{ forloop.index }};"
+                  {% endif %}
+                  >
+                    {%- if block.settings.image -%}
+                        {{ block.settings.image | img_url: '920x520' | img_tag: block.settings.title }}
+                    {%- endif -%}
+                    {%- if block.settings.title -%}
+                        <p class="our-impact__item-heading t-h2">{{ block.settings.title }}</p>
+                    {%- endif -%}
+                </div>
+            {%- endfor -%}
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Our Impact",
+    "tag": "section",
+    "class": "section-our-impact",
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+        },
+        {
+            "type": "richtext",
+            "id": "content",
+            "label": "Content"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "impact",
+            "name": "Impact",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Image"
+                },
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Title"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Our Impact",
+            "blocks": [
+                {
+                    "type": "impact"
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}
