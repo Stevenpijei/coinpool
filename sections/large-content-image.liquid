@@ -2,6 +2,11 @@
 
 <div class="large-content-image">
     <div class="page-width">
+        {%- if section.settings.image -%}
+            <div class="large-content-image__image bg-cover">
+                <img class="{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" src="{{ section.settings.image | img_url: '1480x565' }}" alt="{{ section.settings.title }}">
+            </div>
+        {%- endif -%}
         <div class="large-content-image__content{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
             {%- if section.settings.title -%}
                 <h2 class="large-content-image__heading t-h3">{{ section.settings.title }}</h2>
@@ -15,11 +20,6 @@
                 <a href="{{ section.settings.button_url }}" class="btn btn--yellow">{{ section.settings.button_text }}</a>
             {%- endif -%}
         </div>
-        {%- if section.settings.image -%}
-            <div class="large-content-image__image bg-cover">
-                <img class="{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" src="{{ section.settings.image | img_url: '1480x565' }}" alt="{{ section.settings.title }}">
-            </div>
-        {%- endif -%}
     </div>
 </div>
 
