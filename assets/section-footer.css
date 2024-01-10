@@ -582,7 +582,27 @@
 .footer__content-bottom-wrapper--center small {
   font: 300 8px var(--font-heading-family);
 }
+.footer-block--menu li {
+  text-align: left;
+}
+.footer-block--menu ul {
+  padding-left: 0;
+}
+.footer-block--menu > ul {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.footer-block--menu > ul > li {
+  margin-right: 0;
+}
+.footer-block--menu .sub-menu li {
+  display: block;
+  line-height: 1;
+}
 @media screen and (max-width: 768px) {
+  .footer-block__newsletter {
+    margin-right: 23px;
+  }
   .footer .newsletter-form__field-wrapper {
     text-align: left;
     line-height: 0;
