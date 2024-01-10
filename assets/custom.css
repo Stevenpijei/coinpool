@@ -173,3 +173,29 @@ body {
   }
 }
 
+/* Header */
+.menu-open .header-wrapper,
+.menu-open .menu-drawer{
+  background: #FFCC8B;
+}
+.menu-drawer__navigation {
+  padding: 0;
+}
+.menu-drawer__menu li:not(:last-child) {
+  margin-bottom: 15px;
+}
+.menu-drawer__menu-item {
+  padding: 0 var(--gutter);
+  font: 300 15px var(--font-heading-family);
+  text-transform: uppercase;
+}
+.js .menu-drawer__submenu {
+  position: static;
+  transform: translate(0) !important;
+  visibility: visible !important;
+  background: #ffcc8b;
+}
+.js .menu-drawer__submenu .menu-drawer__inner-submenu {
+  height: auto;
+  overflow: auto;
+}
