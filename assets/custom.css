@@ -211,3 +211,11 @@ body {
 .js .header .menu-drawer__submenu .menu-drawer__menu-item {
   font-weight: 300;
 }
+
+/* Default page */
+.main-page-title {
+  text-align: center;
+}
+.main-page-content {
+  font: 400 15px/20px var(--font-heading-family);
+}
