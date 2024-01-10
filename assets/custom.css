@@ -217,5 +217,12 @@ body {
   text-align: center;
 }
 .main-page-content {
-  font: 400 15px/20px var(--font-heading-family);
+  font: 400 12px/15px var(--font-heading-family);
+}
+@media screen and (min-width: 769px) {
+  .main-page-content {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  
 }
