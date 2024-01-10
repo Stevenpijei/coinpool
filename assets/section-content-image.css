@@ -1,0 +1,27 @@
+.content-image {
+  margin: 20px 0;
+}
+.content-image__image {
+  margin-bottom: 16px;
+  height: 270px;
+}
+.content-image__title {
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 769px) {
+  .content-image {
+    display: grid;
+    margin: 70px 0;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .content-image__image {
+    height: 645px;
+  }
+  .content-image__inner {
+    max-width: 485px;
+  }
+  .content-image--left .content-image__inner {
+    margin-left: 0;
+  }
+}

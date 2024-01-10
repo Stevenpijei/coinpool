@@ -34,6 +34,12 @@
   color: #fff;
   z-index: 1;
 }
+@media only screen and (max-width: 768px) {
+  .our-impact__grid {
+    margin-left: calc(var(--gutter) * -1);
+    margin-right: calc(var(--gutter) * -1);
+  }
+}
 @media only screen and (min-width: 769px) {
   .our-impact {
     margin: 200px 0 80px;
