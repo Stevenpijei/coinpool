@@ -8,7 +8,9 @@
 .content-image__title {
   margin-bottom: 20px;
 }
-
+.content-image__copy {
+  font: 400 15px/20px var(--font-heading-family);
+}
 @media screen and (min-width: 769px) {
   .content-image {
     display: grid;
@@ -23,5 +25,8 @@
   }
   .content-image--left .content-image__inner {
     margin-left: 0;
+  }
+  .content-image--right .content-image__image {
+    order: 1;
   }
 }
