@@ -12,14 +12,16 @@
       "type": "general-content",
       "settings": {
         "title": "OUR AFTER-WATER WEAR EXPERIENCE",
-        "content": "<p>The vacation towel couldn’t keep up with our \u2028aquatic lifestyle anymore. It got soggy, smelly, and bulky after one use. It was time to change the way people dry. <\/p>"
+        "content": "<p>The vacation towel couldn’t keep up with our \u2028aquatic lifestyle anymore. It got soggy, smelly, and bulky after one use. It was time to change the way people dry. <\/p>",
+        "style": "style1"
       }
     },
     "general_content_ktRNxG": {
       "type": "general-content",
       "settings": {
         "title": "Our <i>Fabric<\/i>",
-        "content": "<p>We upgraded the traditional terry towel to be a low-maintenance, high-performance drying solution wearable for everyone who loves living and lounging at water’s edge. Like us. <br\/><br\/><br\/><br\/><br\/><\/p>"
+        "content": "<p>We upgraded the traditional terry towel to be a low-maintenance, high-performance drying solution wearable for everyone who loves living and lounging at water’s edge. Like us. <br\/><br\/><br\/><br\/><br\/><\/p>",
+        "style": "style2"
       }
     },
     "5b3ee5ad-5935-468c-96ab-ac273c2b3d84": {
