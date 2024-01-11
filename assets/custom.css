@@ -253,6 +253,7 @@ fieldset.product-form__input .form__label,
 .swatches .swatch-label .swatch-variant-name {
   font-weight: 400;
   font-style: italic;
+  font-family: var(--font-body-family);
 }
 .product__info-container .product-form__buttons {
   max-width: 100% !important;
@@ -338,4 +339,9 @@ fieldset.product-form__input .form__label,
     max-width: 100% !important;
     width: 100% !important;
   }
+}
+
+/* Collection */
+.collection .product-grid .product-card-wrapper .card__inner {
+  --ratio-percent: 74% !important;
 }
