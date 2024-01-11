@@ -345,3 +345,29 @@ fieldset.product-form__input .form__label,
 .collection .product-grid .product-card-wrapper .card__inner {
   --ratio-percent: 74% !important;
 }
+.collection-hero.collection-hero--with-image {
+  padding: 0;
+}
+.collection-hero__inner {
+  flex-direction: column-reverse;
+  align-items: flex-start;
+}
+.collection-hero__image-container {
+  margin-left: calc(var(--gutter) * -1);
+  margin-right: calc(var(--gutter) * -1);
+  width: calc(100% + var(--gutter) * 2);
+}
+.collection-hero--with-image .collection-hero__text-wrapper {
+  padding: 0;
+  text-align: left;
+}
+@media only screen and (max-width: 768px) {
+  .collection-hero--with-image .collection-hero__text-wrapper {
+    margin-top: 20px;
+  }
+}
+@media only screen and (min-width: 769px) {
+  .collection-hero__image-container {
+    display: none;
+  }
+}
