@@ -244,7 +244,8 @@ body {
 .product__info-container .price__container {
   font: 400 22px/24px var(--font-body-family);
 }
-fieldset.product-form__input .form__label {
+fieldset.product-form__input .form__label,
+.swatches .swatch-label .swatch-option-name {
   font: 400 12px/18px var(--font-heading-family);
   text-transform: uppercase;
 }
@@ -285,13 +286,28 @@ fieldset.product-form__input .form__label {
 .product__summary {
   font: 400 22px/24px var(--font-body-family);
 }
+.product__info-container .swatches div[option-name=Size] .swatch-button {
+  min-width: auto;
+  border-radius: 50%;
+}
+.product__info-container .swatches div[option-name=Size] .swatch-button-title-text {
+  display: flex;
+  padding: 0 !important;
+  width: 35px;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+  font: 400 20px/1 var(--font-heading-family);
+}
+
 @media only screen and (min-width: 768px) {
   .product__title h1,
   .product__info-container .price__container {
     font-size: 40px;
     line-height: 45px;
   }
-  fieldset.product-form__input .form__label {
+  fieldset.product-form__input .form__label,
+  .swatches .swatch-label .swatch-option-name {
     font-size: 20px;
     line-height: 1;
   }
