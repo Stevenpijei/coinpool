@@ -255,6 +255,7 @@ fieldset.product-form__input .form__label {
 .product__info-container .product__description p {
   display: flex;
   font: 400 12px/18px var(--font-heading-family);
+  align-items: flex-start;
 }
 .product__info-container .product__description p img {
   margin-bottom: 0;
