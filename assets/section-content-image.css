@@ -42,7 +42,9 @@
     grid-gap: 0;
   }
   .content-image__image {
-    height: 645px;
+    margin-bottom: 0;
+    height: 100%;
+    min-height: 645px;
   }
   .content-image__inner {
     max-width: 485px;
