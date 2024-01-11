@@ -9,30 +9,30 @@
 .general-content__content p {
   margin: 0;
 }
-.general-content--style-1 .general-content__content {
+.general-content--style1 .general-content__content {
   font-size: 22px;
   line-height: 24px;
 }
-.general-content--style-2 .general-content__content {
+.general-content--style2 .general-content__content {
   font: 400 15px/20px var(--font-heading-family);
 }
 @media only screen and (min-width: 769px) {
-  .general-content--style-1 {
+  .general-content--style1 {
     margin: 75px 0;
   }
-  .general-content--style-2 {
+  .general-content--style2 {
     margin: 50px 0;
   }
-  .general-content--style-1 .page-width {
+  .general-content--style1 .page-width {
     max-width: 1200px;
   }
-  .general-content--style-2 .page-width {
+  .general-content--style2 .page-width {
     max-width: 455px;
   }
-  .general-content--style-1 .general-content__heading {
+  .general-content--style1 .general-content__heading {
     margin-bottom: 45px;
   }
-  .general-content--style-1 .general-content__content {
+  .general-content--style1 .general-content__content {
     font-size: 48px;
     line-height: 60px;
   }
