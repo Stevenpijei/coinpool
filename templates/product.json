@@ -18,6 +18,12 @@
           "settings": {
           }
         },
+        "variant_picker_jpfVnc": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -40,6 +46,7 @@
         "title",
         "price",
         "summary_kqcWCh",
+        "variant_picker_jpfVnc",
         "quantity_selector",
         "buy_buttons",
         "description"
