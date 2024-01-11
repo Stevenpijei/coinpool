@@ -358,8 +358,8 @@ fieldset.product-form__input .form__label,
   width: calc(100% + var(--gutter) * 2);
 }
 .collection-hero--with-image .collection-hero__text-wrapper {
-  padding: 0;
-  text-align: left;
+  padding: 0 !important;
+  text-align: left !important;
 }
 @media only screen and (max-width: 768px) {
   .collection-hero--with-image .collection-hero__text-wrapper {
@@ -370,4 +370,8 @@ fieldset.product-form__input .form__label,
   .collection-hero__image-container {
     display: none;
   }
+}
+
+.section-general-content:first-child .general-content {
+  margin: 0;
 }
