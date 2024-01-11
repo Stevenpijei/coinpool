@@ -1,0 +1,54 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
+    },
+    "4d47d8f8-45f4-461b-8298-a1cba2288887": {
+      "type": "general-content",
+      "settings": {
+        "title": "OUR AFTER-WATER WEAR EXPERIENCE",
+        "content": "<p>The vacation towel couldn’t keep up with our \u2028aquatic lifestyle anymore. It got soggy, smelly, and bulky after one use. It was time to change the way people dry. <\/p>"
+      }
+    },
+    "5b3ee5ad-5935-468c-96ab-ac273c2b3d84": {
+      "type": "content-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_0010_1_2.png",
+        "title": "4-Way <i>Stretch<\/i>",
+        "content": "<p>As far as vacation mascots go, Terry is the GOAT. Curious, highly-intelligent and incredibly playful. He is a big part of the Absorb Island story, which is to be the Greatest of All Terry everywhere he goes. As far as vacation mascots go, Terry is the GOAT. Curious, highly-intelligent and incredibly playful. He is a big part of the Absorb Island story, which is to be the Greatest of All Terry everywhere he goes. As far as vacation mascots go, Terry is the GOAT. Curious, highly-intelligent and incredibly playful. He is a big part of the Absorb Island story, which is to be the Greatest of All Terry everywhere he goes. As far as vacation mascots go, Terry is the GOAT. Curious, highly-intelligent and incredibly playful. He is a big part of the Absorb Island story, which is to be the Greatest of All Terry everywhere he goes. <br\/><br\/>As far as vacation mascots go, Terry is the GOAT. Curious, highly-intelligent and incredibly playful. He is a big part of the Absorb Island story, which is to be the Greatest of All Terry everywhere he goes. As far as vacation mascots go, Terry is the GOAT. Curious, highly-intelligent and incredibly playful. He is a big part of the Absorb Island story, which is to be the Greatest of All Terry everywhere he goes. <\/p>",
+        "alignment": "left"
+      }
+    },
+    "06051196-ec60-4c3e-80c8-cd11540bf408": {
+      "type": "content-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2023-11-24_at_16.59_3.png",
+        "title": "Raw and <i>Recycled<\/i> Materials",
+        "content": "<p>As far as vacation mascots go, Terry is the GOAT. Curious, highly-intelligent and incredibly playful. He is a big part of the Absorb Island story, which is to be the Greatest of All Terry everywhere he goes. As far as vacation mascots go, Terry is the GOAT. Curious, highly-intelligent and incredibly playful. He is a big part of the Absorb Island story, which is to be the Greatest of All Terry everywhere he goes. As far as vacation mascots go, Terry is the GOAT. Curious, highly-intelligent and incredibly playful. He is a big part of the Absorb Island story, which is to be the Greatest of All Terry everywhere he goes. As far as vacation mascots go, Terry is the GOAT. Curious, highly-intelligent and incredibly playful. He is a big part of the Absorb Island story, which is to be the Greatest of All Terry everywhere he goes. <br\/><br\/>As far as vacation mascots go, Terry is the GOAT. Curious, highly-intelligent and incredibly playful. He is a big part of the Absorb Island story, which is to be the Greatest of All Terry everywhere he goes. As far as vacation mascots go, Terry is the GOAT. Curious, highly-intelligent and incredibly playful. He is a big part of the Absorb Island story, which is to be the Greatest of All Terry everywhere he goes. <\/p>",
+        "alignment": "right"
+      }
+    },
+    "4f30b477-4161-42c9-a2a5-3d614228d7c9": {
+      "type": "large-content-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image9_3.png",
+        "title": "Absorb Island <i>Vacations<\/i>",
+        "content": "<p>Our dual-knit terry with Dri-Rite technology is the first anti-odor, antimicrobial fabric with moisture-wicking finish to achieve optimal dry time. Quality and durability is at the forefront of our product.<\/p>",
+        "button_url": "shopify:\/\/pages\/about-us",
+        "button_text": "Find Out More"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "4d47d8f8-45f4-461b-8298-a1cba2288887",
+    "5b3ee5ad-5935-468c-96ab-ac273c2b3d84",
+    "06051196-ec60-4c3e-80c8-cd11540bf408",
+    "4f30b477-4161-42c9-a2a5-3d614228d7c9"
+  ]
+}
