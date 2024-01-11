@@ -282,6 +282,9 @@ fieldset.product-form__input .form__label {
   width: 24px;
   border: none;
 }
+.product__summary {
+  font: 400 22px/24px var(--font-body-family);
+}
 @media only screen and (min-width: 768px) {
   .product__title h1,
   .product__info-container .price__container {
@@ -302,6 +305,10 @@ fieldset.product-form__input .form__label {
   .product__info-container .product__description p {
     font-size: 20px;
     line-height: 24px;
+  }
+  .product__summary {
+    font-size: 30px;
+    line-height: 35px;
   }
 }
 @media only screen and (min-width: 990px) {
