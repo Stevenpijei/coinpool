@@ -348,10 +348,6 @@ fieldset.product-form__input .form__label,
 .collection-hero.collection-hero--with-image {
   padding: 0;
 }
-.collection-hero__inner {
-  flex-direction: column-reverse;
-  align-items: flex-start;
-}
 .collection-hero__image-container {
   margin-left: calc(var(--gutter) * -1);
   margin-right: calc(var(--gutter) * -1);
@@ -364,6 +360,11 @@ fieldset.product-form__input .form__label,
 @media only screen and (max-width: 768px) {
   .collection-hero--with-image .collection-hero__text-wrapper {
     margin-top: 20px;
+  }
+  .collection-hero__inner {
+    margin-top: 30px;
+    flex-direction: column-reverse !important;
+    align-items: flex-start !important;
   }
 }
 @media only screen and (min-width: 769px) {
