@@ -1,9 +1,9 @@
 {{ 'section-general-content.css' |  asset_url |  stylesheet_tag }}
 
-<div class="general-content">
+<div class="general-content general-content--{{ section.settings.style }}">
     <div class="page-width">
         {% if section.settings.title %}
-            <h2 class="general-content__heading t-h6{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">{{ section.settings.title }}</h2>
+            <h2 class="general-content__heading{% if section.settings.style === "style-1" %} t-h6{% else %} t-h3{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">{{ section.settings.title }}</h2>
         {% endif %}
         {% if section.settings.content %}
             <div class="general-content__content{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
@@ -28,6 +28,22 @@
             "type": "richtext",
             "id": "content",
             "label": "Content"
+        },
+        {
+            "type": "select",
+            "id": "style",
+            "label": "Style",
+            "default": "style-1",
+            "options": [
+                {
+                    "value": "style-1",
+                    "label": "Style 1"
+                },
+                {
+                    "value": "style-2",
+                    "label": "Style 2"
+                }
+            ]
         }
     ],
     "presets": [
