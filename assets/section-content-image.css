@@ -13,8 +13,10 @@
 }
 @media screen and (min-width: 769px) {
   .content-image {
-    display: grid;
     margin: 70px 0;
+  }
+  .content-image .page-width {
+    display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   .content-image__image {
@@ -24,7 +26,7 @@
     max-width: 485px;
   }
   .content-image--left .content-image__inner {
-    margin-left: 0;
+    margin-left: auto;
   }
   .content-image--right .content-image__image {
     order: 1;
