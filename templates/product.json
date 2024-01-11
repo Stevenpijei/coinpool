@@ -18,7 +18,7 @@
           "settings": {
           }
         },
-        "variant_picker": {
+        "variant_picker_jpfVnc": {
           "type": "variant_picker",
           "settings": {
             "picker_type": "button"
@@ -46,7 +46,7 @@
         "title",
         "price",
         "summary_kqcWCh",
-        "variant_picker",
+        "variant_picker_jpfVnc",
         "quantity_selector",
         "buy_buttons",
         "description"
@@ -63,8 +63,8 @@
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
-        "padding_top": 92,
-        "padding_bottom": 12
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "related-products": {
