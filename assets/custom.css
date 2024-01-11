@@ -65,6 +65,19 @@ body {
   color: #fff;
 }
 
+.button {
+  padding: 3px 10px !important;
+  min-height: auto !important;
+  font: 600 12px/1.5 var(--font-heading-family) !important;
+  letter-spacing: 1.2px !important;
+  text-transform: uppercase !important;
+}
+@media only screen and (min-width: 769px) {
+  .button {
+    font-size: 15px !important;
+  }
+}
+
 .page-width {
   padding-left: var(--gutter);
   padding-right: var(--gutter);
