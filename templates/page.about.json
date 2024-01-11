@@ -58,6 +58,24 @@
         "content": "<p>Environmental sustainability is a priority and ongoing practice at Absorb Island. At every level of our ecosystem, we strive to responsibily source solutions for the betterment and health of our planet. <\/p>"
       }
     },
+    "5e499474-444d-4760-a7e9-5b591382d305": {
+      "type": "content-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pexels-belle-co-1000445_1.png",
+        "title": "The <i>Absorb Island<\/i> Team",
+        "content": "<p>As far as vacation mascots go, Terry is the GOAT. Curious, highly-intelligent and incredibly playful. He is a big part of the Absorb Island story, which is to be the Greatest of All Terry everywhere he goes. As far as vacation mascots go, Terry is the GOAT. Curious, highly-intelligent and incredibly playful. He is a big part of the Absorb Island story, which is to be the Greatest of All Terry everywhere he goes. As far as vacation mascots go, Terry is the GOAT. Curious, highly-intelligent and incredibly playful. He is a big part of the Absorb Island story, which is to be the Greatest of All Terry everywhere he goes. As far as vacation mascots go, Terry is the GOAT. Curious, highly-intelligent and incredibly playful. He is a big part of the Absorb Island story, which is to be the Greatest of All Terry everywhere he goes. <br\/><br\/>As far as vacation mascots go, Terry is the GOAT. Curious, highly-intelligent and incredibly playful. He is a big part of the Absorb Island story, which is to be the Greatest of All Terry everywhere he goes. As far as vacation mascots go, Terry is the GOAT. Curious, highly-intelligent and incredibly playful. He is a big part of the Absorb Island story, which is to be the Greatest of All Terry everywhere he goes. <\/p>",
+        "alignment": "left"
+      }
+    },
+    "5cdc3e8b-83e7-47af-80a6-963f3b0e0d7f": {
+      "type": "content-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pexels-nektaria-kleopoulos-15071870_1.png",
+        "title": "Meet <i>Terry<\/i>",
+        "content": "<p>As far as vacation mascots go, Terry is the GOAT. Curious, highly-intelligent and incredibly playful. He is a big part of the Absorb Island story, which is to be the Greatest of All Terry everywhere he goes. As far as vacation mascots go, Terry is the GOAT. Curious, highly-intelligent and incredibly playful. He is a big part of the Absorb Island story, which is to be the Greatest of All Terry everywhere he goes. As far as vacation mascots go, Terry is the GOAT. Curious, highly-intelligent and incredibly playful. He is a big part of the Absorb Island story, which is to be the Greatest of All Terry everywhere he goes. As far as vacation mascots go, Terry is the GOAT. Curious, highly-intelligent and incredibly playful. He is a big part of the Absorb Island story, which is to be the Greatest of All Terry everywhere he goes. <br\/><br\/>As far as vacation mascots go, Terry is the GOAT. Curious, highly-intelligent and incredibly playful. He is a big part of the Absorb Island story, which is to be the Greatest of All Terry everywhere he goes. As far as vacation mascots go, Terry is the GOAT. Curious, highly-intelligent and incredibly playful. He is a big part of the Absorb Island story, which is to be the Greatest of All Terry everywhere he goes. <\/p>",
+        "alignment": "right"
+      }
+    },
     "68055b5d-2761-4257-8e25-3b94de2d35d2": {
       "type": "large-content-image",
       "settings": {
@@ -73,6 +91,8 @@
     "main",
     "73414ec2-ccb8-4290-8c04-409262771225",
     "59db039f-40fe-4b24-ba34-705571e24221",
+    "5e499474-444d-4760-a7e9-5b591382d305",
+    "5cdc3e8b-83e7-47af-80a6-963f3b0e0d7f",
     "68055b5d-2761-4257-8e25-3b94de2d35d2"
   ]
 }
