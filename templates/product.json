@@ -13,13 +13,6 @@
           "settings": {
           }
         },
-        "text_XMhFWD": {
-          "type": "text",
-          "settings": {
-            "text": "Text block",
-            "text_style": "body"
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -47,7 +40,6 @@
       "block_order": [
         "title",
         "price",
-        "text_XMhFWD",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
