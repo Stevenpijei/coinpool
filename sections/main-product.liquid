@@ -181,7 +181,7 @@
             {%- when 'summary' -%}
               {%- if product.metafields.custom.product_details_summary.value != blank -%}
                 <div class="product__summary rte" {{ block.shopify_attributes }}>
-                  {{ product.metafields.custom.product_details_summary.value }}
+                  {{ product.metafields.custom.product_details_summary.value | metafield_tag }}
                 </div>
               {%- endif -%}
             {%- when 'sku' -%}
