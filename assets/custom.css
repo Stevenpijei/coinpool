@@ -245,9 +245,14 @@ body {
   font: 400 22px/24px var(--font-body-family);
 }
 fieldset.product-form__input .form__label,
-.swatches .swatch-label .swatch-option-name {
-  font: 400 12px/18px var(--font-heading-family);
+.swatches .swatch-label .swatch-option-name,
+.swatches .swatch-label .swatch-variant-name {
+  font: 500 12px/18px var(--font-heading-family);
   text-transform: uppercase;
+}
+.swatches .swatch-label .swatch-variant-name {
+  font-weight: 400;
+  font-style: italic;
 }
 .product__info-container .product-form__buttons {
   max-width: 100% !important;
@@ -307,7 +312,8 @@ fieldset.product-form__input .form__label,
     line-height: 45px;
   }
   fieldset.product-form__input .form__label,
-  .swatches .swatch-label .swatch-option-name {
+  .swatches .swatch-label .swatch-option-name,
+  .swatches .swatch-label .swatch-variant-name {
     font-size: 20px;
     line-height: 1;
   }
