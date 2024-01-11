@@ -1,20 +1,19 @@
 {
   "sections": {
-    "banner": {
-      "type": "main-collection-banner",
-      "disabled": true,
-      "settings": {
-        "show_collection_description": true,
-        "show_collection_image": false,
-        "color_scheme": "background-1"
-      }
-    },
     "general_content_EaCW7d": {
       "type": "general-content",
       "settings": {
         "title": "GREATEST OF ALL TERRY",
         "content": "<p>Our <em>terry cloth <\/em>fabric is made from <em>quick-drying<\/em>, anti-microbrial yarns with 4-way stretch.<\/p>",
         "style": "style1"
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "color_scheme": "background-1"
       }
     },
     "product-grid": {
@@ -49,8 +48,8 @@
     }
   },
   "order": [
-    "banner",
     "general_content_EaCW7d",
+    "banner",
     "product-grid",
     "67587b8f-37b9-4e3e-be67-34b68fd3e642"
   ]
