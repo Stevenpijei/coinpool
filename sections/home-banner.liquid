@@ -15,8 +15,7 @@
                             <source src="{{ block.settings.video_url }}" type="video/mp4">
                         </video> {% endcomment %}
                     {%- endif -%}
-                {%- endif -%}
-                {%- if block.settings.image -%}
+                {%- else if block.settings.image -%}
                     {{ block.settings.image | image_url: width: nil | image_tag: height: nil }}
                 {%- endif -%}
             </div>
