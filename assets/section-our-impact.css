@@ -25,6 +25,7 @@
   background-color: rgba(0, 0, 0, 0.1);
   opacity: 1;
   transition: opacity 0.3s ease-in-out;
+  z-index: 1;
 }
 .our-impact__item img {
   transition: transform 0.3s ease-in-out;
