@@ -26,36 +26,22 @@
 </div>
 
 <script>
-    if (document.querySelectorAll('.story-carousel__item').length > 1) {
-        var storyCarousel = new Flickity('.story-carousel__carousel__container', {
-            cellAlign: 'left',
-            contain: true,
-            prevNextButtons: false,
-            pageDots: true,
-            autoPlay: 5000,
-            pauseAutoPlayOnHover: false,
-            wrapAround: true,
-            freeScroll: true
-        });
-        // on desktop slide carousel on scroll
-        let lastScroll = document.querySelector('.story-carousel').getBoundingClientRect().top;
-        window.addEventListener('scroll', onScrollStoryCarousel, false);
-
-        function onScrollStoryCarousel() {
-            storyCarousel.isFreeScrolling = true;
-            storyCarousel.startAnimation();
-            let diff = window.scrollY - lastScroll
-            lastScroll = window.scrollY
-
-
-            storyCarousel.velocity += diff * -0.1;
-            storyCarousel.x += storyCarousel.velocity;
-            storyCarousel.velocity *= 1 - 0.03;
-
-            let previousX = storyCarousel.x
-            storyCarousel.positionSlider();
+    gsap.registerPlugin(ScrollTrigger);
+    
+    const facts = [...document.querySelectorAll('.story-carousel__item')];
+    const smallFactsContainer = document.querySelector('.story-carousel__carousel');
+    gsap.to(facts, {
+        xPercent: -85 * (facts.length - 1),
+        scrollTrigger: {
+            trigger: ".story-carousel__carousel",
+            start: "center center",
+            pin: true,
+            scrub: 1,
+            // base vertical scrolling on how wide the container is so it feels more natural.
+            end: () => `+=${smallFactsContainer.offsetWidth}`
+            // end: () => `+=4320`
         }
-    }
+    });
 </script>
 
 {% schema %}
