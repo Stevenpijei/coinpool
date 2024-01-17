@@ -11,6 +11,7 @@
   scroll-snap-type: x mandatory;
 }
 .story-carousel__item {
+  width: calc(100vw - 9.5rem);
   flex: 0 0 auto;
   scroll-snap-align: start;
 }
