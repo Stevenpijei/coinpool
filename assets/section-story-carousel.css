@@ -78,6 +78,9 @@
     min-width: 700px;
     align-items: flex-end;
   }
+  .story-carousel__item:last-child {
+    width: calc(50% + 200px);
+  }
   .story-carousel__item__image {
     height: 31.25vw;
   }
