@@ -70,6 +70,7 @@
   }
   .story-carousel__carousel__container:not(.flickity-enabled) {
     display: flex;
+    padding-right: 300px;
   }
   .story-carousel__item {
     display: flex;
@@ -77,9 +78,6 @@
     width: calc(50% - 30px);
     min-width: 700px;
     align-items: flex-end;
-  }
-  .story-carousel__item:last-child {
-    width: calc(50% + 200px);
   }
   .story-carousel__item__image {
     height: 31.25vw;
