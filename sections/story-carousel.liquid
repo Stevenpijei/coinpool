@@ -27,21 +27,22 @@
 
 <script>
     gsap.registerPlugin(ScrollTrigger);
-    
-    const facts = [...document.querySelectorAll('.story-carousel__item')];
-    const smallFactsContainer = document.querySelector('.story-carousel__carousel');
-    gsap.to(facts, {
-        xPercent: -85 * (facts.length - 1),
+
+    window.onload = function() {
+    const container = document.querySelector(".container");
+
+    gsap.to(".child", {
+        x: () => -(container.scrollWidth - document.documentElement.clientWidth) + "px", // The amount to scroll horizontally
+        ease: "none",
         scrollTrigger: {
-            trigger: ".story-carousel__carousel",
-            start: "center center",
-            pin: true,
-            scrub: 1,
-            // base vertical scrolling on how wide the container is so it feels more natural.
-            end: () => `+=${smallFactsContainer.offsetWidth}`
-            // end: () => `+=4320`
-        }
+        trigger: '.test',
+        scrub: 1, // Smooth scrolling
+        pin: '.test', // Pin the container in place
+        end: () => "+=" + container.scrollWidth, // The point at which to end the scrolling
+        invalidateOnRefresh: true, // Refresh the ScrollTrigger when the window resizes
+        },
     });
+    }
 </script>
 
 {% schema %}
