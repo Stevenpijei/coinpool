@@ -28,20 +28,20 @@
 <script>
     gsap.registerPlugin(ScrollTrigger);
 
-    window.onload = function() {
-    const container = document.querySelector(".container");
+    window.onload = function () {
+        const container = document.querySelector(".story-carousel__carousel__container");
 
-    gsap.to(".child", {
-        x: () => -(container.scrollWidth - document.documentElement.clientWidth) + "px", // The amount to scroll horizontally
-        ease: "none",
-        scrollTrigger: {
-        trigger: '.test',
-        scrub: 1, // Smooth scrolling
-        pin: '.test', // Pin the container in place
-        end: () => "+=" + container.scrollWidth, // The point at which to end the scrolling
-        invalidateOnRefresh: true, // Refresh the ScrollTrigger when the window resizes
-        },
-    });
+        gsap.to(".story-carousel__item", {
+            x: () => -(container.scrollWidth - document.documentElement.clientWidth) + "px", // The amount to scroll horizontally
+            ease: "none",
+            scrollTrigger: {
+                trigger: '.story-carousel-section',
+                scrub: 1, // Smooth scrolling
+                pin: '.story-carousel-section', // Pin the container in place
+                end: () => "+=" + container.scrollWidth, // The point at which to end the scrolling
+                invalidateOnRefresh: true, // Refresh the ScrollTrigger when the window resizes
+            },
+        });
     }
 </script>
 
