@@ -28,7 +28,8 @@
       "type": "general-content",
       "settings": {
         "title": "A NEW WAY TO DRY",
-        "content": "<p>Join our <em>After-Water Wear<\/em> revolution. <\/p><p>We are on \u2028a mission to <em>change <\/em>the way people dry around the pool, ocean, lake or gym. <\/p>"
+        "content": "<p>Join our <em>After-Water Wear<\/em> revolution. <\/p><p>We are on \u2028a mission to <em>change <\/em>the way people dry around the pool, ocean, lake or gym. <\/p>",
+        "style": "style1"
       }
     },
     "featured_collection": {
@@ -69,28 +70,28 @@
           "type": "story",
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_0010_1_1.png",
-            "content": "<h4>01<\/h4><h3><em>Upgrade <\/em>the After-Water Experience<\/h3><p>No more soggy, stinky towels. Bring a wearable essential designed to upgrade every vacation or activity \u2028at the water's edge.<\/p>"
+            "content": "<h4>01<\/h4><h3><em>Upgrade <\/em>After-Water Wear Experiences<\/h3><p>No more soggy, stinky towels. We are wearable essential designed to upgrade every vacation or activity at the water's edge. <\/p>"
           }
         },
         "821b2958-929b-4473-9488-a3b6da96116e": {
           "type": "story",
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_0028_1.png",
-            "content": "<h4>02<\/h4><h3><em>Innovate <\/em>Terry Technology<\/h3><p>Our revolutionary Dri-Rite™ terry technology is the first dual-knit, antimicrobial fabric with moisture-wicking finish to speed up after-water dry times. <\/p>"
+            "content": "<h4>02<\/h4><h3><em>Innovate <\/em>Terry Technology<\/h3><p>Our revolutionary Dri-Rite™ terry technology is the first dual-knit, antimicrobial fabric with moisture-wicking finish to speed up after-water dry time. <\/p>"
           }
         },
         "23528417-f17b-4d24-8abd-716fe63a124d": {
           "type": "story",
           "settings": {
             "image": "shopify:\/\/shop_images\/image0_2.png",
-            "content": "<h4>03<\/h4><h3><em>Innovate <\/em>Terry Technology<\/h3><p>Our revolutionary Dri-Rite™ terry technology is the first dual-knit, antimicrobial fabric with moisture-wicking finish to speed up after-water dry times. <\/p>"
+            "content": "<h4>03<\/h4><h3><em>Practice <\/em>Sustainability<em> <\/em><\/h3><p>Environmental sustainability is a priority and practice at Absorb Island. From fabric to packaging, we responsibly source sustainable solutions to better the planet. <\/p>"
           }
         },
         "3e2a8703-7960-4a79-ba51-1c2d2beef95b": {
           "type": "story",
           "settings": {
             "image": "shopify:\/\/shop_images\/image32.png",
-            "content": "<h4>04<\/h4><h3><em>Innovate <\/em>Terry Technology<\/h3><p>Our revolutionary Dri-Rite™ terry technology is the first dual-knit, antimicrobial fabric with moisture-wicking finish to speed up after-water dry times. <\/p>"
+            "content": "<h4>04<\/h4><h3><em>Live <\/em>for the Vacation<\/h3><p>Absorb Island is the place we all want to travel to in mind, body and spirit. Where vacation life, community, and a love for the water get away together.  <\/p>"
           }
         }
       },
