@@ -97,8 +97,14 @@
         "3e2a8703-7960-4a79-ba51-1c2d2beef95b": {
           "type": "story",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image32.png",
+            "image": "shopify:\/\/shop_images\/Photo_Oct_11_2023_10_27_47_AM.jpg",
             "content": "<h4>04<\/h4><h3><em>Live <\/em>for the Vacation<\/h3><p>Absorb Island is the place we all want to travel to in mind, body and spirit. Where vacation life, community, and a love for the water get away together.  <\/p>"
+          }
+        },
+        "story_gtNBDC": {
+          "type": "story",
+          "settings": {
+            "content": ""
           }
         }
       },
@@ -106,7 +112,8 @@
         "template--17199788261597__aa501fe8-d5f0-48d5-a22c-3829ed3a4fd7-story-1",
         "821b2958-929b-4473-9488-a3b6da96116e",
         "23528417-f17b-4d24-8abd-716fe63a124d",
-        "3e2a8703-7960-4a79-ba51-1c2d2beef95b"
+        "3e2a8703-7960-4a79-ba51-1c2d2beef95b",
+        "story_gtNBDC"
       ],
       "settings": {
         "title": "<i>Our<\/i> Story",
