@@ -9,16 +9,23 @@
             "image": "shopify:\/\/shop_images\/image2_2.png"
           }
         },
-        "7a014e2f-00b7-42d4-9683-3caadb1bfb8c": {
+        "slide_tk6zBd": {
           "type": "slide",
           "settings": {
-            "video": "shopify:\/\/files\/videos\/mov_bbb.mp4"
+            "image": "shopify:\/\/shop_images\/rachelcabanashirt_V2.jpg"
+          }
+        },
+        "slide_iFzw3H": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_0806_V2.jpg"
           }
         }
       },
       "block_order": [
         "template--17199788261597__ba5e677b-020e-4739-a602-c7c3124a5444-slide-1",
-        "7a014e2f-00b7-42d4-9683-3caadb1bfb8c"
+        "slide_tk6zBd",
+        "slide_iFzw3H"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/banner-logo.svg"
