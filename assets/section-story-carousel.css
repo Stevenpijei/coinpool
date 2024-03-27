@@ -2,14 +2,25 @@
   position: relative;
   padding: 20px 20px 60px;
   background-color: #FFCC8B;
-  overflow: hidden;
 }
 .story-carousel__carousel__container {
   display: flex;
-  overflow: hidden;
   width: 100%;
   scroll-snap-type: x mandatory;
 }
+.story-carousel__carousel__container button {
+  top: calc(100% + 40px);
+  z-index: 111;
+}
+.story-carousel__carousel__container .slick-prev::before {
+  content: '' !important;
+  width: 10px;
+  height: 10px;
+  border: 2px solid;
+  border-color: black black transparent transparent;
+  transform: rotate(-135deg);
+}
+
 .story-carousel__item {
   width: calc(100vw - 9.5rem);
   flex: 0 0 auto;
