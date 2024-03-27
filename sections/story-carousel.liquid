@@ -29,7 +29,14 @@
 
 <script>
     $(document).ready(function() {
-        $('.story-carousel__carousel__container').addClass('story-carousel');
+        $('.story-carousel__carousel__container').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            fade: true,
+            asNavFor: '.story-carousel__carousel',
+            variableWidth: true
+        });
     })
     // gsap.registerPlugin(ScrollTrigger);
 
