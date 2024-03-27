@@ -74,20 +74,21 @@
     },
     "a917db30-b99f-4d0e-8859-f0a3a602ea19": {
       "type": "content-image",
+      "custom_css": [
+        ".content-image__inner {padding-left: 10%;}"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Screenshot_2023-11-24_at_16.59_1.png",
-        "icon": "shopify:\/\/shop_images\/terry.svg",
-        "title": "Smarter Terry",
-        "content": "<p>Our terry with moisture-wicking finish is powered by our revolutionary, patent-pending Dri-Rite™ fabric technology, making it the first dual-knit terry to feature SILVADUR™ recycled yarns on the inside-looping and organic cotton on the outside that work together to optimize after-water dry time. <\/p>",
-        "alignment": "left",
-        "background_color": "#4f98d2"
+        "image": "shopify:\/\/shop_images\/Photo_Oct_09_2023_4_27_55_PM_1.png",
+        "title": "",
+        "content": "<h2>BEST LOCAL STREET FOOD<\/h2><p>\u2028Sunrise ShackThe shack was technically born in 2016 on a small plumeria farm in the heart of Oahu’s north shore, but the seed was planted in the hearts of the founders long before then.<\/p><h2>HIDDEN BEACH GEMS<\/h2><p>\u2028Sunrise ShackThe shack was technically born in 2016 on a small plumeria farm in the heart of Oahu’s north shore, but the seed was planted in the hearts of the founders long before then.<\/p><h2>LOCAL CHEAP EATS\u2028<\/h2><p>Poke Bowls at Grocery StoreThe shack was technically born in 2016 on a small plumeria farm in the heart of Oahu’s north shore, but the seed was planted in the hearts of the founders long before then.<\/p>",
+        "alignment": "right",
+        "background_color": "rgba(0,0,0,0)"
       }
     },
     "16484650-dda8-4061-bd6c-b27a45673918": {
       "type": "content-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/IMG_0010_1_5.png",
-        "icon": "shopify:\/\/shop_images\/ARTWORK.svg",
         "title": "Hygienic and Ultra-Durable",
         "content": "<p>We deeply understand the importance of freshness and durability when it comes to drying off.  Our recycled yarns have built-in SILVADUR™ antimicrobial and anti-odor technology for advanced protection against bacteria that causes smelly towel syndrome. <\/p>",
         "alignment": "right",
