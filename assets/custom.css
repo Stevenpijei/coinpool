@@ -381,3 +381,6 @@ fieldset.product-form__input .form__label,
   background: transparent;
   max-width: initial !important;
 }
+.banner__heading.inline-richtext {
+  color: white !important;
+}
