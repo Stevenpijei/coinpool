@@ -13,12 +13,28 @@
   z-index: 111;
 }
 .story-carousel__carousel__container .slick-prev::before {
+  position: absolute;
   content: '' !important;
+  top: 0;
+  left: 0;
   width: 10px;
   height: 10px;
   border: 2px solid;
   border-color: black black transparent transparent;
   transform: rotate(-135deg);
+  opacity: 1;
+}
+.story-carousel__carousel__container .slick-prev::after {
+  position: absolute;
+  content: '' !important;
+  top: 0;
+  left: 8px;
+  width: 10px;
+  height: 10px;
+  border: 2px solid;
+  border-color: black black transparent transparent;
+  transform: rotate(-135deg);
+  opacity: 1;
 }
 
 .story-carousel__item {
