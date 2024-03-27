@@ -48,7 +48,7 @@
     }
     function moveImagePrev() {
         const container = document.querySelector(".story-carousel__carousel__container");
-        const distanceToMove = 700; // Define the distance to move the image
+        const distanceToMove = document.querySelector('.story-carousel__item').offsetWidth; // Define the distance to move the image
 
         gsap.to(".story-carousel__item", {
             x: "+=" + distanceToMove, // Move the image left by the specified distance
@@ -58,7 +58,7 @@
     }
     function moveImageNext() {
         const container = document.querySelector(".story-carousel__carousel__container");
-        const distanceToMove = 700; // Define the distance to move the image
+        const distanceToMove = document.querySelector('.story-carousel__item').offsetWidth; // Define the distance to move the image
 
         gsap.to(".story-carousel__item", {
             x: "-=" + distanceToMove, // Move the image left by the specified distance
