@@ -33,24 +33,34 @@
     function moveImagePrev() {
     const container = document.querySelector(".story-carousel__carousel__container");
     const distanceToMove = document.querySelector('.story-carousel__item').offsetWidth; // Define the distance to move the image
-    const currentPosition = parseFloat(gsap.getProperty(".story-carousel__item", "x")); // Get the current x position of the image
 
-    if (currentPosition !== 0) {
-        gsap.to(".story-carousel__item", {
-            x: "+=" + distanceToMove, // Move the image left by the specified distance
-            ease: "power2.out", // Use a specific easing function if needed
-        });
+    // Add logic to check if the current image is the first one
+    if (container.scrollLeft === 0) {
+        // The first image is being displayed, so the button should not work
+        return;
     }
+
+    gsap.to(".story-carousel__item", {
+        x: "+=" + distanceToMove, // Move the image left by the specified distance
+        ease: "power2.out", // Use a specific easing function if needed
+    });
 }
-    function moveImageNext() {
-        const container = document.querySelector(".story-carousel__carousel__container");
-        const distanceToMove = document.querySelector('.story-carousel__item').offsetWidth; // Define the distance to move the image
 
-        gsap.to(".story-carousel__item", {
-            x: "-=" + distanceToMove, // Move the image left by the specified distance
-            ease: "power2.out", // Use a specific easing function if needed
-        });
+function moveImageNext() {
+    const container = document.querySelector(".story-carousel__carousel__container");
+    const distanceToMove = document.querySelector('.story-carousel__item').offsetWidth; // Define the distance to move the image
+
+    // Add logic to check if the current image is the last one
+    if (container.scrollLeft + container.offsetWidth >= container.scrollWidth) {
+        // The last image is being displayed, so the button should not work
+        return;
     }
+
+    gsap.to(".story-carousel__item", {
+        x: "-=" + distanceToMove, // Move the image left by the specified distance
+        ease: "power2.out", // Use a specific easing function if needed
+    });
+}
 </script>
 
 {% schema %}
