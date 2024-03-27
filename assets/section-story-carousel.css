@@ -20,7 +20,7 @@
   left: 0;
   width: 8px;
   height: 8px;
-  border: 2px solid;
+  border: 1px solid;
   border-color: black black transparent transparent;
   transform: rotate(-135deg);
   opacity: 1;
@@ -29,10 +29,10 @@
   position: absolute;
   content: '' !important;
   top: 50%;
-  left: 8px;
+  left: 5cqb;
   width: 8px;
   height: 8px;
-  border: 2px solid;
+  border: 1px solid;
   border-color: black black transparent transparent;
   transform: rotate(-135deg);
   opacity: 1;
@@ -49,7 +49,7 @@
   left: 0;
   width: 8px;
   height: 8px;
-  border: 2px solid;
+  border: 1px solid;
   border-color: black black transparent transparent;
   transform: rotate(45deg);
   opacity: 1;
@@ -58,10 +58,10 @@
   position: absolute;
   content: '' !important;
   top: 50%;
-  left: 8px;
+  left: 5px;
   width: 8px;
   height: 8px;
-  border: 2px solid;
+  border: 1px solid;
   border-color: black black transparent transparent;
   transform: rotate(45deg);
   opacity: 1;
