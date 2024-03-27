@@ -23,6 +23,8 @@
             {% endfor %}
         </div>
     </div>
+    <div class="story-carousel__next" onClick="moveImageLeft()">Left</div>
+    <div class="story-carousel__prev">Right</div>
 </div>
 
 <script>
@@ -42,6 +44,15 @@
                 end: () => "+=" + container.scrollWidth, // The point at which to end the scrolling
                 invalidateOnRefresh: true, // Refresh the ScrollTrigger when the window resizes
             },
+        });
+    }
+    function moveImageLeft() {
+        const container = document.querySelector(".story-carousel__carousel__container");
+        const distanceToMove = 200; // Define the distance to move the image
+
+        gsap.to(".story-carousel__item", {
+            x: "-=" + distanceToMove, // Move the image left by the specified distance
+            ease: "power2.out", // Use a specific easing function if needed
         });
     }
 </script>
