@@ -28,52 +28,28 @@
 </div>
 
 <script>
-    $(document).ready(function() {
-        $('.story-carousel__carousel__container').slick({
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            arrows: true,
-            variableWidth: true
+    gsap.registerPlugin(ScrollTrigger);
+
+    function moveImagePrev() {
+        const container = document.querySelector(".story-carousel__carousel__container");
+        const distanceToMove = document.querySelector('.story-carousel__item').offsetWidth; // Define the distance to move the image
+
+        gsap.to(".story-carousel__item", {
+            x: "+=" + distanceToMove, // Move the image left by the specified distance
+            ease: "power2.out", // Use a specific easing function if needed
+            end: () => "+=" + container.scrollWidth, // The point at which to end the scrolling
         });
-    })
-    // gsap.registerPlugin(ScrollTrigger);
+    }
+    function moveImageNext() {
+        const container = document.querySelector(".story-carousel__carousel__container");
+        const distanceToMove = document.querySelector('.story-carousel__item').offsetWidth; // Define the distance to move the image
 
-    // window.onload = function () {
-    //     const container = document.querySelector(".story-carousel__carousel__container");
-
-    //     gsap.to(".story-carousel__item", {
-    //         x: () => -(container.scrollWidth - document.documentElement.clientWidth) + "px", // The amount to scroll horizontally
-    //         ease: "none",
-    //         scrollTrigger: {
-    //             trigger: '.story-carousel-section',
-    //             scrub: 1, // Smooth scrolling
-    //             pin: '.story-carousel-section',
-    //             start: 'center center',
-    //             end: () => "+=" + container.scrollWidth, // The point at which to end the scrolling
-    //             invalidateOnRefresh: true, // Refresh the ScrollTrigger when the window resizes
-    //         },
-    //     });
-    // }
-    // function moveImagePrev() {
-    //     const container = document.querySelector(".story-carousel__carousel__container");
-    //     const distanceToMove = document.querySelector('.story-carousel__item').offsetWidth; // Define the distance to move the image
-
-    //     gsap.to(".story-carousel__item", {
-    //         x: "+=" + distanceToMove, // Move the image left by the specified distance
-    //         ease: "power2.out", // Use a specific easing function if needed
-    //         end: () => "+=" + container.scrollWidth, // The point at which to end the scrolling
-    //     });
-    // }
-    // function moveImageNext() {
-    //     const container = document.querySelector(".story-carousel__carousel__container");
-    //     const distanceToMove = document.querySelector('.story-carousel__item').offsetWidth; // Define the distance to move the image
-
-    //     gsap.to(".story-carousel__item", {
-    //         x: "-=" + distanceToMove, // Move the image left by the specified distance
-    //         ease: "power2.out", // Use a specific easing function if needed
-    //         end: () => "+=" + container.scrollWidth, // The point at which to end the scrolling
-    //     });
-    // }
+        gsap.to(".story-carousel__item", {
+            x: "-=" + distanceToMove, // Move the image left by the specified distance
+            ease: "power2.out", // Use a specific easing function if needed
+            end: () => "+=" + container.scrollWidth, // The point at which to end the scrolling
+        });
+    }
 </script>
 
 {% schema %}
