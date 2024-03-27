@@ -28,6 +28,7 @@
 .content-image--icon .content-image__content {
   padding: 80px var(--gutter);
   text-align: center;
+  display: flex;
 }
 .content-image--icon .page-width {
   padding: 0;
