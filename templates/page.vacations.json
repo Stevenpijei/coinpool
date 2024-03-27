@@ -25,11 +25,10 @@
     "06051196-ec60-4c3e-80c8-cd11540bf408": {
       "type": "content-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Screenshot_2023-11-24_at_16.59_3.png",
-        "icon": "shopify:\/\/shop_images\/Group_58.png",
+        "image": "shopify:\/\/shop_images\/fbf6719e71fbdfcc61a5f81efdc8e4e6.jpg",
         "title": "4-Way Stretch",
         "content": "<p>Our patent pending terry weave, with the addition of Spandex, creates a significant 4-way stretch that allows for easy movement or all-day lounging. <\/p>",
-        "alignment": "left",
+        "alignment": "right",
         "background_color": ""
       }
     },
