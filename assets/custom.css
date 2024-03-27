@@ -379,5 +379,5 @@ fieldset.product-form__input .form__label,
 }
 .slideshow__text {
   background: transparent;
-  max-width: initial;
+  max-width: initial !important;
 }
