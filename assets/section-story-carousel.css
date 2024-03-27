@@ -70,7 +70,7 @@
   }
   .story-carousel__carousel__container:not(.flickity-enabled) {
     display: flex;
-    padding-right: 300px;
+    /* padding-right: 300px; */
   }
   .story-carousel__item {
     display: flex !important;
