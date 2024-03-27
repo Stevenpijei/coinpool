@@ -8,26 +8,18 @@
         "padding_bottom": 100
       }
     },
-    "4d47d8f8-45f4-461b-8298-a1cba2288887": {
-      "type": "general-content",
-      "custom_css": [
-        "div {padding-bottom: 20px;}"
-      ],
-      "settings": {
-        "title": "OUR AFTER-WATER WEAR EXPERIENCE",
-        "content": "<p>Whether at the pool, lake or ocean, the traditional towel couldn’t keep up with our active aquatic lifestyle. It got soggy, smelly, and bulky after one use. We believe the future of terry fabric is to be optimized for function and fun by making it smarter, sustainable and most of all, wearable.<\/p>",
-        "style": "style1"
-      }
-    },
     "5b3ee5ad-5935-468c-96ab-ac273c2b3d84": {
       "type": "content-image",
+      "custom_css": [
+        ".content-image__icon {display: none;}"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_0010_1_2.png",
+        "image": "shopify:\/\/shop_images\/8e0b14a913016ef4f19872865cb9794b.jpg",
         "icon": "shopify:\/\/shop_images\/Group_56.png",
-        "title": "Our Fabric Philosophy",
-        "content": "<p>Make jumping out of the water just as enjoyable as being in the water. We upgraded the traditional towel to be a low-maintenance, high-performance wearable terry fabric for everyone who loves to vacation at water’s edge. Here’s how we dry different...<\/p>",
+        "title": "O’ahu, Hawai’i",
+        "content": "<p>The Island of Oʻahu in Hawaii is often nicknamed, or translated as ‘The Gathering Place’. Its shoreline is 227 miles (365 km) long. Enjoy the best bits with Absorb Island’s picks.<\/p>",
         "alignment": "right",
-        "background_color": ""
+        "background_color": "#1773b0"
       }
     },
     "06051196-ec60-4c3e-80c8-cd11540bf408": {
@@ -98,7 +90,6 @@
   },
   "order": [
     "main",
-    "4d47d8f8-45f4-461b-8298-a1cba2288887",
     "5b3ee5ad-5935-468c-96ab-ac273c2b3d84",
     "06051196-ec60-4c3e-80c8-cd11540bf408",
     "content_image_UGnRxa",
