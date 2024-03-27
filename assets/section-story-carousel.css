@@ -15,7 +15,7 @@
 }
 @media only screen and (max-width: 768px) {
   .story-carousel__carousel__container button {
-    display: none;
+    display: none !important;
   }
 }
 .story-carousel__carousel__container .slick-prev::before {
