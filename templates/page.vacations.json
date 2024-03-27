@@ -11,7 +11,8 @@
     "5b3ee5ad-5935-468c-96ab-ac273c2b3d84": {
       "type": "content-image",
       "custom_css": [
-        ".content-image__icon {display: none;}"
+        ".content-image__icon {display: none;}",
+        ".content-image__inner {max-width: 350px;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Photo_Oct_11_2023_10_27_47_AM_1.png",
