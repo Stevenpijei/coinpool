@@ -10,27 +10,23 @@
     },
     "4d47d8f8-45f4-461b-8298-a1cba2288887": {
       "type": "general-content",
+      "custom_css": [
+
+      ],
       "settings": {
         "title": "OUR AFTER-WATER WEAR EXPERIENCE",
-        "content": "<p>The vacation towel couldn’t keep up with our \u2028aquatic lifestyle anymore. It got soggy, smelly, and bulky after one use. It was time to change the way people dry. <\/p>",
+        "content": "<p>Whether at the pool, lake or ocean, the traditional towel couldn’t keep up with our active aquatic lifestyle. It got soggy, smelly, and bulky after one use. We believe the future of terry fabric is to be optimized for function and fun by making it smarter, sustainable and most of all, wearable.<\/p>",
         "style": "style1"
-      }
-    },
-    "general_content_ktRNxG": {
-      "type": "general-content",
-      "settings": {
-        "title": "Our <i>Fabric<\/i>",
-        "content": "<p>We upgraded the traditional terry towel to be a low-maintenance, high-performance drying solution wearable for everyone who loves living and lounging at water’s edge. Like us. <\/p>",
-        "style": "style2"
       }
     },
     "5b3ee5ad-5935-468c-96ab-ac273c2b3d84": {
       "type": "content-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/IMG_0010_1_2.png",
-        "title": "4-Way Stretch",
-        "content": "<p>As far as vacation mascots go, Terry is the GOAT. Curious, highly-intelligent and incredibly playful. He is a big part of the Absorb Island story, which is to be the Greatest of All Terry everywhere he goes. As far as vacation mascots go, Terry is the GOAT. Curious, highly-intelligent and incredibly playful. He is a big part of the Absorb Island story, which is to be the Greatest of All Terry everywhere he goes. As far as vacation mascots go, Terry is the GOAT. Curious, highly-intelligent and incredibly playful. He is a big part of the Absorb Island story, which is to be the Greatest of All Terry everywhere he goes. As far as vacation mascots go, Terry is the GOAT. Curious, highly-intelligent and incredibly playful. He is a big part of the Absorb Island story, which is to be the Greatest of All Terry everywhere he goes. <br\/><br\/>As far as vacation mascots go, Terry is the GOAT. Curious, highly-intelligent and incredibly playful. He is a big part of the Absorb Island story, which is to be the Greatest of All Terry everywhere he goes. As far as vacation mascots go, Terry is the GOAT. Curious, highly-intelligent and incredibly playful. He is a big part of the Absorb Island story, which is to be the Greatest of All Terry everywhere he goes. <\/p>",
-        "alignment": "left",
+        "icon": "shopify:\/\/shop_images\/Group_56.png",
+        "title": "Our Fabric Philosophy",
+        "content": "<p>Make jumping out of the water just as enjoyable as being in the water. We upgraded the traditional towel to be a low-maintenance, high-performance wearable terry fabric for everyone who loves to vacation at water’s edge. Here’s how we dry different...<\/p>",
+        "alignment": "right",
         "background_color": ""
       }
     },
@@ -38,8 +34,20 @@
       "type": "content-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/Screenshot_2023-11-24_at_16.59_3.png",
-        "title": "Raw and <i>Recycled<\/i> Materials",
-        "content": "<p>As far as vacation mascots go, Terry is the GOAT. Curious, highly-intelligent and incredibly playful. He is a big part of the Absorb Island story, which is to be the Greatest of All Terry everywhere he goes. As far as vacation mascots go, Terry is the GOAT. Curious, highly-intelligent and incredibly playful. He is a big part of the Absorb Island story, which is to be the Greatest of All Terry everywhere he goes. As far as vacation mascots go, Terry is the GOAT. Curious, highly-intelligent and incredibly playful. He is a big part of the Absorb Island story, which is to be the Greatest of All Terry everywhere he goes. As far as vacation mascots go, Terry is the GOAT. Curious, highly-intelligent and incredibly playful. He is a big part of the Absorb Island story, which is to be the Greatest of All Terry everywhere he goes. <br\/><br\/>As far as vacation mascots go, Terry is the GOAT. Curious, highly-intelligent and incredibly playful. He is a big part of the Absorb Island story, which is to be the Greatest of All Terry everywhere he goes. As far as vacation mascots go, Terry is the GOAT. Curious, highly-intelligent and incredibly playful. He is a big part of the Absorb Island story, which is to be the Greatest of All Terry everywhere he goes. <\/p>",
+        "icon": "shopify:\/\/shop_images\/Group_58.png",
+        "title": "4-Way Stretch",
+        "content": "<p>Our patent pending terry weave, with the addition of Spandex, creates a significant 4-way stretch that allows for easy movement or all-day lounging. <\/p>",
+        "alignment": "left",
+        "background_color": ""
+      }
+    },
+    "content_image_UGnRxa": {
+      "type": "content-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2023-11-24_at_16.59_3.png",
+        "icon": "shopify:\/\/shop_images\/Group_59.png",
+        "title": "Organic and Recycled MaterialsEach",
+        "content": "<p>Each product is made from organic cotton and recycled yarns without any harsh chemicals or pesticides.<\/p>",
         "alignment": "right",
         "background_color": ""
       }
@@ -49,8 +57,8 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Screenshot_2023-11-24_at_16.59_1.png",
         "icon": "shopify:\/\/shop_images\/terry.svg",
-        "title": "Smarter <i>Terry<\/i>",
-        "content": "<p>Absorb Island terry is activated with our revolutionary Dri-Rite™ technology. Making it the first anti-odor, antimicrobial, dual-knit terry fabric with moisture-wicking finish that can speed up after-water dry times. Aubrie to provide language insight here for Dri-Rite Tech. What differentiates what Dri-Rite is from the Silvadur tech and moisture-wicking finish? Is it that the Dri-Rite tech is the all-encompassing tech that makes these elements function together within the fabric?<\/p>",
+        "title": "Smarter Terry",
+        "content": "<p>Our terry with moisture-wicking finish is powered by our revolutionary, patent-pending Dri-Rite™ fabric technology, making it the first dual-knit terry to feature SILVADUR™ recycled yarns on the inside-looping and organic cotton on the outside that work together to optimize after-water dry time. <\/p>",
         "alignment": "left",
         "background_color": "#4f98d2"
       }
@@ -60,8 +68,8 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/IMG_0010_1_5.png",
         "icon": "shopify:\/\/shop_images\/ARTWORK.svg",
-        "title": "<i>Hygienic<\/i> and <i>Ultra-Durable<\/i>",
-        "content": "<p>We deeply understand the importance of freshness and durability when it comes to water-related activities. Our recycled yarns have built-in SILVADUR™ antimicrobial and anti-odor technology for advanced protection against bacteria, mustiness and fabric decay. <\/p>",
+        "title": "Hygienic and Ultra-Durable",
+        "content": "<p>We deeply understand the importance of freshness and durability when it comes to drying off.  Our recycled yarns have built-in SILVADUR™ antimicrobial and anti-odor technology for advanced protection against bacteria that causes smelly towel syndrome. <\/p>",
         "alignment": "right",
         "background_color": ""
       }
@@ -91,9 +99,9 @@
   "order": [
     "main",
     "4d47d8f8-45f4-461b-8298-a1cba2288887",
-    "general_content_ktRNxG",
     "5b3ee5ad-5935-468c-96ab-ac273c2b3d84",
     "06051196-ec60-4c3e-80c8-cd11540bf408",
+    "content_image_UGnRxa",
     "a917db30-b99f-4d0e-8859-f0a3a602ea19",
     "16484650-dda8-4061-bd6c-b27a45673918",
     "280056d2-3213-4b05-82e9-1bc12caf2295",
