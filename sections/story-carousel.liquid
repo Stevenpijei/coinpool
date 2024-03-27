@@ -47,7 +47,7 @@
         gsap.to(".story-carousel__item", {
             x: "-=" + distanceToMove, // Move the image left by the specified distance
             ease: "power2.out", // Use a specific easing function if needed
-            end: () => "+=" + container.scrollWidth, // The point at which to end the scrolling
+            end: () => "-=" + container.scrollWidth, // The point at which to end the scrolling
         });
     }
 </script>
