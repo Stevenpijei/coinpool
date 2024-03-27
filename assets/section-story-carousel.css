@@ -13,6 +13,11 @@
   z-index: 111;
   transform: scaleX(1.5);
 }
+@media only screen and (max-width: 768px) {
+  .story-carousel__carousel__container button {
+    display: none;
+  }
+}
 .story-carousel__carousel__container .slick-prev::before {
   position: absolute;
   content: '' !important;
