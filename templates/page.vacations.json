@@ -25,21 +25,13 @@
     },
     "06051196-ec60-4c3e-80c8-cd11540bf408": {
       "type": "content-image",
+      "custom_css": [
+        ".content-image__inner {padding-left: 10%;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/fbf6719e71fbdfcc61a5f81efdc8e4e6.jpg",
         "title": "",
-        "content": "<h2>BEST SMOOTHIES<\/h2><p>Sunrise ShackThe shack was technically born in 2016 on a small plumeria farm in the heart of Oahu’s north shore, but the seed was planted in the hearts of the founders long before then.<\/p><h2>BEST COCKTAILS<\/h2><p>Sunrise ShackThe shack was technically born in 2016 on a small plumeria farm in the heart of Oahu’s north shore, but the seed was planted in the hearts of the founders long before then.<\/p>",
-        "alignment": "right",
-        "background_color": ""
-      }
-    },
-    "content_image_UGnRxa": {
-      "type": "content-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Screenshot_2023-11-24_at_16.59_3.png",
-        "icon": "shopify:\/\/shop_images\/Group_59.png",
-        "title": "Organic and Recycled MaterialsEach",
-        "content": "<p>Each product is made from organic cotton and recycled yarns without any harsh chemicals or pesticides.<\/p>",
+        "content": "<h2>BEST SMOOTHIES<\/h2><p>Sunrise ShackThe shack was technically born in 2016 on a small plumeria farm in the heart of Oahu’s north shore, but the seed was planted in the hearts of the founders long before then.<\/p><p><\/p><h2>BEST COCKTAILS<\/h2><p>Sunrise ShackThe shack was technically born in 2016 on a small plumeria farm in the heart of Oahu’s north shore, but the seed was planted in the hearts of the founders long before then.<\/p>",
         "alignment": "right",
         "background_color": ""
       }
@@ -81,7 +73,7 @@
       "type": "large-content-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/image9_3.png",
-        "title": "Absorb Island <i>Vacations<\/i>",
+        "title": "Absorb Island Vacations",
         "content": "<p>Our dual-knit terry with Dri-Rite technology is the first anti-odor, antimicrobial fabric with moisture-wicking finish to achieve optimal dry time. Quality and durability is at the forefront of our product.<\/p>",
         "button_url": "shopify:\/\/pages\/about-us",
         "button_text": "Find Out More"
@@ -92,7 +84,6 @@
     "main",
     "5b3ee5ad-5935-468c-96ab-ac273c2b3d84",
     "06051196-ec60-4c3e-80c8-cd11540bf408",
-    "content_image_UGnRxa",
     "a917db30-b99f-4d0e-8859-f0a3a602ea19",
     "16484650-dda8-4061-bd6c-b27a45673918",
     "280056d2-3213-4b05-82e9-1bc12caf2295",
