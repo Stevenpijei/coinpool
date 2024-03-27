@@ -30,40 +30,25 @@
 <script>
     gsap.registerPlugin(ScrollTrigger);
 
-    ScrollTrigger.create({
-    trigger: ".story-carousel-section",
-    start: "center center",
-    end: () => "+=" + container.scrollWidth,
-    onToggle: self => {
-        if (!self.isActive) {
-        const scrollX = window.scrollX;
-        localStorage.setItem("scrollXPosition", scrollX);
-        }
-    }
-    });
-
-    // Restore the scroll position when the page loads
-    window.onload = function () {
-    const savedScrollX = localStorage.getItem("scrollXPosition");
-    if (savedScrollX) {
-        window.scrollTo(savedScrollX, 0);
-    }
-    };
-
-    // Update the scroll position when using previous/next buttons
     function moveImagePrev() {
-    const distanceToMove = document.querySelector('.story-carousel__item').offsetWidth;
-    const currentScrollX = window.scrollX;
-    const newScrollX = Math.max(0, currentScrollX - distanceToMove);
-    window.scrollTo(newScrollX, 0);
-    }
+        const container = document.querySelector(".story-carousel__carousel__container");
+        const distanceToMove = document.querySelector('.story-carousel__item').offsetWidth; // Define the distance to move the image
 
+        gsap.to(".story-carousel__item", {
+            x: "+=" + distanceToMove, // Move the image left by the specified distance
+            ease: "power2.out", // Use a specific easing function if needed
+            end: () => "+=" + container.scrollWidth, // The point at which to end the scrolling
+        });
+    }
     function moveImageNext() {
-    const distanceToMove = document.querySelector('.story-carousel__item').offsetWidth;
-    const currentScrollX = window.scrollX;
-    const maxScrollX = document.querySelector(".story-carousel__carousel__container").scrollWidth - document.documentElement.clientWidth;
-    const newScrollX = Math.min(maxScrollX, currentScrollX + distanceToMove);
-    window.scrollTo(newScrollX, 0);
+        const container = document.querySelector(".story-carousel__carousel__container");
+        const distanceToMove = document.querySelector('.story-carousel__item').offsetWidth; // Define the distance to move the image
+
+        gsap.to(".story-carousel__item", {
+            x: "-=" + distanceToMove, // Move the image left by the specified distance
+            ease: "power2.out", // Use a specific easing function if needed
+            end: () => "+=" + container.scrollWidth, // The point at which to end the scrolling
+        });
     }
 </script>
 
