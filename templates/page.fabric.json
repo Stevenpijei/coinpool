@@ -11,7 +11,7 @@
     "4d47d8f8-45f4-461b-8298-a1cba2288887": {
       "type": "general-content",
       "custom_css": [
-
+        "div {padding-bottom: 20px;}"
       ],
       "settings": {
         "title": "OUR AFTER-WATER WEAR EXPERIENCE",
