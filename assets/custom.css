@@ -377,3 +377,7 @@ fieldset.product-form__input .form__label,
 .section-general-content:first-child .general-content {
   margin: 0;
 }
+.slideshow__text {
+  background: transparent;
+  max-width: initial;
+}
