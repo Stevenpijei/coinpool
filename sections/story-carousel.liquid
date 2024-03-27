@@ -31,15 +31,17 @@
     gsap.registerPlugin(ScrollTrigger);
 
     function moveImagePrev() {
-        const container = document.querySelector(".story-carousel__carousel__container");
-        const distanceToMove = document.querySelector('.story-carousel__item').offsetWidth; // Define the distance to move the image
+    const container = document.querySelector(".story-carousel__carousel__container");
+    const distanceToMove = document.querySelector('.story-carousel__item').offsetWidth; // Define the distance to move the image
+    const currentPosition = parseFloat(gsap.getProperty(".story-carousel__item", "x")); // Get the current x position of the image
 
+    if (currentPosition !== 0) {
         gsap.to(".story-carousel__item", {
             x: "+=" + distanceToMove, // Move the image left by the specified distance
             ease: "power2.out", // Use a specific easing function if needed
-            end: () => "+=" + container.scrollWidth, // The point at which to end the scrolling
         });
     }
+}
     function moveImageNext() {
         const container = document.querySelector(".story-carousel__carousel__container");
         const distanceToMove = document.querySelector('.story-carousel__item').offsetWidth; // Define the distance to move the image
@@ -47,7 +49,6 @@
         gsap.to(".story-carousel__item", {
             x: "-=" + distanceToMove, // Move the image left by the specified distance
             ease: "power2.out", // Use a specific easing function if needed
-            end: () => "-=" + container.scrollWidth, // The point at which to end the scrolling
         });
     }
 </script>
