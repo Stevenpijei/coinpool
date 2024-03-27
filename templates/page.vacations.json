@@ -78,6 +78,42 @@
         "button_url": "shopify:\/\/pages\/about-us",
         "button_text": "Find Out More"
       }
+    },
+    "slideshow_nGec9E": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_KCdXAp": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_Oct_09_2023_2_56_57_AM_1.png",
+            "heading": "<em>Chickens are wild in O’ahu<\/em>",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_KCdXAp"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
     }
   },
   "order": [
@@ -87,6 +123,7 @@
     "a917db30-b99f-4d0e-8859-f0a3a602ea19",
     "16484650-dda8-4061-bd6c-b27a45673918",
     "280056d2-3213-4b05-82e9-1bc12caf2295",
-    "4f30b477-4161-42c9-a2a5-3d614228d7c9"
+    "4f30b477-4161-42c9-a2a5-3d614228d7c9",
+    "slideshow_nGec9E"
   ]
 }
