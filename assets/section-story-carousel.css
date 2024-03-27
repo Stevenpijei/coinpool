@@ -11,14 +11,15 @@
 .story-carousel__carousel__container button {
   top: calc(100% + 40px);
   z-index: 111;
+  transform: scaleX(1.5);
 }
 .story-carousel__carousel__container .slick-prev::before {
   position: absolute;
   content: '' !important;
   top: 50%;
   left: 0;
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   border: 2px solid;
   border-color: black black transparent transparent;
   transform: rotate(-135deg);
@@ -29,12 +30,16 @@
   content: '' !important;
   top: 50%;
   left: 8px;
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   border: 2px solid;
   border-color: black black transparent transparent;
   transform: rotate(-135deg);
   opacity: 1;
+}
+
+.story-carousel__carousel__container .slick-next {
+  right: 25px;
 }
 
 .story-carousel__carousel__container .slick-next::before {
@@ -42,8 +47,8 @@
   content: '' !important;
   top: 50%;
   left: 0;
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   border: 2px solid;
   border-color: black black transparent transparent;
   transform: rotate(45deg);
@@ -54,8 +59,8 @@
   content: '' !important;
   top: 50%;
   left: 8px;
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   border: 2px solid;
   border-color: black black transparent transparent;
   transform: rotate(45deg);
