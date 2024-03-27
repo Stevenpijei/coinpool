@@ -31,32 +31,34 @@
     gsap.registerPlugin(ScrollTrigger);
 
     function moveImagePrev() {
-    const container = document.querySelector(".story-carousel__carousel__container");
-    const distanceToMove = document.querySelector('.story-carousel__item').offsetWidth; // Define the distance to move the image
+        const container = document.querySelector(".story-carousel__carousel__container");
+        const distanceToMove = document.querySelector('.story-carousel__item').offsetWidth; // Define the distance to move the image
 
-    // Check if the carousel is at the beginning
-    if (container.scrollLeft === 0) {
-        return; // Stop the function if at the beginning
+        // Check if the carousel is at the beginning
+        if (container.scrollLeft === 0) {
+            return; // Stop the function if at the beginning
+        }
+
+        gsap.to(container, {
+            scrollLeft: container.scrollLeft - distanceToMove, // Move the container left by the specified distance
+            ease: "power2.out", // Use a specific easing function if needed
+        });
     }
 
-    gsap.to(container, {
-        scrollTo: { x: "-=" + distanceToMove, ease: "power2.out" }, // Use ScrollToPlugin for smooth scrolling
-    });
-}
+    function moveImageNext() {
+        const container = document.querySelector(".story-carousel__carousel__container");
+        const distanceToMove = document.querySelector('.story-carousel__item').offsetWidth; // Define the distance to move the image
 
-function moveImageNext() {
-    const container = document.querySelector(".story-carousel__carousel__container");
-    const distanceToMove = document.querySelector('.story-carousel__item').offsetWidth; // Define the distance to move the image
+        // Check if the carousel is at the end
+        if (container.scrollLeft + container.offsetWidth >= container.scrollWidth) {
+            return; // Stop the function if at the end
+        }
 
-    // Check if the carousel is at the end
-    if (container.scrollLeft + container.offsetWidth >= container.scrollWidth) {
-        return; // Stop the function if at the end
+        gsap.to(container, {
+            scrollLeft: container.scrollLeft + distanceToMove, // Move the container right by the specified distance
+            ease: "power2.out", // Use a specific easing function if needed
+        });
     }
-
-    gsap.to(container, {
-        scrollTo: { x: "+=" + distanceToMove, ease: "power2.out" }, // Use ScrollToPlugin for smooth scrolling
-    });
-}
 </script>
 
 {% schema %}
