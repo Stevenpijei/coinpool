@@ -22,8 +22,8 @@
         "template--17210911850717__59db039f-40fe-4b24-ba34-705571e24221-impact-1": {
           "type": "impact",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-nektaria-kleopoulos-15071870_1.png",
-            "title": "Meet Terry"
+            "image": "shopify:\/\/shop_images\/pexels-mark-stebnicki-13924868_2.png",
+            "title": "Fairtrade"
           }
         },
         "3504e4d2-d275-4034-ae9a-776559d835f1": {
@@ -36,7 +36,7 @@
         "0cc3984e-0e47-46d1-bd27-5c4a3b0b8103": {
           "type": "impact",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-emiliano-arano-3608311_1.png",
+            "image": "shopify:\/\/shop_images\/Photo_Oct_10_2023_6_29_27_AM_32d545d5-852a-4c25-8e04-a846f17dbc70.jpg",
             "title": "Less Washing More Splashing"
           }
         },
@@ -62,7 +62,7 @@
     "5e499474-444d-4760-a7e9-5b591382d305": {
       "type": "content-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Photo_Oct_11_2023_5_53_41_AM_b8e670b7-dcda-475c-b78c-e45f6930e55e.jpg",
+        "image": "shopify:\/\/shop_images\/Photo_Oct_11_2023_5_53_41_AM.png",
         "title": "Welcome to Absorb Island",
         "content": "<p>We want to modernize the toweling industry by changing the very fabric of it. Our revolutionary Dri-Rite™ fabric technology is the first dual-knit, antimicrobial terry with moisture-wicking finish to speed up after-water dry time. Founded and run by women who love to vacation, Absorb Island is on a mission to change the way people dry after the pool, ocean, lake or gym. <\/p>",
         "alignment": "left",
@@ -72,7 +72,7 @@
     "5cdc3e8b-83e7-47af-80a6-963f3b0e0d7f": {
       "type": "content-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/pexels-mark-stebnicki-13924868_2.png",
+        "image": "shopify:\/\/shop_images\/pexels-nektaria-kleopoulos-15071870_1.png",
         "title": "Meet Terry",
         "content": "<p>We are proud to be fair-trade certified and choose to partner with factories that prioritize their workers. As a fair-trade partner, we want workers’ voices heard and choices counted in an effort to build equitable and sustainable working environments. <\/p>",
         "alignment": "right",
