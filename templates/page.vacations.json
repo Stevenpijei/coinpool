@@ -87,6 +87,7 @@
     },
     "16484650-dda8-4061-bd6c-b27a45673918": {
       "type": "content-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/IMG_0010_1_5.png",
         "title": "Hygienic and Ultra-Durable",
