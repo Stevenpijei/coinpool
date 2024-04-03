@@ -96,17 +96,6 @@
         "background_color": ""
       }
     },
-    "280056d2-3213-4b05-82e9-1bc12caf2295": {
-      "type": "content-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Screenshot_2023-11-24_at_16.59_2.png",
-        "icon": "shopify:\/\/shop_images\/comfort.svg",
-        "title": "Cooling Comfort",
-        "content": "<p>Our moisture-wicking fabric accelerates the drying process by quickly drawing the moisture out from the inner layer to the fabric surface. Guaranteeing a cool, comfortable wear from the moment you throw us on.<\/p>",
-        "alignment": "left",
-        "background_color": "#ffcc8b"
-      }
-    },
     "4f30b477-4161-42c9-a2a5-3d614228d7c9": {
       "type": "large-content-image",
       "settings": {
@@ -125,7 +114,6 @@
     "slideshow_nGec9E",
     "a917db30-b99f-4d0e-8859-f0a3a602ea19",
     "16484650-dda8-4061-bd6c-b27a45673918",
-    "280056d2-3213-4b05-82e9-1bc12caf2295",
     "4f30b477-4161-42c9-a2a5-3d614228d7c9"
   ]
 }
