@@ -27,7 +27,7 @@
     "06051196-ec60-4c3e-80c8-cd11540bf408": {
       "type": "content-image",
       "custom_css": [
-        ".content-image__inner {padding-left: 10%; max-width: 80%;}"
+
       ],
       "settings": {
         "type": "full",
@@ -77,7 +77,7 @@
     "a917db30-b99f-4d0e-8859-f0a3a602ea19": {
       "type": "content-image",
       "custom_css": [
-        ".content-image__inner {padding-left: 10%; max-width: 80%;}"
+
       ],
       "settings": {
         "type": "full",
