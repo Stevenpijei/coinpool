@@ -100,6 +100,13 @@
         "background_color": ""
       }
     },
+    "image_image_y4XDGx": {
+      "type": "image-image",
+      "settings": {
+        "image1": "shopify:\/\/shop_images\/Photo_Oct_11_2023_1_34_59_AM_1.png",
+        "image2": "shopify:\/\/shop_images\/Photo_Oct_10_2023_3_38_55_PM_1.png"
+      }
+    },
     "content_image_GAwLkk": {
       "type": "content-image",
       "settings": {
@@ -119,6 +126,7 @@
     "slideshow_nGec9E",
     "a917db30-b99f-4d0e-8859-f0a3a602ea19",
     "16484650-dda8-4061-bd6c-b27a45673918",
+    "image_image_y4XDGx",
     "content_image_GAwLkk"
   ]
 }
