@@ -35,6 +35,7 @@
 
 .content-image--full .page-width {
   padding: 0;
+  max-height: 580px;
 }
 .content-image--full .page-width img {
   max-height: 580px;
