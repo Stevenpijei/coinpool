@@ -28,10 +28,16 @@
 .content-image--icon .content-image__content {
   padding: 80px var(--gutter);
   text-align: center;
-  display: flex;
 }
 .content-image--icon .page-width {
   padding: 0;
+}
+
+.content-image--full .page-width {
+  padding: 0;
+}
+.content-image--full .page-width img {
+  max-height: 580px;
 }
 @media screen and (min-width: 769px) {
   .content-image {
@@ -66,7 +72,7 @@
     padding: 150px 0;
   }
   .content-image--icon .content-image__inner {
-    margin: auto;
-    max-width: 330px;
+    margin: 0 auto;
+    max-width: 300px;
   }
 }
