@@ -42,9 +42,12 @@
   transform: rotate(-135deg);
   opacity: 1;
 }
+.story-carousel__carousel__container .slick-prev {
+  left: -150px;
+}
 
 .story-carousel__carousel__container .slick-next {
-  right: 25px;
+  right: 40px;
 }
 
 .story-carousel__carousel__container .slick-next::before {
