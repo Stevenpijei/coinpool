@@ -26,7 +26,7 @@
     "06051196-ec60-4c3e-80c8-cd11540bf408": {
       "type": "content-image",
       "custom_css": [
-        ".content-image__inner {padding-left: 10%;}"
+        ".content-image__inner {padding-left: 10%; max-width: 80%;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/fbf6719e71fbdfcc61a5f81efdc8e4e6.jpg",
@@ -75,7 +75,7 @@
     "a917db30-b99f-4d0e-8859-f0a3a602ea19": {
       "type": "content-image",
       "custom_css": [
-        ".content-image__inner {padding-left: 10%;}"
+        ".content-image__inner {padding-left: 10%; max-width: 80%;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Photo_Oct_09_2023_4_27_55_PM_1.png",
@@ -95,16 +95,6 @@
         "alignment": "right",
         "background_color": ""
       }
-    },
-    "4f30b477-4161-42c9-a2a5-3d614228d7c9": {
-      "type": "large-content-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Photo-Oct-11-2023_-5-33-37-AM.jpg",
-        "title": "Our Fabric",
-        "content": "<p>Our dual-knit terry with Dri-Rite technology is the first anti-odor, antimicrobial fabric with moisture-wicking finish to achieve optimal dry time. Quality and durability is at the forefront of our product.<\/p>",
-        "button_url": "shopify:\/\/pages\/about-us",
-        "button_text": "Find Out More"
-      }
     }
   },
   "order": [
@@ -113,7 +103,6 @@
     "06051196-ec60-4c3e-80c8-cd11540bf408",
     "slideshow_nGec9E",
     "a917db30-b99f-4d0e-8859-f0a3a602ea19",
-    "16484650-dda8-4061-bd6c-b27a45673918",
-    "4f30b477-4161-42c9-a2a5-3d614228d7c9"
+    "16484650-dda8-4061-bd6c-b27a45673918"
   ]
 }
