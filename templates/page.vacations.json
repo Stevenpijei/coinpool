@@ -12,7 +12,8 @@
       "type": "content-image",
       "custom_css": [
         ".content-image__icon {display: none;}",
-        ".content-image__inner {max-width: 350px;}"
+        ".content-image__inner {max-width: 400px;}",
+        ".content-image__content {display: flex; align-items: center;}"
       ],
       "settings": {
         "type": "general",
