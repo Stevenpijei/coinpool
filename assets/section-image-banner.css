@@ -219,7 +219,11 @@
 @media screen and (max-width: 749px) {
   .banner--mobile-bottom .banner__media,
   .banner--stacked:not(.banner--mobile-bottom) .banner__media {
-    position: relative;
+    /* position: relative; */
+  }
+  .banner--stacked:not(.banner--mobile-bottom) .banner__box {
+    padding-top: 15rem;
+    padding-bottom: 15rem;
   }
 
   .banner--stacked.banner--adapt .banner__content {
