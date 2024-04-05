@@ -99,6 +99,17 @@
         "alignment": "right",
         "background_color": ""
       }
+    },
+    "content_image_GAwLkk": {
+      "type": "content-image",
+      "settings": {
+        "type": "full",
+        "image": "shopify:\/\/shop_images\/Photo_Oct_11_2023_1_37_48_AM_1.png",
+        "title": "",
+        "content": "<h2>BEST BEACH LOCALS SURF<\/h2><p>Sunrise Shack<\/p><p>The shack was technically born in 2016 on a small plumeria farm in the heart of Oahu’s north shore, but the seed was planted in the hearts of the founders long before then.<\/p><h2>FOOD TRUCKS\u2028<\/h2><p>Sunrise Shack<\/p><p>The shack was technically born in 2016 on a small plumeria farm in the heart of Oahu’s north shore, but the seed was planted in the hearts of the founders long before then.<\/p><h2>BEST WAY TO ADDRESS LOCALS<\/h2><p>Poke Bowls at Grocery Store<\/p><p>The shack was technically born in 2016 on a small plumeria farm in the heart of Oahu’s north shore, but the seed was planted in the hearts of the founders long before then.<\/p>",
+        "alignment": "right",
+        "background_color": ""
+      }
     }
   },
   "order": [
@@ -107,6 +118,7 @@
     "06051196-ec60-4c3e-80c8-cd11540bf408",
     "slideshow_nGec9E",
     "a917db30-b99f-4d0e-8859-f0a3a602ea19",
-    "16484650-dda8-4061-bd6c-b27a45673918"
+    "16484650-dda8-4061-bd6c-b27a45673918",
+    "content_image_GAwLkk"
   ]
 }

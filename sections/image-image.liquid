@@ -1,6 +1,37 @@
+{{ 'section-image-image.css' |  asset_url |  stylesheet_tag }}
+
+<div class="image-image">
+    <div class="page-width">
+        <div class="image-image__image bg-cover{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+            <img src="{{ section.settings.image1 | img_url: '925x645' }}" alt="">
+        </div>
+        <div class="image-image__image bg-cover{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+            <img src="{{ section.settings.image2 | img_url: '925x645' }}" alt="">
+        </div>
+    </div>
+</div>
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+    "name": "Image Image",
+    "tag": "section",
+    "class": "section-content-image",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "image1",
+            "label": "Image"
+        },
+        {
+            "type": "image_picker",
+            "id": "image2",
+            "label": "Image"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Image Image"
+        }
+    ]
+}
 {% endschema %}
