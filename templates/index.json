@@ -146,6 +146,7 @@
     },
     "content_image_wbFnbC": {
       "type": "content-image",
+      "disabled": true,
       "settings": {
         "type": "general",
         "image": "shopify:\/\/shop_images\/Photo_Oct_08_2023_11_45_42_PM.jpg",
@@ -170,7 +171,7 @@
         "slide_VcUaw8": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/vacationsbanner.jpg"
+            "image": "shopify:\/\/shop_images\/vacationsbanner4.png"
           }
         }
       },
