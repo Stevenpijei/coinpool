@@ -146,6 +146,7 @@
     },
     "content_image_wbFnbC": {
       "type": "content-image",
+      "disabled": true,
       "settings": {
         "type": "general",
         "image": "shopify:\/\/shop_images\/Photo_Oct_08_2023_11_45_42_PM.jpg",
@@ -180,6 +181,16 @@
       "disabled": true,
       "settings": {
       }
+    },
+    "large_content_image_hwJaex": {
+      "type": "large-content-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/vacationsbanner4.png",
+        "title": "Absorb Island on Vacation",
+        "content": "<p>The Island of Oʻahu in Hawaii is often nicknamed, or translated as ‘The Gathering Place’. Its shoreline is 227 miles (365 km) long. <\/p><p>Explore and enjoy the best bits with Absorb Island’s picks.<\/p>",
+        "button_url": "shopify:\/\/pages\/vacations",
+        "button_text": "FIND OUT MORE"
+      }
     }
   },
   "order": [
@@ -190,6 +201,7 @@
     "39a5b0d0-9a16-46ca-b151-11750a6fe2b9",
     "content_image_wbFnbC",
     "general_content_Aj9mXB",
-    "home_banner_g7PYXh"
+    "home_banner_g7PYXh",
+    "large_content_image_hwJaex"
   ]
 }
