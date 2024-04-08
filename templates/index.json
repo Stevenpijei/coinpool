@@ -146,14 +146,13 @@
     },
     "content_image_wbFnbC": {
       "type": "content-image",
-      "disabled": true,
       "settings": {
         "type": "general",
         "image": "shopify:\/\/shop_images\/Photo_Oct_08_2023_11_45_42_PM.jpg",
-        "icon": "shopify:\/\/shop_images\/terry.svg",
+        "icon": "shopify:\/\/shop_images\/Group.svg",
         "title": "O'ahu, Hawai",
-        "content": "<p>BREATH IN AND EXPLORE<\/p><p><\/p>",
-        "alignment": "left",
+        "content": "<h5>BREATH IN AND EXPLORE<\/h5><p><\/p>",
+        "alignment": "right",
         "background_color": "#1773b0"
       }
     },
@@ -178,6 +177,7 @@
       "block_order": [
         "slide_VcUaw8"
       ],
+      "disabled": true,
       "settings": {
       }
     }
