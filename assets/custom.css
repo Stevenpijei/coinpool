@@ -377,10 +377,15 @@ fieldset.product-form__input .form__label,
 .section-general-content:first-child .general-content {
   margin: 0;
 }
-.slideshow__text {
-  background: transparent;
-  max-width: initial !important;
+
+.swatch-view-item[orig-value="Pink"] .star-set-image {
+  background-color: #F8B7B7;
 }
-.banner__heading.inline-richtext {
-  color: white !important;
+
+.swatch-view-item[orig-value="Blue"] .star-set-image {
+  background-color: #096687;
+}
+
+.swatch-view-item[orig-value="Blue"] .star-set-image {
+  background-color: #FCF4EA;
 }
