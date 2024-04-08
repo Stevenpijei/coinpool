@@ -118,6 +118,14 @@
         "alignment": "right",
         "background_color": ""
       }
+    },
+    "general_content_qg4bGw": {
+      "type": "general-content",
+      "settings": {
+        "title": "our model malia says",
+        "content": "<p>“I love taking my hoodie to the beach, \u2028it’s perfect to throw on after a swim”<\/p>",
+        "style": "style1"
+      }
     }
   },
   "order": [
@@ -128,6 +136,7 @@
     "a917db30-b99f-4d0e-8859-f0a3a602ea19",
     "16484650-dda8-4061-bd6c-b27a45673918",
     "image_image_y4XDGx",
-    "content_image_GAwLkk"
+    "content_image_GAwLkk",
+    "general_content_qg4bGw"
   ]
 }
