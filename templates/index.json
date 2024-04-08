@@ -148,12 +148,36 @@
       "type": "content-image",
       "settings": {
         "type": "general",
-        "image": "shopify:\/\/shop_images\/8e0b14a913016ef4f19872865cb9794b.jpg",
+        "image": "shopify:\/\/shop_images\/Photo_Oct_08_2023_11_45_42_PM.jpg",
         "icon": "shopify:\/\/shop_images\/terry.svg",
         "title": "O'ahu, Hawai",
         "content": "<p>BREATH IN AND EXPLORE<\/p><p><\/p>",
         "alignment": "left",
         "background_color": "#1773b0"
+      }
+    },
+    "general_content_Aj9mXB": {
+      "type": "general-content",
+      "settings": {
+        "title": "",
+        "content": "",
+        "style": "style1"
+      }
+    },
+    "home_banner_g7PYXh": {
+      "type": "home-banner",
+      "blocks": {
+        "slide_VcUaw8": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vacationsbanner.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "slide_VcUaw8"
+      ],
+      "settings": {
       }
     }
   },
@@ -163,6 +187,8 @@
     "featured_collection",
     "aa501fe8-d5f0-48d5-a22c-3829ed3a4fd7",
     "39a5b0d0-9a16-46ca-b151-11750a6fe2b9",
-    "content_image_wbFnbC"
+    "content_image_wbFnbC",
+    "general_content_Aj9mXB",
+    "home_banner_g7PYXh"
   ]
 }
