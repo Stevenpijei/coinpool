@@ -22,6 +22,7 @@
     "5b3ee5ad-5935-468c-96ab-ac273c2b3d84": {
       "type": "content-image",
       "settings": {
+        "type": "general",
         "image": "shopify:\/\/shop_images\/Screenshot-2024-04-03-at-11.48.23.jpg",
         "icon": "shopify:\/\/shop_images\/Group_56.png",
         "title": "Our Fabric Philosophy",
@@ -33,7 +34,8 @@
     "06051196-ec60-4c3e-80c8-cd11540bf408": {
       "type": "content-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Screenshot_2023-11-24_at_16.59_3.png",
+        "type": "general",
+        "image": "shopify:\/\/shop_images\/5-seafoamhoodiedetailshotfrontonperson_7d348ba9-0fe7-4490-8742-0ad02545b749.jpg",
         "icon": "shopify:\/\/shop_images\/Group_58.png",
         "title": "4-Way Stretch",
         "content": "<p>Our patent pending terry weave, with the addition of Spandex, creates a significant 4-way stretch that allows for easy movement or all-day lounging. <\/p>",
@@ -44,6 +46,7 @@
     "content_image_UGnRxa": {
       "type": "content-image",
       "settings": {
+        "type": "general",
         "image": "shopify:\/\/shop_images\/Screenshot_2023-11-24_at_16.59_3.png",
         "icon": "shopify:\/\/shop_images\/Group_59.png",
         "title": "Organic and Recycled Materials",
@@ -55,6 +58,7 @@
     "a917db30-b99f-4d0e-8859-f0a3a602ea19": {
       "type": "content-image",
       "settings": {
+        "type": "general",
         "image": "shopify:\/\/shop_images\/Screenshot_2023-11-24_at_16.59_1.png",
         "icon": "shopify:\/\/shop_images\/terry.svg",
         "title": "Smarter Terry",
@@ -66,6 +70,7 @@
     "16484650-dda8-4061-bd6c-b27a45673918": {
       "type": "content-image",
       "settings": {
+        "type": "general",
         "image": "shopify:\/\/shop_images\/IMG_0010_1_5.png",
         "icon": "shopify:\/\/shop_images\/ARTWORK.svg",
         "title": "Hygienic and Ultra-Durable",
@@ -77,6 +82,7 @@
     "280056d2-3213-4b05-82e9-1bc12caf2295": {
       "type": "content-image",
       "settings": {
+        "type": "general",
         "image": "shopify:\/\/shop_images\/Screenshot_2023-11-24_at_16.59_2.png",
         "icon": "shopify:\/\/shop_images\/comfort.svg",
         "title": "Cooling <i>Comfort<\/i>",
