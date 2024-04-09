@@ -123,7 +123,7 @@
       "type": "general-content",
       "settings": {
         "title": "our model malia says",
-        "content": "<p>“I love taking my hoodie to the beach, \u2028it’s perfect to throw on after a swim”<\/p>",
+        "content": "<p>“I love taking my hoodie to the beach, it’s perfect to throw on after a swim”<\/p>",
         "style": "style1"
       }
     }
