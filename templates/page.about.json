@@ -23,28 +23,32 @@
           "type": "impact",
           "settings": {
             "image": "shopify:\/\/shop_images\/pexels-mark-stebnicki-13924868_2.png",
-            "title": "Fairtrade"
+            "title": "Fairtrade",
+            "content": "<p>We are proud to be fair-trade certified and the woman-owned factories we work with are too.<\/p>"
           }
         },
         "3504e4d2-d275-4034-ae9a-776559d835f1": {
           "type": "impact",
           "settings": {
             "image": "shopify:\/\/shop_images\/12-pinksandswrinkledetail.jpg",
-            "title": "Our Fabric"
+            "title": "Our Fabric",
+            "content": "<p>Grown without chemicals or pesticides, Absorb Island organic cotton is ethically and sustainably farmed.  <\/p>"
           }
         },
         "0cc3984e-0e47-46d1-bd27-5c4a3b0b8103": {
           "type": "impact",
           "settings": {
             "image": "shopify:\/\/shop_images\/Photo_Oct_10_2023_6_29_27_AM_32d545d5-852a-4c25-8e04-a846f17dbc70.jpg",
-            "title": "Less Washing More Splashing"
+            "title": "Less Washing More Splashing",
+            "content": "<p>Absorb Island products require \u2028less maintenance, making them \u2028more environmentally friendly. \u2028Our Dri-Rite ™ and Dri-Release \u2028terry technology combines \u2028ultra-absorbent, antimicrobial fiber \u2028to promote longer product life \u2028and less machine-washing.<\/p>"
           }
         },
         "487670e9-0e4b-48d0-a2bc-01e84473806a": {
           "type": "impact",
           "settings": {
             "image": "shopify:\/\/shop_images\/pexels-monstera-production-7794422_2.png",
-            "title": "Our Packaging"
+            "title": "Our Packaging",
+            "content": "<p>Absorb Island brand packaging is \u2028100% recyclable, biodegradable, and \u2028made from naturally sourced \u2028virgin paper fiber.  <\/p>"
           }
         }
       },
