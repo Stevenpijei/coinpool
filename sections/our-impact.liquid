@@ -25,6 +25,9 @@
                     {%- if block.settings.title -%}
                         <p class="our-impact__item-heading t-h2">{{ block.settings.title }}</p>
                     {%- endif -%}
+                    {%- if block.settings.title -%}
+                        <p class="our-impact__item-content t-h2">{{ block.settings.content }}</p>
+                    {%- endif -%}
                 </div>
             {%- endfor -%}
         </div>
