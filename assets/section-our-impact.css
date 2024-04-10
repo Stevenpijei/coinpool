@@ -47,10 +47,27 @@
   color: #fff;
   z-index: 1;
 }
+.our-impact__item-content {
+  position: absolute;
+  margin: 0;
+  padding: 0 20px;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  z-index: 1;
+  font-size: 20px;
+  line-height: 28px;
+}
 @media only screen and (max-width: 768px) {
   .our-impact__grid {
     margin-left: calc(var(--gutter) * -1);
     margin-right: calc(var(--gutter) * -1);
+  }
+  .our-impact__item-content {
+    font-size: 16px;
+    line-height: 24px;
   }
 }
 @media only screen and (min-width: 769px) {
