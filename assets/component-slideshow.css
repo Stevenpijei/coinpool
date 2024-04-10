@@ -43,6 +43,12 @@ slideshow-component .slideshow.banner {
   flex-direction: column;
   justify-content: center;
   max-width: 54.5rem;
+  background-color: transparent;
+}
+.banner__heading {
+  color: white;
+  font-family: "Tiempos Text";
+  font-weight: 400;
 }
 
 .slideshow__text > * {
