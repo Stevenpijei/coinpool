@@ -49,6 +49,7 @@ slideshow-component .slideshow.banner {
   color: white;
   font-family: "Tiempos Text";
   font-weight: 400;
+  font-size: 64px;
 }
 
 .slideshow__text > * {
@@ -63,6 +64,12 @@ slideshow-component .slideshow.banner {
 
   .banner--mobile-bottom .slideshow__text.banner__box {
     max-width: 100%;
+  }
+  .banner__heading {
+    color: white;
+    font-family: "Tiempos Text";
+    font-weight: 400;
+    font-size: 32px;
   }
 
   .banner--mobile-bottom .slideshow__text-wrapper {
