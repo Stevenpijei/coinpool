@@ -119,7 +119,6 @@
       "blocks": {
         "template--17199788261597__39a5b0d0-9a16-46ca-b151-11750a6fe2b9-vacation-1": {
           "type": "vacation",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/hawai.png",
             "title": "O’ahu, Hawai",
@@ -128,7 +127,6 @@
         },
         "7d3cb9a1-012d-477f-9a32-280d7c83e3d9": {
           "type": "vacation",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/malibu.png",
             "title": "Century Lake, Malibu",
@@ -184,6 +182,7 @@
     },
     "large_content_image_hwJaex": {
       "type": "large-content-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Photo_Oct_11_2023_5_53_41_AM_3bce0483-4145-4eb8-a77c-3a1396ef192e.jpg",
         "title": "Vacations",
