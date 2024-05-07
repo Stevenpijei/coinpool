@@ -15,10 +15,6 @@ body {
   color: var(--color-foreground);
 }
 
-header {
-  opacity: 0.1 !important;
-}
-
 *:focus-visible {
   box-shadow: none;
   outline: none;
