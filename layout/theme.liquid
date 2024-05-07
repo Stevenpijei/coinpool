@@ -250,6 +250,7 @@
         }
       }
       /* Custom Fonts */
+      /*
       @font-face {
         font-family: "Tiempos";
         src: url("{{ 'tiempos-text-regular.woff2' | asset_url }}") format("woff2");
@@ -257,6 +258,7 @@
         font-style: normal;
         font-display: swap;
       }
+
       @font-face {
         font-family: "Tiempos";
         src: url("{{ 'tiempos-text-regular-italic.woff2' | asset_url }}") format("woff2");
@@ -264,6 +266,7 @@
         font-style: italic;
         font-display: swap;
       }
+
       @font-face {
         font-family: "Tiempos";
         src: url("{{ 'tiempos-text-medium.woff2' | asset_url }}") format("woff2");
@@ -306,6 +309,7 @@
         font-style: italic;
         font-display: swap;
       }
+      */
       @font-face {
         font-family: "Store Norske Ja Trial";
         src: url("{{ 'Store Norske Ja Trial-Regular.woff2' | asset_url }}") format("woff2");
@@ -313,6 +317,7 @@
         font-style: normal;
         font-display: swap;
       }
+
       @font-face {
         font-family: "Store Norske Ja Trial";
         src: url("{{ 'Store Norske Ja Trial-Medium.woff2' | asset_url }}") format("woff2");
@@ -361,9 +366,19 @@
     {{ 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css' | stylesheet_tag }}
     {{ 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css' | stylesheet_tag }}
 
-    <script type="text/javascript" src="https://www.bugherd.com/sidebarv2.js?apikey=a86gfc12ygbj7iljjv9wnq" async="true"></script>
-    <script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js?r=5426"></script>
-    <script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js?r=5426"></script>
+    <script
+      type="text/javascript"
+      src="https://www.bugherd.com/sidebarv2.js?apikey=a86gfc12ygbj7iljjv9wnq"
+      async="true"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js?r=5426"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js?r=5426"
+    ></script>
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
