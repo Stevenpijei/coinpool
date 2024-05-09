@@ -37,7 +37,7 @@
   height: auto;
 }
 
-  .story-carousel__item__image:first-child img {
+  .story-carousel__item:first-child .story-carousel__item__image img {
     width: 70%;
   }
 
