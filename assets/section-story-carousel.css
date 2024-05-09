@@ -27,10 +27,14 @@
 }
 
 .story-carousel__item__image {
-  width: 55%;
+  width: 60%;
   height: 100%;
   display: flex;
   justify-content: flex-end;
+}
+
+.story-carousel__item__content {
+  width: 40%;
 }
 
 .story-carousel__item__image img {
@@ -43,10 +47,6 @@
   .story-carousel__item:first-child .story-carousel__item__image img {
     width: 70%;
   }
-
-.story-carousel__item__content {
-  width: 45%;
-}
 
 .story-carousel__item__content .inner {
   padding: 0 2rem;
