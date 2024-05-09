@@ -20,6 +20,7 @@
 .story-carousel__item {
   position: relative;
   width: 50vw;
+  height: 80vh;
   display: flex;
   align-items: flex-end;
   flex-wrap: wrap;
@@ -27,6 +28,7 @@
 
 .story-carousel__item__image {
   width: 55%;
+  height: 100%;
   display: flex;
   justify-content: flex-end;
 }
@@ -34,7 +36,8 @@
 .story-carousel__item__image img {
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
 }
 
   .story-carousel__item:first-child .story-carousel__item__image img {
