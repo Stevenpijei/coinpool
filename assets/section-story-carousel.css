@@ -45,9 +45,9 @@
 }
 
   .story-carousel__item:first-child .story-carousel__item__image img {
-    width: 70%;
+    width: 65%;
   }
 
 .story-carousel__item__content .inner {
-  padding: 0 2rem;
+  padding: 0 3rem;
 }
