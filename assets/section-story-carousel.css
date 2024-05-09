@@ -43,10 +43,11 @@
 
 .story-carousel__item__content .inner h4 {
  font-size: 1.3rem;
+ font-family: var(--font-body-family);
 }
 
 .story-carousel__item__content .inner h3 {
-
+  font-family: var(--font-body-family);
 }
 
 .story-carousel__item__content .inner p {
