@@ -22,13 +22,18 @@
   width: 50vw;
   height: 100vh;
   display: flex;
+  align-items: baseline;
   flex-wrap: wrap;
 }
 
 .story-carousel__item__image {
-  width: 70%;
+  width: 60%;
 }
 
 .story-carousel__item__content {
-  width: 30%;
+  width: 40%;
+}
+
+.story-carousel__item__content .inner {
+  padding: 0 2rem;
 }
