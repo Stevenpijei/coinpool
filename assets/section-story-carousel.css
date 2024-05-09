@@ -27,6 +27,8 @@
 
 .story-carousel__item__image {
   width: 60%;
+  display: flex;
+  align-items: flex-end;
 }
 
 .story-carousel__item__image img {
