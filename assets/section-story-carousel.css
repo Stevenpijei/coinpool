@@ -6,7 +6,7 @@
 
 .story-carousel__title {
   position: absolute;
-  top: 0;
+  top: 20px;
   left: 40px;
   z-index: 10;
   margin: 0;
