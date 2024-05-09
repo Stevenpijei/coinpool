@@ -17,3 +17,7 @@
   height: 100vh;
   display: flex;
 }
+
+.story-carousel__item__image {
+  width: 70%;
+}
