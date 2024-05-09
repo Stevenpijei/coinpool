@@ -6,7 +6,7 @@
   margin: 0 0 20px;
 }
 .vacations-grid:after {
-  content: 'flickity';
+  content: "flickity";
   display: none; /* hide :after */
 }
 .vacations-grid-item {
@@ -26,11 +26,11 @@
   transform: translate(-50%, -50%);
 }
 .vacations-grid-item-title {
-  margin: 0 0 20px;
+  margin: 0;
   color: #fff;
 }
 .vacations-grid-item-text {
-  margin: 20px 0 0;
+  margin: 5px 0 0 0;
   font: 600 10px/1.5 var(--font-heading-family);
   letter-spacing: 1px;
 }
@@ -39,14 +39,14 @@
     font: 400 18px/1.5 var(--font-body-family);
     text-align: left;
   }
-  .vacations .flickity-page-dots  {
+  .vacations .flickity-page-dots {
     bottom: -35px;
   }
   .vacations .flickity-page-dots .dot {
-    background-color: #FFCC8B;
+    background-color: #ffcc8b;
   }
   .vacations .flickity-page-dots .dot::after {
-    border-color: #FFCC8B;
+    border-color: #ffcc8b;
   }
 }
 @media only screen and (min-width: 769px) {
@@ -59,16 +59,16 @@
   .vacations-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    grid-gap: 20px;
+    grid-gap: 16px;
   }
   .vacations-grid:after {
-    content: '';
+    content: "";
   }
   .vacations-grid-item {
-    border: 10px solid #4f98d2;
+    border: 6px solid #4f98d2;
     transform: none !important;
   }
   .vacations-grid-item-text {
-    font-size: 16px;
+    font-size: 1.3rem;
   }
 }

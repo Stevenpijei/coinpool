@@ -1,130 +1,85 @@
-{{ 'section-story-carousel.css' |  asset_url |  stylesheet_tag }}
+{{ 'section-story-carousel.css' | asset_url | stylesheet_tag }}
 
 <div class="story-carousel{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-    {%- if section.settings.title -%}
-        <h2 class="story-carousel__title t-h2">{{ section.settings.title }}</h2>
-    {%- endif -%}
-    <div class="story-carousel__carousel">
-        <div class="story-carousel__carousel__container">
-            {% for block in section.blocks %}
-                <div class="story-carousel__item">
-                    {%- if block.settings.image -%}
-                        <div class="story-carousel__item__image bg-cover">
-                            <img src="{{ block.settings.image | img_url: '530x605' }}" alt="">
-                        </div>
-                    {%- endif -%}
-                    <div class="story-carousel__item__content">
-                        {{ block.settings.content }}
-                        {% if section.settings.button_link and section.settings.button_text %}
-                            <a href="{{ section.settings.button_link }}" class="btn btn--primary">{{ section.settings.button_text }}</a>
-                        {% endif %}
-                    </div>
-                </div>
-            {% endfor %}
+  {%- if section.settings.title -%}
+    <h2 class="story-carousel__title t-h2">{{ section.settings.title }}</h2>
+  {%- endif -%}
+  <div class="story-carousel__carousel">
+    <div class="story-carousel__carousel__container">
+      {% for block in section.blocks %}
+        <div class="story-carousel__item">
+          {%- if block.settings.image -%}
+            <div class="story-carousel__item__image bg-cover">
+              <img src="{{ block.settings.image | img_url: '530x605' }}" alt="">
+            </div>
+          {%- endif -%}
+          <div class="story-carousel__item__content">
+            {{ block.settings.content }}
+            {% if section.settings.button_link and section.settings.button_text %}
+              <a href="{{ section.settings.button_link }}" class="btn btn--primary">
+                {{- section.settings.button_text -}}
+              </a>
+            {% endif %}
+          </div>
         </div>
+      {% endfor %}
     </div>
+  </div>
 </div>
 
-<script>
-    $(document).ready(function() {
-        $('.story-carousel__carousel__container').slick({
-            slidesToShow: 1.2,
-            slidesToScroll: 1,
-            arrows: true,
-            infinite: false,
-        });
-    })
-    // gsap.registerPlugin(ScrollTrigger);
-
-    // window.onload = function () {
-    //     const container = document.querySelector(".story-carousel__carousel__container");
-
-    //     gsap.to(".story-carousel__item", {
-    //         x: () => -(container.scrollWidth - document.documentElement.clientWidth) + "px", // The amount to scroll horizontally
-    //         ease: "none",
-    //         scrollTrigger: {
-    //             trigger: '.story-carousel-section',
-    //             scrub: 1, // Smooth scrolling
-    //             pin: '.story-carousel-section',
-    //             start: 'center center',
-    //             end: () => "+=" + container.scrollWidth, // The point at which to end the scrolling
-    //             invalidateOnRefresh: true, // Refresh the ScrollTrigger when the window resizes
-    //         },
-    //     });
-    // }
-    // function moveImagePrev() {
-    //     const container = document.querySelector(".story-carousel__carousel__container");
-    //     const distanceToMove = document.querySelector('.story-carousel__item').offsetWidth; // Define the distance to move the image
-
-    //     gsap.to(".story-carousel__item", {
-    //         x: "+=" + distanceToMove, // Move the image left by the specified distance
-    //         ease: "power2.out", // Use a specific easing function if needed
-    //         end: () => "+=" + container.scrollWidth, // The point at which to end the scrolling
-    //     });
-    // }
-    // function moveImageNext() {
-    //     const container = document.querySelector(".story-carousel__carousel__container");
-    //     const distanceToMove = document.querySelector('.story-carousel__item').offsetWidth; // Define the distance to move the image
-
-    //     gsap.to(".story-carousel__item", {
-    //         x: "-=" + distanceToMove, // Move the image left by the specified distance
-    //         ease: "power2.out", // Use a specific easing function if needed
-    //         end: () => "+=" + container.scrollWidth, // The point at which to end the scrolling
-    //     });
-    // }
-</script>
+<script></script>
 
 {% schema %}
 {
-    "name": "Story Carousel",
-    "tag": "section",
-    "class": "story-carousel-section",
-    "settings": [
+  "name": "Story Carousel",
+  "tag": "section",
+  "class": "story-carousel-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Our Story"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text",
+      "default": "Find Out More"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "story",
+      "name": "Story",
+      "settings": [
         {
-            "type": "text",
-            "id": "title",
-            "label": "Title",
-            "default": "Our Story"
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
         },
         {
-            "type": "text",
-            "id": "button_text",
-            "label": "Button Text",
-            "default": "Find Out More"
-        },
-        {
-            "type": "url",
-            "id": "button_link",
-            "label": "Button Link"
+          "type": "richtext",
+          "id": "content",
+          "label": "content"
         }
-    ],
-    "blocks": [
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Story Carousel",
+      "blocks": [
         {
-            "type": "story",
-            "name": "Story",
-            "settings": [
-                {
-                    "type": "image_picker",
-                    "id": "image",
-                    "label": "Image"
-                },
-                {
-                    "type": "richtext",
-                    "id": "content",
-                    "label": "content"
-                }
-            ]
+          "type": "story"
         }
-    ],
-    "presets": [
-        {
-            "name": "Story Carousel",
-            "blocks": [
-                {
-                    "type": "story"
-                }
-            ]
-        }
-    ]
+      ]
+    }
+  ]
 }
 {% endschema %}

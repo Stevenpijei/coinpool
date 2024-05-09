@@ -1,75 +1,18 @@
 .story-carousel {
   position: relative;
   padding: 20px 20px 60px;
-  background-color: #FFCC8B;
+  background-color: #ffcc8b;
 }
 
-.story-carousel__carousel__container .slick-next::before {
-  position: absolute;
-  content: '' !important;
-  top: 50%;
-  left: 0;
-  width: 8px;
-  height: 8px;
-  border: 1px solid;
-  border-color: black black transparent transparent;
-  transform: rotate(45deg);
-  opacity: 1;
+.story-carousel__title {
 }
-.story-carousel__carousel__container .slick-next::after {
-  position: absolute;
-  content: '' !important;
-  top: 50%;
-  left: 6px;
-  width: 8px;
-  height: 8px;
-  border: 1px solid;
-  border-color: black black transparent transparent;
-  transform: rotate(45deg);
-  opacity: 1;
+
+.story-carousel__carousel__container {
+  position: relative;
 }
 
 .story-carousel__item {
-  width: calc(100vw - 9.5rem);
-  flex: 0 0 auto;
-  scroll-snap-align: start;
-}
-.story-carousel__title {
-  margin-top: 0;
-  margin-bottom: 10px;
-}
-.story-carousel__item__content h4 {
-  margin-top: 0;
-  margin-bottom: 12px;
-  font: 400 24px/1 var(--font-heading-family);
-}
-.story-carousel__item__content h3 {
-  margin-top: 0;
-  margin-bottom: 10px;
-  font: 400 18px/20px var(--font-body-family);
-}
-.story-carousel__item__content p {
-  font: 400 15px/17px var(--font-heading-family);
-}
-@media only screen and (max-width: 768px) {
-  .story-carousel .flickity-viewport {
-    overflow: visible;
-  }
-  .story-carousel .flickity-page-dots {
-    bottom: -35px;
-  }
-  .story-carousel__item {
-    padding-right: 40px;
-    flex-shrink: 0;
-  }
-  .story-carousel__item__image {
-    margin-bottom: 27px;
-    height: 260px; 
-  }
-  .story-carousel__item__content h4 {
-    display: none;
-  }
-  .story-carousel__item__content .btn {
-    display: none;
-  }
+  position: relative;
+  width: 50vw;
+  height: 100vh;
 }
