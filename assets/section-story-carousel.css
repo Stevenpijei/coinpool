@@ -22,7 +22,7 @@
   width: 50vw;
   height: 100vh;
   display: flex;
-  align-items: baseline;
+  align-items: flex-end;
   flex-wrap: wrap;
 }
 
