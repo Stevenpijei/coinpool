@@ -30,6 +30,12 @@
   width: 60%;
 }
 
+.story-carousel__item__image img {
+  display: block;
+  height: 100%;
+  width: auto;
+}
+
 .story-carousel__item__content {
   width: 40%;
 }
