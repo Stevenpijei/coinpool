@@ -7,7 +7,8 @@
 .story-carousel__title {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 40px;
+  z-index: 10;
 }
 
 .story-carousel__carousel__container {
