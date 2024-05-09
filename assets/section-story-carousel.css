@@ -5,6 +5,9 @@
 }
 
 .story-carousel__title {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .story-carousel__carousel__container {
@@ -16,6 +19,7 @@
   width: 50vw;
   height: 100vh;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .story-carousel__item__image {
