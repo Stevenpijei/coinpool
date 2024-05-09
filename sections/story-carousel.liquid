@@ -14,12 +14,14 @@
             </div>
           {%- endif -%}
           <div class="story-carousel__item__content">
-            {{ block.settings.content }}
-            {% if section.settings.button_link and section.settings.button_text %}
-              <a href="{{ section.settings.button_link }}" class="btn btn--primary">
-                {{- section.settings.button_text -}}
-              </a>
-            {% endif %}
+            <div class="inner">
+              {{ block.settings.content }}
+              {% if section.settings.button_link and section.settings.button_text %}
+                <a href="{{ section.settings.button_link }}" class="btn btn--primary">
+                  {{- section.settings.button_text -}}
+                </a>
+              {% endif %}
+            </div>
           </div>
         </div>
       {% endfor %}
