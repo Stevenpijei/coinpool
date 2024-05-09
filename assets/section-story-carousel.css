@@ -25,3 +25,7 @@
 .story-carousel__item__image {
   width: 70%;
 }
+
+.story-carousel__item__content {
+  width: 30%;
+}
