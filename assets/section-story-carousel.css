@@ -9,6 +9,8 @@
   top: 0;
   left: 40px;
   z-index: 10;
+  margin: 0;
+  font-size: 2rem;
 }
 
 .story-carousel__carousel__container {
