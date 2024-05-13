@@ -51,7 +51,9 @@
   padding: 0;
 }
 
-.grid-hover__info grid-hover__item-content {
+.grid-hover__info .grid-hover__item-content {
+  max-width: 200px;
+  margin: 0 auto;
   opacity: 0;
   transform: translateY(2rem);
   transition: opacity .3s, transform .3s;
@@ -61,7 +63,7 @@
   opacity: 1;
 }
 
-.grid-hover__item:hover grid-hover__item-content {
+.grid-hover__item:hover .grid-hover__item-content {
   opacity: 1;
   transform: translateY(0);
 }
