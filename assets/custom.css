@@ -306,8 +306,8 @@ body {
 }
 @media screen and (min-width: 769px) {
   .main-page-content {
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 1.3rem;
+    line-height: 1.5;
   }
 }
 
