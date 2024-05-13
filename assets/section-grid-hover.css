@@ -57,10 +57,12 @@
 }
 
 .grid-hover__info .grid-hover__item-content {
+  position: absolute;
+  left: 50%;
   max-width: 400px;
   margin: 0 auto;
   opacity: 0;
-  transform: translateY(2rem);
+  transform: translateX(-50%) translateY(2rem);
   transition: opacity .3s, transform .3s;
 }
 
