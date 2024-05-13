@@ -16,6 +16,34 @@
         "style": "style1"
       }
     },
+    "grid_hover_XjDDzB": {
+      "type": "grid-hover",
+      "blocks": {
+        "impact_g7ad8p": {
+          "type": "impact",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-mark-stebnicki-13924868_2.png",
+            "title": "Fairtrade",
+            "content": "<p>This is the text that will be revealed on hover.<\/p>"
+          }
+        },
+        "impact_FPUQUF": {
+          "type": "impact",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/12-pinksandswrinkledetail.jpg",
+            "title": "Our Fabric",
+            "content": "<p>Grown without chemicals or pesticides, Absorb Island organic cotton is ethically and sustainably farmed. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "impact_g7ad8p",
+        "impact_FPUQUF"
+      ],
+      "settings": {
+        "title": "Impact Grid"
+      }
+    },
     "59db039f-40fe-4b24-ba34-705571e24221": {
       "type": "our-impact",
       "blocks": {
@@ -58,6 +86,7 @@
         "0cc3984e-0e47-46d1-bd27-5c4a3b0b8103",
         "487670e9-0e4b-48d0-a2bc-01e84473806a"
       ],
+      "disabled": true,
       "settings": {
         "title": "Our Impact",
         "content": "<p>From our fabric to our packaging, we choose sustainable solutions that promote a healthier planet. <\/p>"
@@ -94,34 +123,15 @@
         "button_url": "shopify:\/\/pages\/vacations",
         "button_text": "Find Out More"
       }
-    },
-    "grid_hover_XjDDzB": {
-      "type": "grid-hover",
-      "blocks": {
-        "impact_g7ad8p": {
-          "type": "impact",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-mark-stebnicki-13924868_2.png",
-            "title": "Fairtrade",
-            "content": "<p>This is the text that will be revealed on hover.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "impact_g7ad8p"
-      ],
-      "settings": {
-        "title": "Impact Grid"
-      }
     }
   },
   "order": [
     "main",
     "73414ec2-ccb8-4290-8c04-409262771225",
+    "grid_hover_XjDDzB",
     "59db039f-40fe-4b24-ba34-705571e24221",
     "5e499474-444d-4760-a7e9-5b591382d305",
     "5cdc3e8b-83e7-47af-80a6-963f3b0e0d7f",
-    "68055b5d-2761-4257-8e25-3b94de2d35d2",
-    "grid_hover_XjDDzB"
+    "68055b5d-2761-4257-8e25-3b94de2d35d2"
   ]
 }
