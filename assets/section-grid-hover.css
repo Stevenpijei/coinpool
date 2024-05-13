@@ -27,13 +27,6 @@
   transition: opacity .3s;
 }
 
-.grid-hover__item img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 .grid-hover__item-heading {
   position: absolute;
   color: #fff;
