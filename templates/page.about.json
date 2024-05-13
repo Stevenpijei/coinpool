@@ -20,7 +20,7 @@
       "type": "grid-hover",
       "blocks": {
         "impact_g7ad8p": {
-          "type": "impact",
+          "type": "cell",
           "settings": {
             "image": "shopify:\/\/shop_images\/pexels-mark-stebnicki-13924868_2.png",
             "title": "Fairtrade",
@@ -28,7 +28,7 @@
           }
         },
         "impact_FPUQUF": {
-          "type": "impact",
+          "type": "cell",
           "settings": {
             "image": "shopify:\/\/shop_images\/12-pinksandswrinkledetail.jpg",
             "title": "Our Fabric",
