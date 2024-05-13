@@ -10,4 +10,16 @@
 
 .grid-hover__item {
   aspect-ratio: 1;
+  position: relative;
+}
+
+.grid-hover__item-heading {
+  position: absolute;
+  color: #fff;
+  top: 50%;
+  left: 5%;
+  width: 90%;
+  text-align: center;
+  transform: translateY(-50%);
+  z-index: 10;
 }
