@@ -49,10 +49,10 @@
   .content-image {
     margin: 70px 0;
   }
-  .content-image .page-width {
+  .content-image__grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    grid-gap: 50px;
+    grid-gap: 0;
   }
   .content-image--icon .page-width {
     grid-gap: 0;
