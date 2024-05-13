@@ -13,6 +13,10 @@
 .grid-hover__item {
   aspect-ratio: 16/9;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .grid-hover__item img {
@@ -36,14 +40,9 @@
   transition: opacity .3s;
 }
 
-.grid-hover__item-heading {
-  position: absolute;
+.grid-hover__info {
   color: #fff;
-  top: 50%;
-  left: 5%;
-  width: 90%;
   text-align: center;
-  transform: translateY(-50%);
   z-index: 10;
 }
 
