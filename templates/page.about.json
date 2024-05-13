@@ -94,6 +94,25 @@
         "button_url": "shopify:\/\/pages\/vacations",
         "button_text": "Find Out More"
       }
+    },
+    "grid_hover_XjDDzB": {
+      "type": "grid-hover",
+      "blocks": {
+        "impact_g7ad8p": {
+          "type": "impact",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-mark-stebnicki-13924868_2.png",
+            "title": "Fairtrade",
+            "content": "<p>This is the text that will be revealed on hover.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "impact_g7ad8p"
+      ],
+      "settings": {
+        "title": "Impact Grid"
+      }
     }
   },
   "order": [
@@ -102,6 +121,7 @@
     "59db039f-40fe-4b24-ba34-705571e24221",
     "5e499474-444d-4760-a7e9-5b591382d305",
     "5cdc3e8b-83e7-47af-80a6-963f3b0e0d7f",
-    "68055b5d-2761-4257-8e25-3b94de2d35d2"
+    "68055b5d-2761-4257-8e25-3b94de2d35d2",
+    "grid_hover_XjDDzB"
   ]
 }
