@@ -15,6 +15,12 @@
   position: relative;
 }
 
+.grid-hover__item img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
 .grid-hover__item::after {
   content: '';
   position: absolute;
