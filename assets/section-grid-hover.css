@@ -44,6 +44,11 @@
   color: #fff;
   text-align: center;
   z-index: 10;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 5%;
+  width: 90%;
 }
 
 .grid-hover__info p {
@@ -52,7 +57,7 @@
 }
 
 .grid-hover__info .grid-hover__item-content {
-  max-width: 300px;
+  max-width: 400px;
   margin: 0 auto;
   opacity: 0;
   transform: translateY(2rem);
