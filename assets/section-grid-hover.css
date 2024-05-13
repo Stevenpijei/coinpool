@@ -1,6 +1,9 @@
 .grid-hover {
   margin: 20px 0;
   text-align: center;
-  display: grid;
+}
+
+.grid-hover__grid {
+    display: grid;
   grid-template-columns: 1fr 1fr;
 }
