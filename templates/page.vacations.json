@@ -23,6 +23,14 @@
         "background_color": "#499cd4"
       }
     },
+    "fullwidth_with_text_3qHha6": {
+      "type": "fullwidth-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Photo_Oct_09_2023_2_56_57_AM_1.png",
+        "title": "Chickens are wild in O'ahu",
+        "credit": "<p>O'ahu's wild chickens: colorful, free-roaming descendants of Polynesian settlers.<\/p>"
+      }
+    },
     "slideshow_nGec9E": {
       "type": "slideshow",
       "blocks": {
@@ -102,24 +110,16 @@
         "content": "<p>“I love taking my hoodie to the beach, it’s perfect to throw on after a swim”<\/p>",
         "style": "style1"
       }
-    },
-    "fullwidth_with_text_3qHha6": {
-      "type": "fullwidth-with-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Photo_Oct_09_2023_2_56_57_AM_1.png",
-        "title": "Chickens are wild in O'ahu",
-        "credit": "<p>O'ahu's wild chickens: colorful, free-roaming descendants of Polynesian settlers.<\/p>"
-      }
     }
   },
   "order": [
     "main",
     "06051196-ec60-4c3e-80c8-cd11540bf408",
+    "fullwidth_with_text_3qHha6",
     "slideshow_nGec9E",
     "a917db30-b99f-4d0e-8859-f0a3a602ea19",
     "16484650-dda8-4061-bd6c-b27a45673918",
     "image_image_y4XDGx",
-    "general_content_qg4bGw",
-    "fullwidth_with_text_3qHha6"
+    "general_content_qg4bGw"
   ]
 }
