@@ -5,3 +5,7 @@
   width: 100%;
   margin: 0 auto;
 }
+
+.image-image__image {
+  aspect-ratio: 16/9;
+}
