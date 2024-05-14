@@ -66,6 +66,10 @@
     width: 70%;
   }
 
+  .content-image--narrow .content-image__inner {
+    max-width: unset;
+  }
+
   .content-image--narrow .content-image__grid {
     grid-template-columns: 60% 40%;
     column-gap: 2rem;
