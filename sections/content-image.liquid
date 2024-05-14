@@ -4,6 +4,11 @@
     <div class="content-image__grid">
         <div class="content-image__image bg-cover{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
             <img src="{{ section.settings.image | img_url: '925x645' }}" alt="">
+            {% if section.settings.credit %}
+              <div class="content-image__credit">
+                {{ section.settings.image_credit }}
+              </div>
+            {% endif %}
         </div>
         <div class="content-image__content align_{{ section.settings.text_alignment }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
             {% if section.settings.background_color %}style="background-color: {{ section.settings.background_color }}"{% endif %}>
@@ -12,6 +17,9 @@
                     <div class="content-image__icon">
                         <img src="{{ section.settings.icon | img_url: '61x61' }}" alt="">
                     </div>
+                {% endif %}
+                {% if section.settings.subheading %}
+                  <h2 class="general-content__heading t-h6 scroll-trigger animate--slide-in">{{ section.settings.subheading }}</h2>
                 {% endif %}
                 <h2 class="content-image__title t-h3">{{ section.settings.title }}</h2>
                 <div class="content-image__copy">
