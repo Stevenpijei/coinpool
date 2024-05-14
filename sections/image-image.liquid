@@ -2,10 +2,10 @@
 
 <div class="image-image">
       <div class="image-image__image bg-cover{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-          <img src="{{ section.settings.image1 | img_url: '925x645' }}" alt="">
+          <img src="{{ section.settings.image1 | image_url: width: '1200'}}" alt="">
       </div>
       <div class="image-image__image bg-cover{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-          <img src="{{ section.settings.image2 | img_url: '925x645' }}" alt="">
+          <img src="{{ section.settings.image2 | image_url: width: '1200'}}" alt="">
       </div>
 </div>
 
