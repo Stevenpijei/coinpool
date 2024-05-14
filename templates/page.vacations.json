@@ -23,6 +23,14 @@
         "background_color": "#499cd4"
       }
     },
+    "centered_media_f6hNYy": {
+      "type": "centered-media",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/fbf6719e71fbdfcc61a5f81efdc8e4e6.jpg",
+        "credit": "<p>The Sunrise Shack | 2335 Kalakaua Ave, Honolulu, HI 96815, United States<\/p>",
+        "details": "<h3>The Sunrise Shack<\/h3><p>The Sunrise Shack...<\/p>"
+      }
+    },
     "fullwidth_with_text_3qHha6": {
       "type": "fullwidth-with-text",
       "settings": {
@@ -115,6 +123,7 @@
   "order": [
     "main",
     "06051196-ec60-4c3e-80c8-cd11540bf408",
+    "centered_media_f6hNYy",
     "fullwidth_with_text_3qHha6",
     "slideshow_nGec9E",
     "a917db30-b99f-4d0e-8859-f0a3a602ea19",
