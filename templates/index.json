@@ -36,7 +36,8 @@
       "settings": {
         "title": "A NEW WAY TO DRY",
         "content": "<p>Join our <em>After-Water Wear<\/em> revolution. <\/p><p>We are on \u2028a mission to <em>change <\/em>the way people dry around the pool, ocean, lake or gym. <\/p>",
-        "style": "style1"
+        "style": "style1",
+        "vertical_padding": "small"
       }
     },
     "featured_collection": {
@@ -122,7 +123,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/hawai.png",
             "title": "O’ahu, Hawai",
-            "content": "BREATH IN AND EXPLORE"
+            "content": "BREATH IN AND EXPLORE",
+            "url": "shopify:\/\/pages\/vacations"
           }
         },
         "7d3cb9a1-012d-477f-9a32-280d7c83e3d9": {
@@ -130,7 +132,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/malibu.png",
             "title": "Century Lake, Malibu",
-            "content": "COMING SOON"
+            "content": "COMING SOON",
+            "url": ""
           }
         }
       },
@@ -148,10 +151,13 @@
       "settings": {
         "type": "general",
         "image": "shopify:\/\/shop_images\/Photo_Oct_08_2023_11_45_42_PM.jpg",
+        "image_credit": "",
         "icon": "shopify:\/\/shop_images\/Group.svg",
+        "subheading": "",
         "title": "O'ahu, Hawai",
         "content": "<h5>BREATH IN AND EXPLORE<\/h5><p><\/p>",
         "alignment": "right",
+        "text_alignment": "top",
         "background_color": "#1773b0"
       }
     },
@@ -160,7 +166,8 @@
       "settings": {
         "title": "",
         "content": "",
-        "style": "style1"
+        "style": "style1",
+        "vertical_padding": "small"
       }
     },
     "home_banner_g7PYXh": {
