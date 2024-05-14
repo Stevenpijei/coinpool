@@ -4,20 +4,22 @@
     <div class="centered-media_cell">
       <img src="{{ section.settings.image | image_url: width: 1920 }}" alt="">
 
-            <div class="fullwidth-text__credit">
+      <div class="fullwidth-text__credit">
         {{ section.settings.credit }}
       </div>
 
-      <h2 class="fullwidth-text__title t-h3">{{ section.settings.title }}</h2>
+      <div class="centered-media__details">
+      {{ section.settings.title }}
+      </div>
 
     </div>
 </div>
 
 {% schema %}
 {
-    "name": "Fullwidth with Text",
+    "name": "Centered Media",
     "tag": "section",
-    "class": "section-fullwidth-text",
+    "class": "section-centered-media",
     "settings": [
         {
             "type": "image_picker",
@@ -25,19 +27,19 @@
             "label": "Image"
         },
         {
-            "type": "text",
-            "id": "title",
-            "label": "Title"
-        },
-        {
             "type": "richtext",
             "id": "credit",
             "label": "Credit"
+        },
+        {
+            "type": "richtext",
+            "id": "details",
+            "label": "Details"
         }
     ],
     "presets": [
         {
-            "name": "Fullwidth with Text"
+            "name": "Centered Media"
         }
     ]
 }
