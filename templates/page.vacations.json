@@ -34,7 +34,7 @@
     "content_image_cWcRkN": {
       "type": "content-image",
       "settings": {
-        "type": "centered",
+        "type": "narrow",
         "image": "shopify:\/\/shop_images\/Photo_Oct_10_2023_3_38_55_PM.jpg",
         "title": "The Title",
         "content": "<p>The Text.<\/p>",
