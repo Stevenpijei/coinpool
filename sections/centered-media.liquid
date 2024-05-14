@@ -1,6 +1,44 @@
+{{ 'section-centered-media.css' |  asset_url |  stylesheet_tag }}
+
+<div class="centered-media">
+    <div class="centered-media_cell">
+      <img src="{{ section.settings.image | image_url: width: 1920 }}" alt="">
+
+            <div class="fullwidth-text__credit">
+        {{ section.settings.credit }}
+      </div>
+
+      <h2 class="fullwidth-text__title t-h3">{{ section.settings.title }}</h2>
+
+    </div>
+</div>
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+    "name": "Fullwidth with Text",
+    "tag": "section",
+    "class": "section-fullwidth-text",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+        },
+        {
+            "type": "richtext",
+            "id": "credit",
+            "label": "Credit"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Fullwidth with Text"
+        }
+    ]
+}
 {% endschema %}
