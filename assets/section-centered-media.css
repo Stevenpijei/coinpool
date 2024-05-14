@@ -33,6 +33,8 @@
   margin: 30px auto;
   font-size: 2rem;
   text-align: center;
+  width: 80%;
+  max-width: 450px;
 }
 
 .centered-media__details h1, .centered-media__details h2, .centered-media__details h3 {
@@ -45,7 +47,7 @@
 }
 
 .centered-media__details p {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     line-height: 1.4;
     font-family: var(--font-heading-family);
 }
