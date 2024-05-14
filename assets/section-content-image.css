@@ -2,6 +2,10 @@
   margin: 20px 0;
 }
 
+.content-image .content-image__image img, .content-image .content-image__image video {
+  border-radius: 5px;
+}
+
 .content-image__credit {
   margin-left: 5px;
   margin-top: 20px;
