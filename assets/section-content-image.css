@@ -62,7 +62,7 @@
 
   /* NARROW LAYOUT OVERRIDES */
   .content-image--narrow {
-    margin: 0 auto;
+    margin: 0 auto 10% auto;
     width: 70%;
   }
 
