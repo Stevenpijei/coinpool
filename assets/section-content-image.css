@@ -76,6 +76,8 @@
 
   .content-image--centered .content-image__inner {
     max-width: unset;
+    margin-left: 0;
+    margin-right: auto;
   }
 
   .content-image--centered .content-image__grid {
@@ -88,7 +90,6 @@
   }
 
   .content-image--centered .content-image__content.align_center h3 {
-    font-family: var(--font-body-family);
     text-align: left;
     max-width: 400px;
   }
