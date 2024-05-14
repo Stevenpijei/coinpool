@@ -64,6 +64,10 @@
     margin: 0 auto;
     width: 70%;
   }
+
+  .content-image--narrow .content-image__content p {
+    font-size: 1.8rem;
+  }
   
   .content-image__grid {
     display: grid;
