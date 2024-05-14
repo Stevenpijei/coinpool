@@ -70,7 +70,7 @@
 
   /* CENTERED LAYOUT OVERRIDES */
   .content-image--centered {
-    margin: 0 10%;
+    margin: 10% auto;
     width: 80%;
   }
 
@@ -82,7 +82,7 @@
 
   .content-image--centered .content-image__grid {
     grid-template-columns: 40% 1fr;
-    column-gap: 10rem;
+    column-gap: 14rem;
   }
 
   .content-image--centered .content-image__image {
