@@ -28,6 +28,8 @@
 }
 
 .fullwidth-text__credit {
-  margin-left: 10%;
+  margin-left: 5%;
   margin-top: 20px;
+  font-family: var(--font-heading-family);
+  opacity: .5;
 }
