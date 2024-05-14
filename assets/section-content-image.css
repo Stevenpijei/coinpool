@@ -2,7 +2,7 @@
   margin: 20px 0;
 }
 
-.content-image .content-image__image img, .content-image .content-image__image video {
+.content-image__image img, .content-image__image video {
   border-radius: 5px;
 }
 
