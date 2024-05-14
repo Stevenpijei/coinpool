@@ -50,4 +50,5 @@
     font-size: 2.2rem;
     line-height: 1.4;
     font-family: var(--font-heading-family);
+    text-align: left;
 }
