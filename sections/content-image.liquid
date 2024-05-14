@@ -5,7 +5,7 @@
         <div class="content-image__image bg-cover{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
             <img src="{{ section.settings.image | img_url: '925x645' }}" alt="">
         </div>
-        <div class="content-image__content{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+        <div class="content-image__content align_{{ section.settings.text_alignment }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
             {% if section.settings.background_color %}style="background-color: {{ section.settings.background_color }}"{% endif %}>
             <div class="content-image__inner">
                 {% if section.settings.icon %}
