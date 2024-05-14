@@ -2,6 +2,14 @@
   margin: 20px 0;
 }
 
+.content-image__credit {
+  margin-left: 5px;
+  margin-top: 20px;
+  font-family: var(--font-heading-family);
+  opacity: .5;
+  font-size: 1.3rem;
+}
+
 .content-image.content-image--icon {
   margin: 0;
 }
