@@ -68,9 +68,29 @@
     margin: 0 40px;
   }
 
+  /* CENTERED LAYOUT OVERRIDES */
   .content-image--centered {
     margin: 0 auto;
     width: 80%;
+  }
+
+  .content-image--centered .content-image__inner {
+    max-width: unset;
+  }
+
+  .content-image--centered .content-image__grid {
+    grid-template-columns: 53% 1fr;
+    column-gap: 7rem;
+  }
+
+  .content-image--centered .content-image__image {
+    min-height: 500px;
+  }
+
+  .content-image--centered .content-image__content.align_center p {
+    font-size: 1.8rem;
+    line-height: 1.6;
+    text-align: left;
   }
 
   /* NARROW LAYOUT OVERRIDES */
