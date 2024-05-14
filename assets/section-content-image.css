@@ -87,10 +87,17 @@
     min-height: 500px;
   }
 
+  .content-image--centered .content-image__content.align_center h3 {
+    font-family: var(--font-body-family);
+    text-align: left;
+    max-width: 400px;
+  }
+
   .content-image--centered .content-image__content.align_center p {
     font-size: 1.8rem;
     line-height: 1.6;
     text-align: left;
+    max-width: 400px;
   }
 
   /* NARROW LAYOUT OVERRIDES */
