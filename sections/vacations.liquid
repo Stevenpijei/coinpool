@@ -18,6 +18,9 @@
                             {{ block.settings.content }}
                         </div>
                     </div>
+                   {%  if section.settings.url %}
+                      <a href={{ section.settings.url }}></a>
+                    {% endif %}
                 </div>
             {%- endfor -%}
         </div>
