@@ -90,7 +90,7 @@
   }
 
   .content-image--centered .content-image__content.align_center h2 {
-    font-family: var(--font-family-body);
+    font-family: var(--font-body-family);
     font-size: 3rem;
     line-height: 1.2;
     text-align: left;
