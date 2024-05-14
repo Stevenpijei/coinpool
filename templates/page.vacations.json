@@ -55,6 +55,53 @@
         "credit": "<p>O'ahu's wild chickens: colorful, free-roaming descendants of Polynesian settlers.<\/p>"
       }
     },
+    "a917db30-b99f-4d0e-8859-f0a3a602ea19": {
+      "type": "content-image",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "type": "centered",
+        "image": "shopify:\/\/shop_images\/Photo_Oct_09_2023_4_27_55_PM_1.png",
+        "image_credit": "",
+        "subheading": "HIDDEN BEACH GEMS",
+        "title": "",
+        "content": "<h2>BEST LOCAL STREET FOOD<\/h2><p>\u2028Sunrise ShackThe shack was technically born in 2016 on a small plumeria farm in the heart of Oahu’s north shore, but the seed was planted in the hearts of the founders long before then.<\/p><h2>HIDDEN BEACH GEMS<\/h2><p>\u2028Sunrise ShackThe shack was technically born in 2016 on a small plumeria farm in the heart of Oahu’s north shore, but the seed was planted in the hearts of the founders long before then.<\/p><h2>LOCAL CHEAP EATS\u2028<\/h2><p>Poke Bowls at Grocery StoreThe shack was technically born in 2016 on a small plumeria farm in the heart of Oahu’s north shore, but the seed was planted in the hearts of the founders long before then.<\/p>",
+        "alignment": "right",
+        "text_alignment": "center",
+        "background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16484650-dda8-4061-bd6c-b27a45673918": {
+      "type": "content-image",
+      "disabled": true,
+      "settings": {
+        "type": "general",
+        "image": "shopify:\/\/shop_images\/IMG_0010_1_5.png",
+        "image_credit": "",
+        "subheading": "",
+        "title": "Hygienic and Ultra-Durable",
+        "content": "<p>We deeply understand the importance of freshness and durability when it comes to drying off.  Our recycled yarns have built-in SILVADUR™ antimicrobial and anti-odor technology for advanced protection against bacteria that causes smelly towel syndrome. <\/p>",
+        "alignment": "right",
+        "text_alignment": "top",
+        "background_color": ""
+      }
+    },
+    "image_image_y4XDGx": {
+      "type": "image-image",
+      "settings": {
+        "image1": "shopify:\/\/shop_images\/Photo_Oct_11_2023_1_34_59_AM_1.png",
+        "image2": "shopify:\/\/shop_images\/Photo_Oct_10_2023_3_38_55_PM_1.png"
+      }
+    },
+    "general_content_qg4bGw": {
+      "type": "general-content",
+      "settings": {
+        "title": "our model malia says",
+        "content": "<p>“I love taking my hoodie to the beach, it’s perfect to throw on after a swim”<\/p>",
+        "style": "style1"
+      }
+    },
     "slideshow_nGec9E": {
       "type": "slideshow",
       "blocks": {
@@ -91,53 +138,6 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
-    },
-    "a917db30-b99f-4d0e-8859-f0a3a602ea19": {
-      "type": "content-image",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "type": "full",
-        "image": "shopify:\/\/shop_images\/Photo_Oct_09_2023_4_27_55_PM_1.png",
-        "image_credit": "",
-        "subheading": "",
-        "title": "",
-        "content": "<h2>BEST LOCAL STREET FOOD<\/h2><p>\u2028Sunrise ShackThe shack was technically born in 2016 on a small plumeria farm in the heart of Oahu’s north shore, but the seed was planted in the hearts of the founders long before then.<\/p><h2>HIDDEN BEACH GEMS<\/h2><p>\u2028Sunrise ShackThe shack was technically born in 2016 on a small plumeria farm in the heart of Oahu’s north shore, but the seed was planted in the hearts of the founders long before then.<\/p><h2>LOCAL CHEAP EATS\u2028<\/h2><p>Poke Bowls at Grocery StoreThe shack was technically born in 2016 on a small plumeria farm in the heart of Oahu’s north shore, but the seed was planted in the hearts of the founders long before then.<\/p>",
-        "alignment": "right",
-        "text_alignment": "top",
-        "background_color": "rgba(0,0,0,0)"
-      }
-    },
-    "16484650-dda8-4061-bd6c-b27a45673918": {
-      "type": "content-image",
-      "disabled": true,
-      "settings": {
-        "type": "general",
-        "image": "shopify:\/\/shop_images\/IMG_0010_1_5.png",
-        "image_credit": "",
-        "subheading": "",
-        "title": "Hygienic and Ultra-Durable",
-        "content": "<p>We deeply understand the importance of freshness and durability when it comes to drying off.  Our recycled yarns have built-in SILVADUR™ antimicrobial and anti-odor technology for advanced protection against bacteria that causes smelly towel syndrome. <\/p>",
-        "alignment": "right",
-        "text_alignment": "top",
-        "background_color": ""
-      }
-    },
-    "image_image_y4XDGx": {
-      "type": "image-image",
-      "settings": {
-        "image1": "shopify:\/\/shop_images\/Photo_Oct_11_2023_1_34_59_AM_1.png",
-        "image2": "shopify:\/\/shop_images\/Photo_Oct_10_2023_3_38_55_PM_1.png"
-      }
-    },
-    "general_content_qg4bGw": {
-      "type": "general-content",
-      "settings": {
-        "title": "our model malia says",
-        "content": "<p>“I love taking my hoodie to the beach, it’s perfect to throw on after a swim”<\/p>",
-        "style": "style1"
-      }
     }
   },
   "order": [
@@ -146,10 +146,10 @@
     "centered_media_f6hNYy",
     "content_image_cWcRkN",
     "fullwidth_with_text_3qHha6",
-    "slideshow_nGec9E",
     "a917db30-b99f-4d0e-8859-f0a3a602ea19",
     "16484650-dda8-4061-bd6c-b27a45673918",
     "image_image_y4XDGx",
-    "general_content_qg4bGw"
+    "general_content_qg4bGw",
+    "slideshow_nGec9E"
   ]
 }
