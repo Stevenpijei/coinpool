@@ -118,6 +118,18 @@
         "content": "<p>“I love taking my hoodie to the beach, it’s perfect to throw on after a swim”<\/p>",
         "style": "style1"
       }
+    },
+    "content_image_cWcRkN": {
+      "type": "content-image",
+      "settings": {
+        "type": "centered",
+        "image": "shopify:\/\/shop_images\/Photo_Oct_10_2023_3_38_55_PM.jpg",
+        "title": "The Title",
+        "content": "<p>The Text.<\/p>",
+        "alignment": "right",
+        "text_alignment": "top",
+        "background_color": ""
+      }
     }
   },
   "order": [
@@ -129,6 +141,7 @@
     "a917db30-b99f-4d0e-8859-f0a3a602ea19",
     "16484650-dda8-4061-bd6c-b27a45673918",
     "image_image_y4XDGx",
-    "general_content_qg4bGw"
+    "general_content_qg4bGw",
+    "content_image_cWcRkN"
   ]
 }
