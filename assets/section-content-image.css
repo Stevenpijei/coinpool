@@ -81,4 +81,12 @@
     margin: 0 auto;
     max-width: 300px;
   }
+
+  .content-image__content.align_center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
 }
