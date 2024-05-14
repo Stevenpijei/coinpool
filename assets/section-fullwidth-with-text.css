@@ -1,5 +1,26 @@
 .fullwidth-text {
   position: relative;
   width: 100%;
-  border: 1px solid red;
+}
+
+.fullwidth-text__cell {
+  position: relative;
+}
+
+.fullwidth-text__cell img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.fullwidth-text__title {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  width: 80%;
+  max-width: 900px;
+  text-align: center;
+  color: #fff;
+  transform: translate(-50%, -50%);
+  z-index: 10;
 }
