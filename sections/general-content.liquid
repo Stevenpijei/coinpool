@@ -1,6 +1,6 @@
 {{ 'section-general-content.css' |  asset_url |  stylesheet_tag }}
 
-<div class="general-content general-content--{{ section.settings.style }}">
+<div class="general-content general-content--{{ section.settings.style }} vertical-padding__{{ section.settings.vertical_padding }}">
     <div class="page-width">
         {% if section.settings.title %}
             <h2 class="general-content__heading{% if section.settings.style == "style1" %} t-h6{% else %} t-h3{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">{{ section.settings.title }}</h2>
