@@ -71,7 +71,7 @@
   }
 
   .content-image--narrow .content-image__grid {
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 60% 1fr;
     column-gap: 4rem;
   }
 
