@@ -57,6 +57,11 @@
 
   .content-image--centered {
     margin: 0 auto;
+    width: 80%;
+  }
+
+  .content-image--narrow {
+    margin: 0 auto;
     width: 60%;
   }
   
