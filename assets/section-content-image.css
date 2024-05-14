@@ -8,6 +8,7 @@
   font-family: var(--font-heading-family);
   opacity: .5;
   font-size: 1.3rem;
+  line-height: 1;
 }
 
 .content-image.content-image--icon {
