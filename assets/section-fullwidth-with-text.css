@@ -27,6 +27,8 @@
   font-size: 5rem;
   font-style: italic;
   line-height: 1.2;
+  margin: 0;
+  padding: 0;
 }
 
 .fullwidth-text__credit {
