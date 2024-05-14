@@ -27,7 +27,7 @@
   font-family: var(--font-heading-family);
   opacity: .5;
   font-size: 1.3rem;
-  line-height: 1;
+  line-height: 1.2;
 }
 
 .centered-media__details {
