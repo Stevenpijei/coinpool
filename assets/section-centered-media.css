@@ -22,8 +22,8 @@
 }
 
 .centered-media__credit {
-  margin-left: 5px;
-  margin-top: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
   font-family: var(--font-heading-family);
   opacity: .5;
   font-size: 1.3rem;
