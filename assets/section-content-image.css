@@ -89,5 +89,10 @@
     justify-content: center;
     text-align: center;
   }
+
+  .content-image__content.align_center h2 {
+            font-size: 4rem;
+        line-height: 1.2;
+  }
   
 }
