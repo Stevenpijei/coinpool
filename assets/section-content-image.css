@@ -71,8 +71,8 @@
   }
 
   .content-image--narrow .content-image__grid {
-    grid-template-columns: 60% 1fr;
-    column-gap: 4rem;
+    grid-template-columns: 53% 1fr;
+    column-gap: 7rem;
   }
 
   .content-image--narrow .content-image__content.align_center p {
