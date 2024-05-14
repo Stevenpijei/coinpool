@@ -1,14 +1,12 @@
 {{ 'section-image-image.css' |  asset_url |  stylesheet_tag }}
 
 <div class="image-image">
-    <div class="page-width">
-        <div class="image-image__image bg-cover{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-            <img src="{{ section.settings.image1 | img_url: '925x645' }}" alt="">
-        </div>
-        <div class="image-image__image bg-cover{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-            <img src="{{ section.settings.image2 | img_url: '925x645' }}" alt="">
-        </div>
-    </div>
+      <div class="image-image__image bg-cover{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+          <img src="{{ section.settings.image1 | img_url: '925x645' }}" alt="">
+      </div>
+      <div class="image-image__image bg-cover{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+          <img src="{{ section.settings.image2 | img_url: '925x645' }}" alt="">
+      </div>
 </div>
 
 {% schema %}
