@@ -1,0 +1,29 @@
+.centered-media {
+  position: relative;
+  width: 100%;
+}
+
+.centered-media__cell {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.centered-media__cell img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.centered-media__credit {
+  margin-left: 0;
+  margin-top: 20px;
+  font-family: var(--font-heading-family);
+  opacity: .5;
+  font-size: 1.3rem;
+}
+
+.centered-media__details {
+  margin: 30px auto;
+  font-size: 2rem;
+}
