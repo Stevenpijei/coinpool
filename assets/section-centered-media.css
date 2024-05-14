@@ -18,10 +18,11 @@
   display: block;
   width: 100%;
   height: auto;
+  border-radius: 5px;
 }
 
 .centered-media__credit {
-  margin-left: 0;
+  margin-left: 5px;
   margin-top: 20px;
   font-family: var(--font-heading-family);
   opacity: .5;
@@ -31,4 +32,14 @@
 .centered-media__details {
   margin: 30px auto;
   font-size: 2rem;
+  text-align: center;
+}
+
+.centered-media__details h3 {
+
+}
+
+.centered-media__details p {
+    font-size: 2.5rem;
+    line-height: 1.4;
 }
