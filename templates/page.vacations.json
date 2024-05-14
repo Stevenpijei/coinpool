@@ -19,6 +19,7 @@
         "title": "O'ahu, Hawai'i",
         "content": "<p>The Island of O'ahu in Hawaii is often nicknamed, or translated as 'The Gathering Place'. It's shoreline is 227 miles (365 km) long. Enjoy the best bits with Absorb Island's picks.<\/p>",
         "alignment": "right",
+        "text_alignment": "center",
         "background_color": "#499cd4"
       }
     },
@@ -69,6 +70,7 @@
         "title": "",
         "content": "<h2>BEST LOCAL STREET FOOD<\/h2><p>\u2028Sunrise ShackThe shack was technically born in 2016 on a small plumeria farm in the heart of Oahu’s north shore, but the seed was planted in the hearts of the founders long before then.<\/p><h2>HIDDEN BEACH GEMS<\/h2><p>\u2028Sunrise ShackThe shack was technically born in 2016 on a small plumeria farm in the heart of Oahu’s north shore, but the seed was planted in the hearts of the founders long before then.<\/p><h2>LOCAL CHEAP EATS\u2028<\/h2><p>Poke Bowls at Grocery StoreThe shack was technically born in 2016 on a small plumeria farm in the heart of Oahu’s north shore, but the seed was planted in the hearts of the founders long before then.<\/p>",
         "alignment": "right",
+        "text_alignment": "top",
         "background_color": "rgba(0,0,0,0)"
       }
     },
@@ -81,6 +83,7 @@
         "title": "Hygienic and Ultra-Durable",
         "content": "<p>We deeply understand the importance of freshness and durability when it comes to drying off.  Our recycled yarns have built-in SILVADUR™ antimicrobial and anti-odor technology for advanced protection against bacteria that causes smelly towel syndrome. <\/p>",
         "alignment": "right",
+        "text_alignment": "top",
         "background_color": ""
       }
     },
