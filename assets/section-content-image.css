@@ -54,6 +54,11 @@
   .content-image--general {
     margin: 0 40px;
   }
+
+  .content-image--centered {
+    margin: 0 auto;
+    width: 60%;
+  }
   
   .content-image__grid {
     display: grid;
