@@ -36,10 +36,10 @@
       "settings": {
         "type": "narrow",
         "image": "shopify:\/\/shop_images\/Photo_Oct_10_2023_3_38_55_PM.jpg",
-        "title": "The Title",
+        "title": "Acai Smoothing Bowl",
         "content": "<p>The Text.<\/p>",
         "alignment": "right",
-        "text_alignment": "top",
+        "text_alignment": "center",
         "background_color": ""
       }
     },
