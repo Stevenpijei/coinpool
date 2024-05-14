@@ -81,8 +81,8 @@
   }
 
   .content-image--centered .content-image__grid {
-    grid-template-columns: 53% 1fr;
-    column-gap: 7rem;
+    grid-template-columns: 45% 1fr;
+    column-gap: 10rem;
   }
 
   .content-image--centered .content-image__image {
