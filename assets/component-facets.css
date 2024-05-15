@@ -273,7 +273,8 @@
   background-color: rgb(var(--color-background));
   position: absolute;
   top: calc(100% + 0.5rem);
-  left: -1.2rem;
+  left: auto;
+  right: -1.2rem;
   width: 35rem;
   max-height: 55rem;
   overflow-y: auto;
