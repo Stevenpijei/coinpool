@@ -68,7 +68,6 @@
 
           <div class="product-count-vertical light" role="status">
             <h2 class="product-count__text text-body">
-              Hello?
               <span id="ProductCountDesktop">
                 {%- if collection.results_count -%}
                   {{
@@ -119,6 +118,7 @@
         {% endif %}
       >
         {%- if collection.products.size == 0 -%}
+          <h1>Hello?</h1>
           <div class="collection collection--empty page-width" id="product-grid" data-id="{{ section.id }}">
             <div class="loading-overlay gradient"></div>
             <div class="title-wrapper center">
