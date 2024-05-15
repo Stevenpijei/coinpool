@@ -158,6 +158,12 @@ body {
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.collection-grid__header h1 {
+  margin: 0;
+  padding: 0;
 }
 
 /* Announcement Bar */
