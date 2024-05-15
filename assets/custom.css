@@ -270,6 +270,15 @@ body {
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
+
+.collection .card__heading a {
+  display: flex;
+  flex-direction: column;
+}
+
+.collection .card__heading span {
+  font-weight: 400;
+}
 @media only screen and (min-width: 768px) {
   .collection__title h2 {
     margin-bottom: 0;
