@@ -156,7 +156,7 @@ body {
 .collection-grid__header {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: flex-end;
   justify-content: space-between;
   margin-bottom: 1rem;
 }
