@@ -151,6 +151,15 @@ body {
   padding-right: var(--gutter);
 }
 
+/* Collection Grid */
+
+.collection-grid__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
 /* Announcement Bar */
 .announcement-bar__message {
   font-weight: 600;
