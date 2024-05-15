@@ -20,10 +20,6 @@
   {% render 'card-product', show_vendor: section.settings.show_vendor %}
 {% endcomment %}
 
-{%- liquid
-assign current_variant = product.selected_or_first_available_variant
--%}
-
 {{ 'component-rating.css' | asset_url | stylesheet_tag }}
 {{ 'component-volume-pricing.css' | asset_url | stylesheet_tag }}
 
@@ -38,6 +34,8 @@ assign current_variant = product.selected_or_first_available_variant
     if ratio == 0 or ratio == null
       assign ratio = 1
     endif
+
+    assign current_variant = card_product.selected_or_first_available_variant
   -%}
   <div class="card-wrapper product-card-wrapper">
     <div
