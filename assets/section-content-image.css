@@ -2,7 +2,7 @@
   margin: 20px 0;
 }
 
-.content-image__image img, .content-image__image video {
+.content-image__image img.rounded_yes, .content-image__image video.rounded_yes {
   border-radius: 5px;
 }
 
