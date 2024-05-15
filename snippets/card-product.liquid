@@ -153,6 +153,9 @@
               aria-labelledby="CardLink-{{ section_id }}-{{ card_product.id }} Badge-{{ section_id }}-{{ card_product.id }}"
             >
               {{ card_product.title | escape }}
+              <span class="current_variant">
+                {{ current_variant.option1 }}
+              </span>
             </a>
           </h3>
           <div class="card-information">
