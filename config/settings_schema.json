@@ -100,6 +100,13 @@
         }
       },
       {
+        "type": "text",
+        "id": "swatch_options",
+        "label": "Variant option for swatches",
+        "info": "Variant option name to use for displaying swatches. Use a comma separated list to support multiple options: 'Color, Colour'",
+        "default": "Color"
+      },
+      {
         "type": "textarea",
         "id": "custom_swatch_colors",
         "label": "Custom swatch colors",
