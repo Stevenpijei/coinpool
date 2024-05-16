@@ -367,9 +367,10 @@ body {
   outline: 1px solid transparent;
   outline-offset: 4px;
   cursor: pointer;
+  transition: outline .2s;
 }
 
-.related_colors_wrap .swatches button.selected {
+.related_colors_wrap .swatches button.selected, .related_colors_wrap .swatches button:hover {
   outline: 1px solid black;
 }
 
