@@ -135,6 +135,7 @@
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     grid-gap: 0;
+    margin-bottom: 80px;
   }
   .content-image--icon .page-width {
     grid-gap: 0;
