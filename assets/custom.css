@@ -359,13 +359,13 @@ body {
 
 .related_colors_wrap .swatches button {
   margin-right: 2rem;
-  width: 30px;
-  height: 30px;
+  width: 26px;
+  height: 26px;
   border-radius: 50%;
   border: 0;
   outline: 0;
   outline: 1px solid transparent;
-  outline-offset: 2px;
+  outline-offset: 4px;
   cursor: pointer;
 }
 
