@@ -57,7 +57,8 @@
 }
 
 .grid-hover__info p.t-h2 {
-  font-size: 3.5rem;
+  font-size: 4.4rem;
+  line-height: 1.2;
 }
 
 .grid-hover__info .grid-hover__item-content {
