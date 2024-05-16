@@ -352,6 +352,12 @@ body {
   margin-bottom: 10px;
 }
 
+.related_colors_wrap h3.color_label span {
+  font-style: italic;
+  font-family: var(--font-body-family);
+  font-weight: 400;
+}
+
 .related_colors_wrap .swatches {
   display: flex;
   flex-wrap: wrap;
