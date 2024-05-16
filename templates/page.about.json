@@ -35,11 +35,20 @@
             "title": "Our Fabric",
             "content": "<p>Grown without chemicals or pesticides, Absorb Island organic cotton is ethically and sustainably farmed. <\/p>"
           }
+        },
+        "cell_WcXPnP": {
+          "type": "cell",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_Oct_10_2023_6_29_27_AM_32d545d5-852a-4c25-8e04-a846f17dbc70.jpg",
+            "title": "Less Washing. More Splashing.",
+            "content": "<p>The text that is revealed on hover<\/p>"
+          }
         }
       },
       "block_order": [
         "impact_g7ad8p",
-        "impact_FPUQUF"
+        "impact_FPUQUF",
+        "cell_WcXPnP"
       ],
       "settings": {
         "title": "Impact Grid"
