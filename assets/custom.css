@@ -474,7 +474,7 @@ fieldset.product-form__input .form__label,
   }
   .product__info-container .product__description p {
     font-size: 1.5rem;
-    line-height: 2;
+    line-height: 1.5;
   }
   .product__summary {
     font-size: 2.2rem;
