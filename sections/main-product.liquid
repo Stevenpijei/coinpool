@@ -437,6 +437,73 @@
               %}
 
             {%- when 'variant_picker' -%}
+
+              {% comment %}
+              Custom color swatches for related colors
+              {% endcomment %}
+    
+              <div class="related_colors_wrap card">
+                <div class="swatches">
+                      <button
+                        type="button"
+                        title="{{ current_variant.option1 }}""
+                        data-swatch-button="true"
+                        data-label="{{ current_variant.option1 }}"
+                        aria-label="{{ current_variant.option1 }}"
+                        class="product__color-swatch card selected"
+                        style="
+                          {% if custom_color_map_key contains current_variant.option1 %}
+                            {% for color_name in custom_color_map_key %}
+                              {% if color_name == current_variant.option1 %}
+                                background-color: {{ custom_color_map_value[forloop.index0] }};
+                                {% break %}
+                              {% endif %}
+                            {% endfor %}
+                          {% else %}
+                            background-color: {{ current_variant.option1 | downcase | replace: ' ', '' }};
+                          {% endif %}
+                          {% if images[custom_swatch_image] != blank %}
+                            background-image: url({{ custom_swatch_image | file_url }});
+                          {% endif %}
+                        "
+                      >
+                   </button>
+                  {%- for product_color in product.metafields.custom.related_colors.value -%}
+                    {% assign related_current_variant = product_color.selected_or_first_available_variant %}
+                        <a href="{{ product_color.url }}">
+                            <button
+                              type="button"
+                              title="{{ related_current_variant.option1 }}""
+                              data-swatch-button="true"
+                              data-label="{{ related_current_variant.option1 }}"
+                              aria-label="{{ related_current_variant.option1 }}"
+                              class="product__color-swatch card"
+                              style="
+                                {% if custom_color_map_key contains related_current_variant.option1 %}
+                                  {% for color_name in custom_color_map_key %}
+                                    {% if color_name == related_current_variant.option1 %}
+                                      background-color: {{ custom_color_map_value[forloop.index0] }};
+                                      {% break %}
+                                    {% endif %}
+                                  {% endfor %}
+                                {% else %}
+                                  background-color: {{ related_current_variant.option1 | downcase | replace: ' ', '' }};
+                                {% endif %}
+                                {% if images[custom_swatch_image] != blank %}
+                                  background-image: url({{ custom_swatch_image | file_url }});
+                                {% endif %}
+                              "
+                            >
+                         </button>
+                        </a>
+                  {% endfor %}
+                </div>
+              </div>
+    
+              {% comment %}
+              End custom color swatches
+              {% endcomment %}
+                          
               {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
             {%- when 'buy_buttons' -%}
               {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
