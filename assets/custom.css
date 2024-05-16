@@ -337,6 +337,30 @@ body {
 }
 
 /* PDP Page */
+
+.related_colors_wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.related_colors_wrap.card {
+  margin-top: 10px;
+}
+
+.related_colors_wrap label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.related_colors_wrap .swatches {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.related_colors_wrap .swatches button {
+  margin-right: 10px;
+}
+
 .product__title h1,
 .product__info-container .price__container {
   font: 400 22px/24px var(--font-body-family);
