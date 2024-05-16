@@ -358,13 +358,17 @@ body {
 }
 
 .related_colors_wrap .swatches button {
-  margin-right: 10px;
+  margin-right: 1rem;
   width: 30px;
   height: 30px;
   border-radius: 50%;
   outline: 0;
   border: 1px solid transparent;
   cursor: pointer;
+}
+
+.related_colors_wrap .swatches button.selected {
+  border: 1px solid black;
 }
 
 .product__title h1,
