@@ -13,7 +13,8 @@
       "settings": {
         "title": "ENJOY YOUR STAY",
         "content": "<p>Here for the people who love to be in and out of the water, just like us. <br\/><\/p>",
-        "style": "style1"
+        "style": "style1",
+        "vertical_padding": "small"
       }
     },
     "grid_hover_XjDDzB": {
@@ -42,6 +43,48 @@
       ],
       "settings": {
         "title": "Impact Grid"
+      }
+    },
+    "5e499474-444d-4760-a7e9-5b591382d305": {
+      "type": "content-image",
+      "settings": {
+        "type": "general",
+        "margin_bottom": "yes",
+        "image": "shopify:\/\/shop_images\/Photo_Oct_11_2023_5_53_06_AM_6cd68982-39d4-4675-bd3b-b9d752d0b824.jpg",
+        "rounded": "no",
+        "image_credit": "",
+        "subheading": "",
+        "title": "Welcome to Absorb Island",
+        "content": "<p>We want to modernize the toweling industry by changing the very fabric of it. Our revolutionary Dri-Rite™ fabric technology is the first dual-knit, antimicrobial terry with moisture-wicking finish to speed up after-water dry time. Founded and run by women who love to vacation, Absorb Island is on a mission to change the way people dry after the pool, ocean, lake or gym. <\/p>",
+        "alignment": "left",
+        "text_alignment": "top",
+        "background_color": ""
+      }
+    },
+    "5cdc3e8b-83e7-47af-80a6-963f3b0e0d7f": {
+      "type": "content-image",
+      "settings": {
+        "type": "general",
+        "margin_bottom": "no",
+        "image": "shopify:\/\/shop_images\/pexels-nektaria-kleopoulos-15071870_1.png",
+        "rounded": "no",
+        "image_credit": "",
+        "subheading": "",
+        "title": "Meet Terry",
+        "content": "<p>We are proud to be fair-trade certified and choose to partner with factories that prioritize their workers. As a fair-trade partner, we want workers’ voices heard and choices counted in an effort to build equitable and sustainable working environments. <\/p>",
+        "alignment": "right",
+        "text_alignment": "top",
+        "background_color": ""
+      }
+    },
+    "68055b5d-2761-4257-8e25-3b94de2d35d2": {
+      "type": "large-content-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Photo-Oct-11-2023_-5-33-37-AM.jpg",
+        "title": "Absorb Island Vacations",
+        "content": "<p>Our dual-knit terry with Dri-Rite technology is the first anti-odor, antimicrobial fabric with moisture-wicking finish to achieve optimal dry time. Quality and durability is at the forefront of our product.<\/p>",
+        "button_url": "shopify:\/\/pages\/vacations",
+        "button_text": "Find Out More"
       }
     },
     "59db039f-40fe-4b24-ba34-705571e24221": {
@@ -91,47 +134,15 @@
         "title": "Our Impact",
         "content": "<p>From our fabric to our packaging, we choose sustainable solutions that promote a healthier planet. <\/p>"
       }
-    },
-    "5e499474-444d-4760-a7e9-5b591382d305": {
-      "type": "content-image",
-      "settings": {
-        "type": "general",
-        "image": "shopify:\/\/shop_images\/Photo_Oct_11_2023_5_53_06_AM_6cd68982-39d4-4675-bd3b-b9d752d0b824.jpg",
-        "title": "Welcome to Absorb Island",
-        "content": "<p>We want to modernize the toweling industry by changing the very fabric of it. Our revolutionary Dri-Rite™ fabric technology is the first dual-knit, antimicrobial terry with moisture-wicking finish to speed up after-water dry time. Founded and run by women who love to vacation, Absorb Island is on a mission to change the way people dry after the pool, ocean, lake or gym. <\/p>",
-        "alignment": "left",
-        "background_color": ""
-      }
-    },
-    "5cdc3e8b-83e7-47af-80a6-963f3b0e0d7f": {
-      "type": "content-image",
-      "settings": {
-        "type": "general",
-        "image": "shopify:\/\/shop_images\/pexels-nektaria-kleopoulos-15071870_1.png",
-        "title": "Meet Terry",
-        "content": "<p>We are proud to be fair-trade certified and choose to partner with factories that prioritize their workers. As a fair-trade partner, we want workers’ voices heard and choices counted in an effort to build equitable and sustainable working environments. <\/p>",
-        "alignment": "right",
-        "background_color": ""
-      }
-    },
-    "68055b5d-2761-4257-8e25-3b94de2d35d2": {
-      "type": "large-content-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Photo-Oct-11-2023_-5-33-37-AM.jpg",
-        "title": "Absorb Island Vacations",
-        "content": "<p>Our dual-knit terry with Dri-Rite technology is the first anti-odor, antimicrobial fabric with moisture-wicking finish to achieve optimal dry time. Quality and durability is at the forefront of our product.<\/p>",
-        "button_url": "shopify:\/\/pages\/vacations",
-        "button_text": "Find Out More"
-      }
     }
   },
   "order": [
     "main",
     "73414ec2-ccb8-4290-8c04-409262771225",
     "grid_hover_XjDDzB",
-    "59db039f-40fe-4b24-ba34-705571e24221",
     "5e499474-444d-4760-a7e9-5b591382d305",
     "5cdc3e8b-83e7-47af-80a6-963f3b0e0d7f",
-    "68055b5d-2761-4257-8e25-3b94de2d35d2"
+    "68055b5d-2761-4257-8e25-3b94de2d35d2",
+    "59db039f-40fe-4b24-ba34-705571e24221"
   ]
 }
