@@ -6,7 +6,9 @@
 }
 .large-content-image__copy {
   margin-bottom: 10px;
-  font: 400 15px/17px var(--font-heading-family);
+  font-size: 1.4rem;
+  line-height: 1.6;
+  font-family: var(--font-heading-family);
 }
 @media only screen and (max-width: 768px) {
   .large-content-image__image {
