@@ -364,6 +364,7 @@ body {
   border-radius: 50%;
   outline: 0;
   border: 1px solid transparent;
+  cursor: pointer;
 }
 
 .product__title h1,
