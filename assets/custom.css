@@ -376,7 +376,9 @@ body {
 
 .product__title h1,
 .product__info-container .price__container {
-  font: 400 22px/24px var(--font-body-family);
+  font-size: 4rem;
+  line-height: 1.2;
+  font-family: var(--font-body-family);
 }
 fieldset.product-form__input .form__label,
 .swatches .swatch-label .swatch-option-name,
