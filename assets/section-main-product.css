@@ -168,10 +168,6 @@
   border: none;
 }
 
-.product-form__input::first-child {
-  display: none;
-}
-
 variant-radios,
 variant-selects {
   display: block;
