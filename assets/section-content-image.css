@@ -41,9 +41,9 @@
   margin-bottom: 20px;
 }
 .content-image__copy {
-     font-size: 1.8rem;
-    line-height: 1.6;
-    font-family: var(--font-heading-family);
+  font-size: 1.8rem;
+  line-height: 1.6;
+  font-family: var(--font-heading-family);
 }
 .content-image--icon .content-image__content {
   padding: 80px var(--gutter);
