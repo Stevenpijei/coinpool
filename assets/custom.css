@@ -376,7 +376,7 @@ body {
 
 .product__title h1,
 .product__info-container .price__container {
-  font-size: 4rem;
+  font-size: 3rem;
   line-height: 1.2;
   font-family: var(--font-body-family);
 }
@@ -448,7 +448,7 @@ fieldset.product-form__input .form__label,
 @media only screen and (min-width: 768px) {
   .product__title h1,
   .product__info-container .price__container {
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 1.2;
   }
   fieldset.product-form__input .form__label,
