@@ -1,5 +1,7 @@
 {%-  liquid 
 
+  assign current_variant = product.selected_or_first_available_variant
+
   # custom color swatches
   assign custom_colors = settings.custom_swatch_colors | newline_to_br | split: '<br />'
   assign custom_color_map_key = ''
