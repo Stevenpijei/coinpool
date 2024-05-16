@@ -43,12 +43,21 @@
             "title": "Less Washing. More Splashing.",
             "content": "<p>The text that is revealed on hover<\/p>"
           }
+        },
+        "cell_NBMFwz": {
+          "type": "cell",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-monstera-production-7794422_2.png",
+            "title": "Our Packaging",
+            "content": "<p>Details coming soon.<\/p>"
+          }
         }
       },
       "block_order": [
         "impact_g7ad8p",
         "impact_FPUQUF",
-        "cell_WcXPnP"
+        "cell_WcXPnP",
+        "cell_NBMFwz"
       ],
       "settings": {
         "title": "Impact Grid"
