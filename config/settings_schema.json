@@ -98,6 +98,12 @@
           "on_secondary_button": "secondary_button_label",
           "secondary_button_border": "secondary_button_label"
         }
+      },
+      {
+        "type": "textarea",
+        "id": "custom_swatch_colors",
+        "label": "Custom swatch colors",
+        "info": "Add one color per line. Enter the exact variant option name followed by a colon and hex code. Ex: 'Sky Blue: #87CEEB'"
       }
     ]
   },
