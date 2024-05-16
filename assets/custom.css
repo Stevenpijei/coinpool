@@ -363,12 +363,13 @@ body {
   height: 30px;
   border-radius: 50%;
   outline: 0;
-  border: 1px solid transparent;
+  outline: 1px solid transparent;
+  outline-offset: 2px;
   cursor: pointer;
 }
 
 .related_colors_wrap .swatches button.selected {
-  border: 1px solid black;
+  outline: 1px solid black;
 }
 
 .product__title h1,
