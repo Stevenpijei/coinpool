@@ -3,6 +3,7 @@
     "logo": "shopify:\/\/shop_images\/logo.svg",
     "logo_width": 50,
     "favicon": "shopify:\/\/shop_images\/logo-white.svg",
+    "custom_swatch_colors": "Pink Sands: #F7C4BA\nSeaform (white): #EFEDE9\nBlue Lagoon: #5A6890",
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
