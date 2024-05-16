@@ -55,6 +55,7 @@
 .story-carousel__item__content .inner p {
   font-size: 1.3rem;
   line-height: 1.5;
+  font-family: var(--font-heading-family);
 }
 
 .story-carousel__item__image img {
