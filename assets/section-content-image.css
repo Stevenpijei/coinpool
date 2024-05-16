@@ -2,6 +2,10 @@
   margin: 20px 0;
 }
 
+.content-image.margin-bottom__yes {
+  margin-bottom: 80px;
+}
+
 .content-image__image img.rounded_yes, .content-image__image video.rounded_yes {
   border-radius: 5px;
 }
