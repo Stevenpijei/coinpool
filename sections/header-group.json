@@ -8,7 +8,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "50% OFF – USE CODE 50OFF",
+            "text": "CODE",
             "link": ""
           }
         }
