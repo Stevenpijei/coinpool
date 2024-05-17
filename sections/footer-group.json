@@ -21,7 +21,7 @@
         "newsletter_enable": true,
         "newsletter_heading": "Stay updated with the latest posts, products and launches from the team at Absorb Island. Join us \u2028as we pioneer After Water Wear for all.",
         "enable_follow_on_shop": false,
-        "show_social": false,
+        "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": false,
         "payment_enable": false,
