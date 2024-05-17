@@ -43,6 +43,12 @@ var flkty = new Flickity( elem, {
   groupCells: 2,
   pageDots: false,
   prevNextButtons: false,
+  wrapAround: true,
+});
+
+let nextArrow = document.querySelector('.story-carousel .story_arrow_next');
+nextArrow.addEventListener("click", function() {
+  flkty.next();
 });
   
 </script>
