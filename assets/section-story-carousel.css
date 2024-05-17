@@ -22,6 +22,11 @@
   height: auto;
 }
 
+.story-carousel .story_arrow_next svg {
+  width: 100%;
+  height: auto;
+}
+
 .story-carousel__carousel__container {
   position: relative;
 }
