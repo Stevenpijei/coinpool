@@ -13,6 +13,13 @@
   font-size: 4rem;
 }
 
+.story-carousel .story_arrow_next {
+  position: absolute;
+  right: 40px;
+  bottom: 0;
+  cursor: pointer;
+}
+
 .story-carousel__carousel__container {
   position: relative;
 }
