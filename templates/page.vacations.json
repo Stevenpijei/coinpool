@@ -21,7 +21,7 @@
         "image_credit": "",
         "subheading": "",
         "title": "O'ahu, Hawai'i",
-        "content": "<p>From crystalline beaches to lush rainforests, the aloha spirit permeates every aspect of life on O’ahu. Whether it’s an escape seeking tranquility or adventure, the magical land holds a special place in our heart. Ahead, Absorb Island shares cherished island memories and locations from a recent trip. <\/p>",
+        "content": "<p>Whether it’s an escape seeking tranquility or adventure, the magical land holds a special place in our heart. Ahead, Absorb Island shares cherished island memories and locations from a recent trip. <\/p>",
         "alignment": "right",
         "text_alignment": "center",
         "background_color": "#499cd4"
@@ -32,7 +32,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/fbf6719e71fbdfcc61a5f81efdc8e4e6.jpg",
         "credit": "<p>The Sunrise Shack | 2335 Kalakaua Ave, Honolulu, HI 96815, United States<\/p>",
-        "details": "<p>Unofficially known as “The Gathering Place”, O’ahu is a mesmerizing blend of natural beauty, rich culture<br\/>and vibrant communities rooted in the traditions of the Hawaiian people. The<br\/>third-largest island nestled within the Hawaiian archipelago, O’ahu is a<br\/>revered paradise for locals and visitors. <\/p>"
+        "details": "<p>Sunrise Shack isn’t just another roadside stand, it’s a beloved island institution. The bright yellow exterior makes it an unmissable outpost for locals and vacation-lovers alike who love to soak in the sunshine while sipping cooling tropical smoothies before another paddle out. <\/p><p><\/p>"
       }
     },
     "content_image_cWcRkN": {
@@ -43,9 +43,9 @@
         "image": "shopify:\/\/shop_images\/Photo_Oct_10_2023_3_38_55_PM.jpg",
         "rounded": "yes",
         "image_credit": "<p>Fresh fruit at the FARM?  NEED ADDRESS<\/p>",
-        "subheading": "BEST SMOOTHIES",
-        "title": "Acai Smoothing Bowl",
-        "content": "<p>The Acaia Smoothing Bowl from the Sunrise Shack in O'ahu, Hawaii, is a culinary symphony of tropical delights.  Smooth and velvety, it combines the rich flavors of acai and blueberries with the subtle sweetness of coconut oil and honey, all balanced by a hing of salt to enhance the natural flavors.<\/p><p>Topped with a generous sprinkling of gluten-free granola, ripe bananas, and delicate coconut flakes, each spoonful offers a satisfying crunch and a burst of tropical goodness.  Drizzled with vibrant pitaya sauce and an extra drizzle of honey, this bowl is a true celebration of the island's vibrant flavors and natural bounty, transporting you to a sunny beachside paradise with every bite.<\/p>",
+        "subheading": "",
+        "title": "Hawaian Culture",
+        "content": "<p>When in Hawai’i remember<br\/>to practice ‘Kuleana’: the responsibility, privilege and duty to learn and honor Hawai’ian culture. According to the Hawai’ian custom, kuleana is grantedto those who express a readiness and worthiness to undertake the responsibility<br\/>of being among a native and most sacred land. <\/p>",
         "alignment": "right",
         "text_alignment": "center",
         "background_color": ""
@@ -70,9 +70,9 @@
         "image": "shopify:\/\/shop_images\/Photo_Oct_09_2023_4_27_55_PM_1.png",
         "rounded": "yes",
         "image_credit": "<p>Mokule'ia Beach | O'ahu Northern Shore<\/p>",
-        "subheading": "HIDDEN BEACH GEMS",
-        "title": "",
-        "content": "<h2>Makapuu Beach<\/h2><p>Sunrise ShackThe shack was technically born in 2016 on a small plumeria farm in the heart of Oahu’s north shore, but the seed was planted in the hearts of the founders long before then.<\/p><h2>Mokule'ia Beach<\/h2><p>Sunrise ShackThe shack was technically born in 2016 on a small plumeria farm in the heart of Oahu’s north shore, but the seed was planted in the hearts of the founders long before then.<\/p>",
+        "subheading": "",
+        "title": "Surf Culture",
+        "content": "<h4>The tradition of surfing or he’e nalu on the Hawaiian Islands can be traced back to the 4th century. Initially an activity reserved for the ruling class, ancient Hawaiians used long wooden boards called olo to ride waves. Considered one of the world’s most famous surf spots, the North Shore of O’ahu is known for its challenging waves that attract pro surfers from around the globe. <\/h4>",
         "alignment": "right",
         "text_alignment": "center",
         "background_color": "rgba(0,0,0,0)"
