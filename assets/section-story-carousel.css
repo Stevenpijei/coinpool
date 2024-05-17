@@ -16,7 +16,7 @@
 .story-carousel .story_arrow_next {
   position: absolute;
   right: 40px;
-  bottom: -60px;
+  bottom: -40px;
   cursor: pointer;
   width: 30px;
   height: auto;
