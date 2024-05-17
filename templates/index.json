@@ -9,12 +9,6 @@
             "image": "shopify:\/\/shop_images\/image2_2.png"
           }
         },
-        "slide_tk6zBd": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/rachelcabanashirt_V2.jpg"
-          }
-        },
         "slide_iFzw3H": {
           "type": "slide",
           "settings": {
@@ -24,7 +18,6 @@
       },
       "block_order": [
         "template--17199788261597__ba5e677b-020e-4739-a602-c7c3124a5444-slide-1",
-        "slide_tk6zBd",
         "slide_iFzw3H"
       ],
       "settings": {
@@ -126,20 +119,10 @@
             "content": "BREATH IN AND EXPLORE",
             "url": "shopify:\/\/pages\/vacations"
           }
-        },
-        "7d3cb9a1-012d-477f-9a32-280d7c83e3d9": {
-          "type": "vacation",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/malibu.png",
-            "title": "Century Lake, Malibu",
-            "content": "COMING SOON",
-            "url": ""
-          }
         }
       },
       "block_order": [
-        "template--17199788261597__39a5b0d0-9a16-46ca-b151-11750a6fe2b9-vacation-1",
-        "7d3cb9a1-012d-477f-9a32-280d7c83e3d9"
+        "template--17199788261597__39a5b0d0-9a16-46ca-b151-11750a6fe2b9-vacation-1"
       ],
       "settings": {
         "title": "Vacations"
@@ -150,7 +133,9 @@
       "disabled": true,
       "settings": {
         "type": "general",
+        "margin_bottom": "no",
         "image": "shopify:\/\/shop_images\/Photo_Oct_08_2023_11_45_42_PM.jpg",
+        "rounded": "no",
         "image_credit": "",
         "icon": "shopify:\/\/shop_images\/Group.svg",
         "subheading": "",
