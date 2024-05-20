@@ -785,6 +785,9 @@ summary::-webkit-details-marker {
 
 .title-wrapper-with-link .title {
   margin: 0;
+  font-size: 4rem;
+  line-height: 1.2;
+  font-family: var(--font-body-family);
 }
 
 .title .link {
