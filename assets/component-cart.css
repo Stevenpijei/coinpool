@@ -213,6 +213,7 @@ cart-items {
   .tax-note {
     margin-bottom: 2.2rem;
     text-align: right;
+    font-family: var(--font-heading-family);
   }
 
   [data-shopify-buttoncontainer] {
