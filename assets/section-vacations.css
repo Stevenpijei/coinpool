@@ -75,6 +75,8 @@
 
   .vacations-grid.columns-1 {
       grid-template-columns: 1fr;
+      max-width: 1400px;
+      margin: 0 auto;
   }
 
   .vacations-grid.columns-3 {
