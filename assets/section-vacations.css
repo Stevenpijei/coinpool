@@ -79,6 +79,11 @@
       margin: 0 auto;
   }
 
+  .vacations-grid.columns-1 .vacations-grid-item {
+    width: 100%;
+    aspect-ratio: 16/9;
+  }
+
   .vacations-grid.columns-3 {
       grid-template-columns: repeat(3, minmax(0, 1fr));
   }
