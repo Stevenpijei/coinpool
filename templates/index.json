@@ -14,11 +14,18 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/banner-lightroom-flatten-1-znoble-sharpen.jpg"
           }
+        },
+        "slide_gkReRA": {
+          "type": "slide",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/menscabanashortwomenscabanashirtand shorts.mp4"
+          }
         }
       },
       "block_order": [
         "template--17199788261597__ba5e677b-020e-4739-a602-c7c3124a5444-slide-1",
-        "slide_iFzw3H"
+        "slide_iFzw3H",
+        "slide_gkReRA"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/banner-logo.svg"
