@@ -13,6 +13,7 @@ cart-items .title-wrapper-with-link {
   padding-bottom: 1.8rem;
   opacity: 0.85;
   font-weight: normal;
+  font-family: var(--font-heading-family);
 }
 
 .cart-item__quantity-wrapper {
