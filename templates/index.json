@@ -125,7 +125,8 @@
         "template--17199788261597__39a5b0d0-9a16-46ca-b151-11750a6fe2b9-vacation-1"
       ],
       "settings": {
-        "title": "Vacations"
+        "title": "Vacations",
+        "columns": 1
       }
     },
     "content_image_wbFnbC": {
