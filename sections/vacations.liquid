@@ -5,7 +5,7 @@
         {%- if section.settings.title -%}
             <h2 class="vacations-heading t-h6{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">{{ section.settings.title }}</h2>
         {%- endif -%}
-        <div class="vacations-grid{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+        <div class="vacations-grid{% if settings.animations_reveal_on_scroll %} columns-{{ section.settings.columns }} scroll-trigger animate--slide-in{% endif %}">
             {%- for block in section.blocks -%}
                 <div class="vacations-grid-item">
                     <div class="vacations-grid-item-image bg-cover">
