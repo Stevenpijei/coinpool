@@ -114,13 +114,14 @@
     top: auto;
     left: auto;
     width: 90%;
-    margin: 0 auto;
+    margin: 20px auto 0 auto;
     transform: unset !important;
     color: #000;
   }
 
   .grid-hover__info p.t-h2 {
     font-size: 3rem;
+    font-family: var(--font-body-family);
   }
 
   .grid-hover__info .grid-hover__item-content {
@@ -129,8 +130,8 @@
     transform: unset !important;
     opacity: 1;
     max-width: unset;
-    width: 90%;
-    margin: 20px auto;
+    width: 100%;
+    margin: 0 auto;
   }
   
 }
