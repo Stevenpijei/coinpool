@@ -16,7 +16,7 @@
 .story-carousel .story_arrow_next {
   position: absolute;
   right: 40px;
-  bottom: -40px;
+  bottom: -50px;
   cursor: pointer;
   width: 30px;
   height: auto;
@@ -79,8 +79,13 @@
   object-fit: cover;
 }
 
-  .story-carousel__item:first-child .story-carousel__item__image img {
-    width: 65%;
-  }
+.story-carousel__item:first-child .story-carousel__item__image img {
+  width: 65%;
+}
 
+@media all and (max-width: 932px) and (orientation: portrait) {
+   .story-carousel__item {
+      width: 100vw;
+   }
+}
 
