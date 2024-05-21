@@ -8,6 +8,11 @@
   margin-bottom: 5rem;
 }
 
+.fullwidth-text__inner {
+  position: relative;
+  width: 100%;
+}
+
 .fullwidth-text__cell img {
   display: block;
   width: 100%;
