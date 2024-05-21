@@ -115,5 +115,11 @@
   .story-carousel__item__content .inner {
     padding: 3rem;
   }
+
+  .story-carousel .story_arrow_next {
+    right: 20px;
+    bottom: 20px;
+  }
+  
 }
 
