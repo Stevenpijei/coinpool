@@ -326,6 +326,7 @@ body {
 .js .header .menu-drawer__submenu .menu-drawer__inner-submenu {
   height: auto;
   overflow: auto;
+  margin-left: 5%;
 }
 .js .header .menu-drawer__submenu .menu-drawer__menu-item {
   font-weight: 400;
