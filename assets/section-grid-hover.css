@@ -99,6 +99,10 @@
     width: 90vw;
   }
 
+  .grid-hover__item:last-child {
+    margin-bottom: 0;
+  }
+
   .grid-hover__item::after {
     display: none;
   }
