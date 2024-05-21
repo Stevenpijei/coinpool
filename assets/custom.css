@@ -307,6 +307,7 @@ body {
 }
 .header .menu-drawer__navigation {
   padding: 0;
+  margin-top: 3rem;
 }
 .header .menu-drawer__menu li:not(:last-child) {
   margin-bottom: 15px;
