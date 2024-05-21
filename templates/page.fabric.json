@@ -15,19 +15,25 @@
       ],
       "settings": {
         "title": "OUR AFTER-WATER WEAR EXPERIENCE",
-        "content": "<p>Whether at the pool, lake or ocean, the traditional towel couldn’t keep up with our active aquatic lifestyle.  We believe the future of terry fabric is to be optimized for function by making it smarter, sustainable and most of all, wearable.<\/p>",
-        "style": "style1"
+        "content": "<p>Make jumping <em>out of<\/em> the water just as enjoyable as being <em>in the <\/em>water. <\/p><p> <\/p>",
+        "style": "style1",
+        "vertical_padding": "small"
       }
     },
     "5b3ee5ad-5935-468c-96ab-ac273c2b3d84": {
       "type": "content-image",
       "settings": {
         "type": "general",
+        "margin_bottom": "no",
         "image": "shopify:\/\/shop_images\/Screenshot-2024-04-03-at-11.48.23.jpg",
+        "rounded": "no",
+        "image_credit": "",
         "icon": "shopify:\/\/shop_images\/Group_56.png",
+        "subheading": "",
         "title": "Our Fabric Philosophy",
-        "content": "<p>Make jumping out of the water just as enjoyable as being in the water. We upgraded the traditional towel to be a low-maintenance, high-performance wearable terry fabric for everyone who loves to vacation at water’s edge. <\/p>",
+        "content": "<p>We upgraded the traditional towel to be a low-maintenance, high-performance wearable terry fabric for everyone who loves to vacation at water’s edge. <\/p>",
         "alignment": "right",
+        "text_alignment": "top",
         "background_color": ""
       }
     },
@@ -35,11 +41,16 @@
       "type": "content-image",
       "settings": {
         "type": "general",
+        "margin_bottom": "no",
         "image": "shopify:\/\/shop_images\/5-seafoamhoodiedetailshotfrontonperson_7d348ba9-0fe7-4490-8742-0ad02545b749.jpg",
+        "rounded": "no",
+        "image_credit": "",
         "icon": "shopify:\/\/shop_images\/Group_58.png",
+        "subheading": "",
         "title": "4-Way Stretch",
         "content": "<p>Our patent pending terry weave, with the addition of Spandex, creates a significant 4-way stretch that allows for easy movement or all-day lounging. <\/p>",
         "alignment": "left",
+        "text_alignment": "top",
         "background_color": ""
       }
     },
@@ -47,11 +58,16 @@
       "type": "content-image",
       "settings": {
         "type": "general",
+        "margin_bottom": "no",
         "image": "shopify:\/\/shop_images\/106-pinksandsdetailhoodziplogo_d8117697-9248-46fa-b871-4bf9db6f582e.jpg",
+        "rounded": "no",
+        "image_credit": "",
         "icon": "shopify:\/\/shop_images\/Group_59.png",
+        "subheading": "",
         "title": "Organic and Recycled Materials",
         "content": "<p>Our product is made from organic cotton traced to local farms in India. As well as always using recycled polyester Without using recycled yarns without any harsh chemicals or pesticides.<\/p>",
         "alignment": "right",
+        "text_alignment": "top",
         "background_color": ""
       }
     },
@@ -59,11 +75,16 @@
       "type": "content-image",
       "settings": {
         "type": "general",
+        "margin_bottom": "no",
         "image": "shopify:\/\/shop_images\/75-bluelagooncabanashirtlogodetail.jpg",
+        "rounded": "no",
+        "image_credit": "",
         "icon": "shopify:\/\/shop_images\/terry.svg",
+        "subheading": "",
         "title": "Smarter Terry",
         "content": "<p>Our terry with moisture-wicking finish is powered by our revolutionary, patent-pending Dri-Rite™ fabric technology. A combination of recycled moisture wicking recycled yarns on the inside-looping and organic cotton on the outside that work together to optimize after-water dry time. <\/p>",
         "alignment": "left",
+        "text_alignment": "top",
         "background_color": "#4f98d2"
       }
     },
@@ -71,11 +92,16 @@
       "type": "content-image",
       "settings": {
         "type": "general",
+        "margin_bottom": "no",
         "image": "shopify:\/\/shop_images\/IMG_0010_1_5.png",
+        "rounded": "no",
+        "image_credit": "",
         "icon": "shopify:\/\/shop_images\/ARTWORK.svg",
+        "subheading": "",
         "title": "Hygienic and Ultra-Durable",
         "content": "<p>We deeply understand the importance of freshness and durability when it comes to drying off.  Our recycled yarns have built-in SILVADUR™ antimicrobial and anti-odor technology for advanced protection against bacteria that causes smelly towels.<\/p>",
         "alignment": "right",
+        "text_alignment": "top",
         "background_color": ""
       }
     },
@@ -83,11 +109,16 @@
       "type": "content-image",
       "settings": {
         "type": "general",
+        "margin_bottom": "no",
         "image": "shopify:\/\/shop_images\/Screenshot_2023-11-24_at_16.59_2.png",
+        "rounded": "no",
+        "image_credit": "",
         "icon": "shopify:\/\/shop_images\/comfort.svg",
+        "subheading": "",
         "title": "Cooling Comfort",
         "content": "<p>Our moisture-wicking fabric accelerates the drying process by quickly drawing the moisture out from the inner layer to the fabric surface. Guaranteeing a cool, comfortable wear from the moment you throw us on.<\/p>",
         "alignment": "left",
+        "text_alignment": "top",
         "background_color": "#ffcc8b"
       }
     },
