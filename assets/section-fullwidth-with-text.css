@@ -38,3 +38,9 @@
   opacity: .5;
   font-size: 1.3rem;
 }
+
+@media all and (max-width: 932px) and (orientation: portrait) {
+  .fullwidth-text__title {
+    width: 3.5rem;
+  }
+}
