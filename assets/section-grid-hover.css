@@ -93,6 +93,13 @@
     display: none;
   }
 
+  .grid-hover__item img {
+    position: relative;
+    top: auto;
+    left: auto;
+    height: auto;
+  }
+
   .grid-hover__info {
     position: relative;
     top: auto;
@@ -100,6 +107,7 @@
     width: 90%;
     margin: 0 auto;
     transform: unset !important;
+    color: #000;
   }
 
   .grid-hover__info p.t-h2 {
