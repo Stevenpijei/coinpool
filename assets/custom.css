@@ -228,6 +228,15 @@ body {
   }
 }
 
+@media all and (max-width: 932px) and (orientation: portrait) {
+  .t-h2 {
+    font-size: 3rem;
+  }
+  .t-h3 {
+    font-size: 2.6rem;
+  }
+}
+
 .grid.product-grid {
   margin-top: 0;
 }
