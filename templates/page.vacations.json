@@ -91,7 +91,7 @@
       ],
       "settings": {
         "type": "centered",
-        "margin_bottom": "no",
+        "margin_bottom": "yes",
         "image": "shopify:\/\/shop_images\/Photo_Oct_09_2023_4_27_55_PM_1.png",
         "rounded": "yes",
         "image_credit": "<p>Mokule'ia Beach | O'ahu Northern Shore<\/p>",
