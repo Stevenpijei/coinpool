@@ -95,6 +95,34 @@
         "background_color": ""
       }
     },
+    "featured_collection_UzjGXV": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "New Arrivals",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": true,
+        "description_style": "body",
+        "collection": "new-arrivals",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "68055b5d-2761-4257-8e25-3b94de2d35d2": {
       "type": "large-content-image",
       "disabled": true,
@@ -153,34 +181,6 @@
         "title": "Our Impact",
         "content": "<p>From our fabric to our packaging, we choose sustainable solutions that promote a healthier planet. <\/p>"
       }
-    },
-    "featured_collection_UzjGXV": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "New Arrivals",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": true,
-        "description_style": "body",
-        "collection": "new-arrivals",
-        "products_to_show": 3,
-        "columns_desktop": 3,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -189,8 +189,8 @@
     "grid_hover_XjDDzB",
     "5e499474-444d-4760-a7e9-5b591382d305",
     "5cdc3e8b-83e7-47af-80a6-963f3b0e0d7f",
+    "featured_collection_UzjGXV",
     "68055b5d-2761-4257-8e25-3b94de2d35d2",
-    "59db039f-40fe-4b24-ba34-705571e24221",
-    "featured_collection_UzjGXV"
+    "59db039f-40fe-4b24-ba34-705571e24221"
   ]
 }
