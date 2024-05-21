@@ -84,9 +84,15 @@
 }
 
 @media all and (max-width: 932px) and (orientation: portrait) {
+
+  .story-carousel__title {
+    left: 20px;
+  }
+  
    .story-carousel__item {
       width: 100vw;
       flex-direction: column;
+     justify-content: flex-end;
    }
 
   .story-carousel__item__image {
