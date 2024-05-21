@@ -652,12 +652,18 @@
 }
 
 @media all and (max-width: 932px) and (orientation: portrait) {
+
+  .footer.grid {
+    width: 100%;
+  }
+  
   .footer__content-top {
     flex-direction: column;
   }
 
   .footer-block {
     width: 100%;
+    margin-bottom: 2rem;
   }
 
   .footer-block:only-child:last-child {
