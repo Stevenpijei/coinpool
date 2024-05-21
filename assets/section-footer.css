@@ -679,7 +679,7 @@
   }
 
   .footer__content-top .footer-block--newsletter {
-    max-width: unset;
+    max-width: 250px;
   }
   
 }
