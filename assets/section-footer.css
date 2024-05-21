@@ -673,4 +673,13 @@
   .footer-block__details-content .list-menu__item--link {
     font-size: 1.3rem;
   }
+
+  .footer-block--newsletter .footer-block__heading {
+    font-size: 1.3rem;
+  }
+
+  .footer__content-top .footer-block--newsletter {
+    max-width: unset;
+  }
+  
 }
