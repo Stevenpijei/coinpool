@@ -653,7 +653,7 @@
 
 @media all and (max-width: 932px) and (orientation: portrait) {
 
-  .footer.grid {
+  .footer .grid {
     width: 100%;
   }
   
