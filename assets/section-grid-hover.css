@@ -85,6 +85,10 @@
     grid-template-columns: 1fr;
   }
 
+  .grid-hover__item {
+    margin-bottom: 40px;
+  }
+
   .grid-hover__info p.t-h2 {
     font-size: 3rem;
   }
