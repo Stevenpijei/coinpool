@@ -87,6 +87,7 @@
 
   .grid-hover__item {
     margin-bottom: 40px;
+    width: 100%;
   }
 
   .grid-hover__item::after {
