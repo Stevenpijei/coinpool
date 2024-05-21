@@ -655,4 +655,12 @@
   .footer__content-top {
     flex-direction: column;
   }
+
+  .footer-block {
+    width: 100%;
+  }
+
+  .footer-block:only-child:last-child {
+    max-width: unset;
+  }
 }
