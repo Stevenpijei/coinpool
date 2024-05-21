@@ -680,6 +680,11 @@
 
   .footer__content-top .footer-block--newsletter {
     max-width: 250px;
+    margin-top: 30px;
+  }
+
+  .footer .newsletter-form__button {
+    font-size: 1.3rem;
   }
   
 }
