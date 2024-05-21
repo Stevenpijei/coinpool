@@ -71,6 +71,11 @@
   transition: opacity .3s, transform .3s;
 }
 
+.grid-hover__info .grid-over__item-content p {
+    font-size: 1.7rem;
+    line-height: 1.6;
+}
+
 .grid-hover__item:hover::after {
   opacity: 1;
 }
