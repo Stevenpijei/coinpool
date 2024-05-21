@@ -74,6 +74,7 @@
 .grid-hover__info .grid-over__item-content p {
     font-size: 1.7rem;
     line-height: 1.6;
+    font-family: var(--font-heading-family);
 }
 
 .grid-hover__item:hover::after {
