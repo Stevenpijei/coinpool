@@ -65,9 +65,25 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Store Norske Ja";
+  src: url("https://cdn.shopify.com/s/files/1/0679/7082/6461/files/JaSN-Regular.woff2?v=1716328581") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Store Norske Ja";
+  src: url("https://cdn.shopify.com/s/files/1/0679/7082/6461/files/JaSN-Medium.woff2?v=1716328598") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --font-body-family: "Tiempos", sans-serif;
-  --font-heading-family: "Store Norske Ja Trial", sans-serif;
+  --font-heading-family: "Store Norske Ja", sans-serif;
   --gutter: 20px;
   --page-width: 100%;
   --color-accent: #ffcc8b;

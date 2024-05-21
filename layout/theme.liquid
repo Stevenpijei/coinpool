@@ -309,7 +309,7 @@
         font-style: italic;
         font-display: swap;
       }
-      */
+      
       @font-face {
         font-family: "Store Norske Ja Trial";
         src: url("{{ 'Store Norske Ja Trial-Regular.woff2' | asset_url }}") format("woff2");
@@ -325,6 +325,7 @@
         font-style: normal;
         font-display: swap;
       }
+      */
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
