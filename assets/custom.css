@@ -536,6 +536,12 @@ fieldset.product-form__input .form__label,
   max-width: 775px;
 }
 
+@media all and (max-width: 932px) and (orientation: portrait) {
+  .section-general-content:first-child .general-content {
+    margin: 30px auto 0 auto;
+  }
+}
+
 .swatch-view-item[orig-value="Pink"] .star-set-image {
   background-color: #f8b7b7;
 }
