@@ -38,9 +38,15 @@
 <script>
 
 var elem = document.querySelector('.story-carousel__carousel__container');
+
+let numCells = 2;
+if (innerWidth <= 932) {
+  numCells = 1;
+}
+  
 var flkty = new Flickity( elem, {
   // options
-  groupCells: 2,
+  groupCells: numCells,
   pageDots: false,
   prevNextButtons: false,
   wrapAround: true,
