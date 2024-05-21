@@ -91,6 +91,7 @@
 @media all and (max-width: 932px) and (orientation: portrait) {
   .grid-hover__grid {
     grid-template-columns: 1fr;
+    margin-top: 20px;
   }
 
   .grid-hover__item {
@@ -122,6 +123,7 @@
   .grid-hover__info p.t-h2 {
     font-size: 3rem;
     font-family: var(--font-body-family);
+    margin-bottom: 1rem;
   }
 
   .grid-hover__info .grid-hover__item-content {
