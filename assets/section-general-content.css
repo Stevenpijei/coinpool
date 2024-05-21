@@ -3,15 +3,19 @@
   text-align: center;
 }
 
+.general-content.vertical-padding__large {
+  margin: 150px auto;
+}
+
 @media all and (max-width: 932px) and (orientation: portrait) {
   .general-content {
     width: 90%;
     margin: 30px auto;
   }
-}
 
-.general-content.vertical-padding__large {
-  margin: 150px auto;
+  .general-content.vertical-padding__large {
+    margin: 80px auto;
+  }
 }
 
 .general-content__heading {
