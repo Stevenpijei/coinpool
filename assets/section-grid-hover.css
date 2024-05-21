@@ -89,6 +89,10 @@
     margin-bottom: 40px;
   }
 
+  .grid-hover__item::after {
+    display: none;
+  }
+
   .grid-hover__info {
     position: relative;
     top: auto;
