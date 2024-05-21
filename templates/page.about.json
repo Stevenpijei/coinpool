@@ -97,6 +97,7 @@
     },
     "68055b5d-2761-4257-8e25-3b94de2d35d2": {
       "type": "large-content-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Photo-Oct-11-2023_-5-33-37-AM.jpg",
         "title": "Absorb Island Vacations",
