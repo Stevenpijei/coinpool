@@ -92,6 +92,7 @@
   
    .story-carousel__item {
       width: 100vw;
+     height: 60vh;
       flex-direction: column;
      justify-content: flex-end;
    }
