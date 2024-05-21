@@ -199,4 +199,12 @@
   .content-image--full {
     width: 100%;
   }
+
+  .content-image--full .content-image__image {
+    margin-bottom: 0;
+  }
+
+  .content-image--full .content-image__copy {
+    padding: 2rem;
+  }
 }
