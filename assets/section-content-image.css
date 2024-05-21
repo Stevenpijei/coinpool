@@ -204,7 +204,7 @@
     margin-bottom: 0;
   }
 
-  .content-image--full .content-image__copy {
+  .content-image--full .content-image__inner {
     padding: 2rem;
   }
 }
