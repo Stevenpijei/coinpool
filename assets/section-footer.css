@@ -650,3 +650,9 @@
     font-size: 12px;
   }
 }
+
+@media all and (max-width: 932px) and (orientation: portrait) {
+  .footer__content-top {
+    flex-direction: column;
+  }
+}
