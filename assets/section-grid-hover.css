@@ -99,7 +99,7 @@
     left: auto;
     width: 90%;
     margin: 0 auto;
-    transform: unset;
+    transform: unset !important;
   }
 
   .grid-hover__info p.t-h2 {
