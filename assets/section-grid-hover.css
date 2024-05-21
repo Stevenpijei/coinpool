@@ -91,6 +91,7 @@
 @media all and (max-width: 932px) and (orientation: portrait) {
   .grid-hover__grid {
     grid-template-columns: 1fr;
+    width: 100%;
   }
 
   .grid-hover__item {
