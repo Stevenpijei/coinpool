@@ -41,13 +41,14 @@
       "settings": {
         "type": "general",
         "margin_bottom": "no",
+        "image": "shopify:\/\/shop_images\/E9A9626_V2.jpg",
         "rounded": "no",
         "image_credit": "",
-        "subheading": "What is Vacations",
-        "title": "",
-        "content": "",
+        "subheading": "",
+        "title": "What Vacations",
+        "content": "<p>ffoajfojfoeijaofmofowjeo<\/p><p>jfoejfojfjjfaklkjflkfslkflkf<\/p>",
         "alignment": "right",
-        "text_alignment": "top",
+        "text_alignment": "center",
         "background_color": ""
       }
     },
