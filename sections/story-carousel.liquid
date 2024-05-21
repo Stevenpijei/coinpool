@@ -44,7 +44,7 @@ if (innerWidth <= 932) {
   numCells = 1;
 }
   
-var flkty = new Flickity( elem, {
+var flktyStory = new Flickity( elem, {
   // options
   groupCells: numCells,
   pageDots: false,
@@ -54,7 +54,7 @@ var flkty = new Flickity( elem, {
 
 let nextArrow = document.querySelector('.story-carousel .story_arrow_next');
 nextArrow.addEventListener("click", function() {
-  flkty.next();
+  flktyStory.next();
 });
   
 </script>
