@@ -196,6 +196,10 @@
     margin: 0 auto;
   }
 
+  .content-image .content-image__image:has(.content-image__credit) {
+    margin-bottom: 50px;
+  }
+
   .content-image--full {
     width: 100%;
   }
