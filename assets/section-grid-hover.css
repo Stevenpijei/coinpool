@@ -97,7 +97,7 @@
   .grid-hover__item {
     margin-bottom: 40px;
     width: 90vw;
-    aspect-ratio: 1;
+    aspect-ratio: 4/3;
   }
 
   .grid-hover__item:last-child {
