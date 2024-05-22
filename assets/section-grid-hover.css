@@ -114,7 +114,7 @@
     height: auto;
   }
 
-  .grid-hover__item img:after {
+  .grid-hover__item:after {
     content: '';
     position: absolute;
     top: 0;
