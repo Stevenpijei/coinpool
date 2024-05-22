@@ -47,7 +47,7 @@
         "cell_NBMFwz": {
           "type": "cell",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-monstera-production-7794422_2.png",
+            "image": "shopify:\/\/shop_images\/glassine_bag.jpg",
             "title": "Our Packaging",
             "content": "<p>From our product bags to our shipping mailers. We use only<br\/>recyclable materials. <\/p>"
           }
@@ -89,7 +89,7 @@
         "image_credit": "",
         "subheading": "",
         "title": "Meet Terry",
-        "content": "<p>We are proud to be fair-trade certified and choose to partner with factories that prioritize their workers. As a fair-trade partner, we want workers’ voices heard and choices counted in an effort to build equitable and sustainable working environments. <\/p>",
+        "content": "",
         "alignment": "right",
         "text_alignment": "center",
         "background_color": ""
