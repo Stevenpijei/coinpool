@@ -219,7 +219,8 @@
 
   .content-image--general .content-image__content {
     position: absolute;
-    top: 5%;
+    top: 50%;
+    transform: translateY(-50%) !important;
     left: 5%;
     width: 90%;
     color: #fff;
@@ -232,7 +233,7 @@
   }
 
   .content-image--general .content-image__content .content-image__icon {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
 
   .content-image--general .content-image__content .content-image__icon img {
