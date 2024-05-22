@@ -103,10 +103,6 @@
     margin-bottom: 0;
   }
 
-  .grid-hover__item::after {
-    display: none;
-  }
-
   .grid-hover__item img {
     position: relative;
     top: auto;
