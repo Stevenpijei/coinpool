@@ -63,7 +63,7 @@
     "content_image_cWcRkN": {
       "type": "content-image",
       "settings": {
-        "type": "narrow",
+        "type": "centered",
         "margin_bottom": "yes",
         "image": "shopify:\/\/shop_images\/Photo_Oct_10_2023_3_38_55_PM.jpg",
         "rounded": "yes",
