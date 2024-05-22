@@ -58,3 +58,9 @@
 .centered-media__details p:last-child {
   margin-bottom: 0;
 }
+
+@media all and (max-width: 932px) and (orientation: portrait) {
+  .centered-media__cell {
+    width: 90%;
+  }
+}
