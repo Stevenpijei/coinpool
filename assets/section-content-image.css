@@ -231,6 +231,8 @@
 
   .content-image--general .content-image__content .content-image__title {
     color: #fff;
+    margin-bottom: 10px;
+    line-height: 1.1;
   }
 
   .content-image--general .content-image__content .content-image__copy {
@@ -254,7 +256,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(0,0,0,.3);
     z-index: 5;
   }
 
