@@ -247,7 +247,7 @@
     height: auto;
   }
 
-  .content-image--general .content-image__content .content-image__icon img::after {
+  .content-image--general .content-image__image::after {
     content: '';
     position: absolute;
     top: 0;
