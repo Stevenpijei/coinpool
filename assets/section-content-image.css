@@ -232,6 +232,10 @@
     color: #fff;
   }
 
+  .content-image--general .content-image__content .content-image__copy {
+    font-size: 1.3rem;
+  }
+
   .content-image--general .content-image__content .content-image__icon {
     margin-bottom: 0px;
   }
