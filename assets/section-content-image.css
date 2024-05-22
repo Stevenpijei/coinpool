@@ -212,6 +212,15 @@
     margin: 0 auto !important;
   }
 
+  .content-image--general .content-image__content {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    width: 90%;
+    transform: translateY(-50%);
+    color: #fff;
+  }
+
   .content-image .content-image__image:has(.content-image__credit) {
     margin-bottom: 50px;
   }
