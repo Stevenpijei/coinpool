@@ -47,7 +47,6 @@
 }
 @media only screen and (max-width: 768px) {
   .vacations-heading {
-    font: 400 18px/1.5 var(--font-body-family);
     text-align: left;
   }
   .vacations .flickity-page-dots {
