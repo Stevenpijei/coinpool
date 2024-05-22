@@ -227,6 +227,20 @@
     padding: 0;
   }
 
+  .content-image--general .content-image__content .content-image__title {
+    color: #fff;
+  }
+
+  .content-image--general .content-image__content .content-image__icon {
+    margin-bottom: 10;
+  }
+
+  .content-image--general .content-image__content .content-image__icon img {
+    filter: invert(1);
+    width: 15px;
+    height: auto;
+  }
+
   .content-image .content-image__image:has(.content-image__credit) {
     margin-bottom: 50px;
   }
