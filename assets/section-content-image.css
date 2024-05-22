@@ -214,6 +214,7 @@
 
   .content-image--general .content-image__grid {
     position: relative;
+    margin-bottom: 30px;
   }
 
   .content-image--general .content-image__content {
