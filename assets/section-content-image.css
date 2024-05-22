@@ -226,6 +226,7 @@
     color: #fff;
     z-index: 10;
     padding: 0;
+    background: transparent !important;
   }
 
   .content-image--general .content-image__content .content-image__title {
