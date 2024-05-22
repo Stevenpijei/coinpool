@@ -193,7 +193,7 @@
 @media all and (max-width: 932px) and (orientation: portrait) {
   .content-image {
     width: 90%;
-    margin: 0 auto;
+    margin: 0 auto !important;
   }
 
   .content-image .content-image__image:has(.content-image__credit) {
