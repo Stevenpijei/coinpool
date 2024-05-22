@@ -114,16 +114,6 @@
     height: auto;
   }
 
-  .grid-hover__info {
-    position: relative;
-    top: auto;
-    left: auto;
-    width: 90%;
-    margin: 20px auto 0 auto;
-    transform: unset !important;
-    color: #000;
-  }
-
   .grid-hover__info p.t-h2 {
     font-size: 3rem;
     font-family: var(--font-body-family);
