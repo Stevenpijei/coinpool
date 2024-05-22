@@ -212,6 +212,10 @@
     margin: 0 auto !important;
   }
 
+  .content-image--general .content-image__grid {
+    position: relative;
+  }
+
   .content-image--general .content-image__content {
     position: absolute;
     top: 50%;
