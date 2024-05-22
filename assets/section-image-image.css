@@ -9,3 +9,9 @@
 .image-image__image {
   aspect-ratio: 4/3;
 }
+
+@media all and (max-width: 932px) and (orientation: portrait) {
+  .image-image {
+    gap: 1rem;
+  }
+}
