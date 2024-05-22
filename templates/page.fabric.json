@@ -124,6 +124,7 @@
     },
     "4f30b477-4161-42c9-a2a5-3d614228d7c9": {
       "type": "large-content-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Photo_Oct_11_2023_5_25_45_AM_a57b36e6-08df-4d0f-a6ab-8afdf8b4a89c.jpg",
         "title": "Welcome to Absorb Island",
@@ -140,7 +141,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "",
+        "collection": "new-arrivals",
         "products_to_show": 3,
         "columns_desktop": 3,
         "full_width": false,
