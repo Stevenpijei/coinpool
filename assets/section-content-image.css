@@ -232,12 +232,12 @@
   }
 
   .content-image--general .content-image__content .content-image__icon {
-    margin-bottom: 10;
+    margin-bottom: 10px;
   }
 
   .content-image--general .content-image__content .content-image__icon img {
     filter: invert(1);
-    width: 15px;
+    width: 25px;
     height: auto;
   }
 
