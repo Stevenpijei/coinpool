@@ -223,6 +223,8 @@
     width: 90%;
     transform: translateY(-50%);
     color: #fff;
+    z-index: 10;
+    padding: 0;
   }
 
   .content-image .content-image__image:has(.content-image__credit) {
