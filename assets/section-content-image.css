@@ -261,7 +261,7 @@
   }
 
   .content-image .content-image__image:has(.content-image__credit) {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
   }
 
   .content-image--full {
