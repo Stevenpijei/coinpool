@@ -38,7 +38,7 @@
     "content_image_hDQkmn": {
       "type": "content-image",
       "settings": {
-        "type": "centered",
+        "type": "narrow",
         "margin_bottom": "no",
         "image": "shopify:\/\/shop_images\/Photo_Feb_15_2024_8_10_08_AM_3_353e412c-2ae2-4fb2-b4d3-0fc8566a4cfe.jpg",
         "rounded": "no",
