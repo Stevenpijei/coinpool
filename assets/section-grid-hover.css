@@ -54,14 +54,14 @@
 .grid-hover__info p {
   margin: 0;
   padding: 0;
-  font-family: var(--font-heading-family);
-    font-size: 1.7rem;
+  font-size: 1.7rem;
   line-height: 1.6;
 }
 
 .grid-hover__info p.t-h2 {
   font-size: 4.4rem;
   line-height: 1.2;
+  font-family: var(--font-body-family);
 }
 
 .grid-hover__info .grid-hover__item-content {
