@@ -127,7 +127,7 @@
     object-fit: cover;
   }
 
-  .grid-hover__item::after {
+  .grid-hover__item .grid-hover__media_wrap::after {
     content: '';
     position: absolute;
     top: 0;
@@ -140,7 +140,7 @@
     display: none;
   }
 
-  .grid-hover__item.mobile-image-overlay__yes::after {
+  .grid-hover__item.mobile-image-overlay__yes .grid-hover__media_wrap::after {
     display: block;
   }
 
