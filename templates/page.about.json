@@ -24,6 +24,7 @@
           "type": "cell",
           "settings": {
             "image": "shopify:\/\/shop_images\/pexels-mark-stebnicki-13924868_2.png",
+            "mobile_image_overlay": "no",
             "title": "Fairtrade",
             "content": "<p>We are proud to be fair-trade certified and only partner with factories that prioritize their workers. <\/p>"
           }
@@ -32,6 +33,7 @@
           "type": "cell",
           "settings": {
             "image": "shopify:\/\/shop_images\/12-pinksandswrinkledetail.jpg",
+            "mobile_image_overlay": "no",
             "title": "Our Fabric",
             "content": "<p>Our <em>patent-pending<\/em> Dri-Rite™ fabric technology is antimicrobial with moisture-wicking finish to speed up after-water dry time.  <\/p>"
           }
@@ -40,6 +42,7 @@
           "type": "cell",
           "settings": {
             "image": "shopify:\/\/shop_images\/Photo_Oct_10_2023_6_29_27_AM_32d545d5-852a-4c25-8e04-a846f17dbc70.jpg",
+            "mobile_image_overlay": "no",
             "title": "Less Washing. More Splashing.",
             "content": "<p>Test backed by no wash-tests for months at the beach, pool and post-shower.  The result = <em>no smell<\/em>.<\/p>"
           }
@@ -48,6 +51,7 @@
           "type": "cell",
           "settings": {
             "image": "shopify:\/\/shop_images\/glassine_bag_4b2eb5e6-f1a2-4ded-9ab6-4d635910a14e.jpg",
+            "mobile_image_overlay": "yes",
             "title": "Our Packaging",
             "content": "<p>From our product bags to our shipping mailers. We use only recyclable materials. <\/p>"
           }
@@ -76,6 +80,7 @@
         "content": "<p>We are modernizing the toweling industry by changing its very fabric. Our revolutionary Dri-Rite™ <em>patent-pending<\/em> fabric technology is the first dual-knit, antimicrobial terry with moisture-wicking finish to speed up after-water dry time. Founded and run by women who love to vacation, Absorb Island is on a mission to change the way people dry after the pool, ocean, lake or gym.<\/p>",
         "alignment": "left",
         "text_alignment": "top",
+        "mobile_text_alignment": "bottom",
         "background_color": ""
       }
     },
@@ -92,6 +97,7 @@
         "content": "<p>Why a goat as our mascot?  Very simple, we are the G.O.A.T, the greatest of all terry. Also, like goats, we are curious, highly intelligent and incredibly playful. Making him an integral part of the Absorb Island story.<\/p>",
         "alignment": "right",
         "text_alignment": "top",
+        "mobile_text_alignment": "bottom",
         "background_color": ""
       }
     },
