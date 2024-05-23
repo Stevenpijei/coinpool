@@ -177,9 +177,7 @@
   .content-image__icon {
     margin-bottom: 30px;
   }
-  .content-image--icon .content-image__content {
-    padding: 150px 0;
-  }
+  
   .content-image--icon .content-image__inner {
     margin: 0 auto;
     max-width: 420px;
