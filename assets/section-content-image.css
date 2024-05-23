@@ -214,6 +214,10 @@
     margin-bottom: 60px;
   }
 
+  .content-image.mobile-text--overlay .content-image__grid {
+    margin-bottom: 20px;
+  }
+
   .content-image.mobile-text--overlay .content-image__content {
     position: absolute;
     top: 50%;
