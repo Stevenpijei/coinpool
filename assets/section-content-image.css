@@ -35,6 +35,8 @@
 }
 .content-image__icon img {
   margin: 0 auto;
+  width: 50px;
+  height: auto;
 }
 .content-image__title {
   margin-top: 0;
