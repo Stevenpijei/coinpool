@@ -573,10 +573,12 @@
 .footer__content-bottom-wrapper--center {
   flex-grow: 1;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 .footer__copyright {
   margin-top: 0;
+  margin-left: 0;
+  margin-right: auto;
 }
 .footer-block__image-wrapper {
   margin-bottom: 0;
