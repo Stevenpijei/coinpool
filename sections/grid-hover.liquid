@@ -23,6 +23,11 @@
                 <div class="grid-hover__item-content">{{ block.settings.content }}</div>
               {%- endif -%}
             </div>
+
+            {%- if block.settings.content -%}
+              <div class="grid-hover-mobile__item-content">{{ block.settings.content }}</div>
+            {%- endif -%}
+            
           </div>
         {%- endfor -%}
       </div>
