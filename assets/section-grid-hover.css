@@ -19,6 +19,10 @@
   justify-content: center;
 }
 
+.grid-hover__media_wrap {
+  position: relative;
+}
+
 .grid-hover__item img {
   position: absolute;
   top: 0;
