@@ -387,7 +387,7 @@
 
 @media all and (max-width: 932px) and (orientation: portrait) {
   .card-informaiton > .price {
-    font: 600 10px / 1.5 var(--font-heading-family);
+    font: 600 10px / 1.5 var(--font-heading-family) !important;
   }
 }
 
