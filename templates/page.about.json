@@ -33,7 +33,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/12-pinksandswrinkledetail.jpg",
             "title": "Our Fabric",
-            "content": "<p>Our revolutionary <em>patent-pending<\/em> Dri-Rite™ fabric technology is the first dual-knit, antimicrobial terry with moisture-wicking finish to speed up after-water dry time.  <\/p>"
+            "content": "<p>Our <em>patent-pending<\/em> Dri-Rite™ fabric technology is antimicrobial with moisture-wicking finish to speed up after-water dry time.  <\/p>"
           }
         },
         "cell_WcXPnP": {
@@ -49,7 +49,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/glassine_bag_4b2eb5e6-f1a2-4ded-9ab6-4d635910a14e.jpg",
             "title": "Our Packaging",
-            "content": "<p>From our product bags to our shipping mailers. We use only<br\/>recyclable materials. <\/p>"
+            "content": "<p>From our product bags to our shipping mailers. We use only recyclable materials. <\/p>"
           }
         }
       },
