@@ -66,7 +66,7 @@
     "5e499474-444d-4760-a7e9-5b591382d305": {
       "type": "content-image",
       "settings": {
-        "type": "full",
+        "type": "general",
         "margin_bottom": "yes",
         "image": "shopify:\/\/shop_images\/Photo_Oct_11_2023_5_53_06_AM_6cd68982-39d4-4675-bd3b-b9d752d0b824.jpg",
         "rounded": "yes",
@@ -82,7 +82,7 @@
     "5cdc3e8b-83e7-47af-80a6-963f3b0e0d7f": {
       "type": "content-image",
       "settings": {
-        "type": "full",
+        "type": "general",
         "margin_bottom": "no",
         "image": "shopify:\/\/shop_images\/goat1.jpg",
         "rounded": "yes",
