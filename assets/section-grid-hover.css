@@ -40,6 +40,10 @@
   transition: opacity .3s;
 }
 
+.grid-hover-mobile__item-content {
+  display: none;
+}
+
 .grid-hover__info {
   color: #fff;
   text-align: center;
@@ -143,6 +147,10 @@
     max-width: unset;
     width: 100%;
     margin: 0 auto;
+  }
+
+  .grid-hover-mobile__item-content {
+    display: block;
   }
   
 }
