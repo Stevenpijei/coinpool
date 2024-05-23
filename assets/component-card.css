@@ -385,12 +385,6 @@
   font-weight: 400;
 }
 
-@media all and (max-width: 932px) and (orientation: portrait) {
-  .card-informaiton > .price {
-    font: 600 10px / 1.5 var(--font-heading-family) !important;
-  }
-}
-
 .card--horizontal .card-information > .price {
   color: rgba(var(--color-foreground), 0.75);
 }
