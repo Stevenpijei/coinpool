@@ -140,6 +140,10 @@
     display: none;
   }
 
+  .grid-hover__item.mobile-image-overlay__yes::after {
+    display: block;
+  }
+
   .grid-hover__info p.t-h2 {
     font-size: 2.6rem;
     font-family: var(--font-body-family);
