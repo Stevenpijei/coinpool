@@ -330,6 +330,12 @@
   justify-content: space-between;
 }
 
+@media all and (max-width: 932px) and (orientation: portrait) {
+  .card--standard > .card__content .card__information {
+    flex-direction: column;
+  }
+}
+
 .card--card.card--media .card__inner .card__information,
 .card--card.card--text .card__inner,
 .card--card.card--media > .card__content .card__badge {
