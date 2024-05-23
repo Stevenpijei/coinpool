@@ -116,7 +116,7 @@
         "icon": "shopify:\/\/shop_images\/comfort.svg",
         "subheading": "",
         "title": "Cooling Comfort",
-        "content": "<p>Our moisture-wicking fabric accelerates the drying process by quickly drawing the moisture out from the inner layer to the fabric surface. Guaranteeing a quick drying experience from the moment you throw us on.<\/p>",
+        "content": "<p>Our moisture-wicking fabric accelerates the drying process by quickly drawing the moisture out from the inner layer to the fabric surface. <\/p>",
         "alignment": "left",
         "text_alignment": "top",
         "background_color": "#ffffff"
