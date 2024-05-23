@@ -70,7 +70,7 @@
         "content": "<p>Our products are always made with traceable raw materials.  Using organic cotton and recycled polyester yarns for a sustainable future.<\/p>",
         "alignment": "right",
         "text_alignment": "top",
-        "mobile_text_alignment": "bottom",
+        "mobile_text_alignment": "overlay",
         "background_color": ""
       }
     },
@@ -88,7 +88,7 @@
         "content": "<p>Our terrycloth with moisture-wicking finish is powered by our revolutionary, <em>patent-pending<\/em> Dri-Rite™ fabric technology. <\/p>",
         "alignment": "left",
         "text_alignment": "top",
-        "mobile_text_alignment": "bottom",
+        "mobile_text_alignment": "overlay",
         "background_color": "#ffffff"
       }
     },
@@ -106,7 +106,7 @@
         "content": "<p>Our fabric has built-in SILVADUR™ antimicrobial and anti-odor technology for advanced protection against bacteria that causes smelly towels.<\/p>",
         "alignment": "right",
         "text_alignment": "top",
-        "mobile_text_alignment": "bottom",
+        "mobile_text_alignment": "overlay",
         "background_color": ""
       }
     },
@@ -124,7 +124,7 @@
         "content": "<p>Our moisture-wicking fabric accelerates the drying process by quickly drawing the moisture out from the inner layer to the fabric surface. <\/p>",
         "alignment": "left",
         "text_alignment": "top",
-        "mobile_text_alignment": "bottom",
+        "mobile_text_alignment": "overlay",
         "background_color": "#ffffff"
       }
     },
