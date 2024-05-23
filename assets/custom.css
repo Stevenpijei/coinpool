@@ -554,7 +554,7 @@ fieldset.product-form__input .form__label,
 
 @media all and (max-width: 932px) and (orientation: portrait) {
   .section-general-content:first-child .general-content {
-    margin: 30px auto 20px auto;
+    margin: 30px auto 35px auto;
     width: 100%;
   }
 }
