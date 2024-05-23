@@ -151,6 +151,7 @@
 
   .grid-hover-mobile__item-content {
     display: block;
+    font-family: var(--font-heading-family);
   }
   
 }
