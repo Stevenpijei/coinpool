@@ -214,6 +214,8 @@
     margin-bottom: 30px;
   }
 
+  /*
+
   .content-image--general .content-image__content {
     position: absolute;
     top: 50%;
@@ -256,6 +258,8 @@
     background-color: rgba(0,0,0,.2);
     z-index: 1;
   }
+
+  */
 
   .content-image .content-image__image:has(.content-image__credit) {
     margin-bottom: 70px;
