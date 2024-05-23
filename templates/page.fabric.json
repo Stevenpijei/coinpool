@@ -34,6 +34,7 @@
         "content": "<p>We upgraded the traditional towel to be a high-performance wearable terry fabric for everyone who loves to vacation at water’s edge. <\/p>",
         "alignment": "right",
         "text_alignment": "top",
+        "mobile_text_alignment": "overlay",
         "background_color": ""
       }
     },
@@ -51,6 +52,7 @@
         "content": "<p>Our patent pending terry weave, with the addition of Spandex, creates a significant 4-way stretch that allows for easy movement or all-day lounging. <\/p>",
         "alignment": "left",
         "text_alignment": "top",
+        "mobile_text_alignment": "overlay",
         "background_color": ""
       }
     },
@@ -68,6 +70,7 @@
         "content": "<p>Our products are always made with traceable raw materials.  Using organic cotton and recycled polyester yarns for a sustainable future.<\/p>",
         "alignment": "right",
         "text_alignment": "top",
+        "mobile_text_alignment": "bottom",
         "background_color": ""
       }
     },
@@ -85,6 +88,7 @@
         "content": "<p>Our terrycloth with moisture-wicking finish is powered by our revolutionary, <em>patent-pending<\/em> Dri-Rite™ fabric technology. <\/p>",
         "alignment": "left",
         "text_alignment": "top",
+        "mobile_text_alignment": "bottom",
         "background_color": "#ffffff"
       }
     },
@@ -102,6 +106,7 @@
         "content": "<p>Our fabric has built-in SILVADUR™ antimicrobial and anti-odor technology for advanced protection against bacteria that causes smelly towels.<\/p>",
         "alignment": "right",
         "text_alignment": "top",
+        "mobile_text_alignment": "bottom",
         "background_color": ""
       }
     },
@@ -119,6 +124,7 @@
         "content": "<p>Our moisture-wicking fabric accelerates the drying process by quickly drawing the moisture out from the inner layer to the fabric surface. <\/p>",
         "alignment": "left",
         "text_alignment": "top",
+        "mobile_text_alignment": "bottom",
         "background_color": "#ffffff"
       }
     },
