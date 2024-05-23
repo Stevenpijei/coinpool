@@ -169,7 +169,7 @@
     max-width: 485px;
   }
   .content-image--left .content-image__inner {
-    margin-left: auto;
+    margin: 0 auto;
   }
   .content-image--right .content-image__image {
     order: 1;
