@@ -131,7 +131,7 @@
   .grid-hover__info p.t-h2 {
     font-size: 2.6rem;
     font-family: var(--font-body-family);
-    margin-bottom: 1rem;
+    margin-bottom: 0;
   }
 
   .grid-hover__info p {
