@@ -580,9 +580,10 @@
   margin-left: 0;
   margin-right: auto;
   width: 25%;
+  text-align: left;
 }
 
-.footer__content-bottom-wrapper--center .list-social__item {
+.footer__content-bottom-wrapper--center .list-social {
   width: 50%;
   display: flex;
   flex-direction: column;
