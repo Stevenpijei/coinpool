@@ -209,7 +209,7 @@
     margin: 0 auto !important;
   }
 
-  .content-image--general .content-image__grid {
+  .content-image--general .content-image__grid, .content-image--centered .content-image__grid {
     position: relative;
     margin-bottom: 60px;
   }
