@@ -12,6 +12,7 @@
               style="--animation-order: {{ forloop.index }};"
             {% endif %}
           >
+            <div class="grid-hover__media_wrap">
             {%- if block.settings.image -%}
               {{ block.settings.image | img_url: '920x520' | img_tag: block.settings.title }}
             {%- endif -%}
@@ -22,6 +23,7 @@
               {%- if block.settings.content -%}
                 <div class="grid-hover__item-content">{{ block.settings.content }}</div>
               {%- endif -%}
+            </div>
             </div>
 
             {%- if block.settings.content -%}
