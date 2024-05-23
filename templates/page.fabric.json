@@ -34,7 +34,7 @@
         "content": "<p>We upgraded the traditional towel to be a high-performance wearable terry fabric for everyone who loves to vacation at water’s edge. <\/p>",
         "alignment": "right",
         "text_alignment": "top",
-        "mobile_text_alignment": "overlay",
+        "mobile_text_alignment": "bottom",
         "background_color": ""
       }
     },
