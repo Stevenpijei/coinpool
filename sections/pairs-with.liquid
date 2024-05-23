@@ -33,7 +33,7 @@
         class="grid product-grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down"
         role="list"
       >
-        {% for recommendation in product.metafields.custom.pairs_with %}
+        {% for recommendation in product.metafields.custom.pairs_with.value %}
           <li class="grid__item">
             {% render 'card-product',
               card_product: recommendation,
