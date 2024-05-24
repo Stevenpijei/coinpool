@@ -729,7 +729,7 @@
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       // we need to check for selected size and get qty count
-      let selectedSize = document.querySelector("input[name='Size'].checked");
+      let selectedSize = document.querySelector('input[type="radio"]:checked');
       console.log(selectedSize);
     });
   </script>
