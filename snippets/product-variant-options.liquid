@@ -11,7 +11,8 @@
   {% render 'product-variant-options',
     product: product,
     option: option,
-    block: block
+    block: block,
+    index: index
   %}
 {% endcomment %}
 {%- liquid
@@ -60,7 +61,7 @@
         class="disabled"
       {% endif %}
     >
-    <label data-qty="{{ qty_arr }}" for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
+    <label data-qty="{{ index }} | {{ qty_arr }}" for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
       {{ value -}}
       <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
     </label>
