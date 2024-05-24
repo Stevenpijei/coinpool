@@ -61,7 +61,7 @@
       {% endif %}
     >
     <label data-qty="{{ qty_arr[forloop.index0] }}" for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
-      {% if qty_arr[forloop.index0] > 1 %}
+      {% if qty_arr[forloop.index0] > 0 %}
         {{ value -}}
       {% else %}
         {{ value -}} - Preorder
