@@ -59,7 +59,7 @@
         class="disabled"
       {% endif %}
     >
-    <label data-qty="{{ variants_option2_arr }}" for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
+    <label data-qty="{{ variants_available_arr }}" for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
       {{ value -}}
       <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
     </label>
