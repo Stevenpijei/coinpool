@@ -729,13 +729,17 @@
   <script>
     document.addEventListener("DOMContentLoaded", function () {
 
+      function displayQty(qty) {
+        console.log(qty);
+      }
+
       function checkQty() {
       
         // we need to check for selected size and get qty count
         let selectedSize = document.querySelector('input[name="Size"]:checked');
         let selectedLabel = selectedSize.nextElementSibling;
         let selectedQty = selectedLabel.getAttribute("data-qty");
-        console.log(selectedQty);
+        displayQty(selectedQty);
 
       }
 
@@ -746,8 +750,8 @@
       let sizeLabels = document.querySelectorAll(".variant_Size label");
       sizeLabels.forEach(sizeLabel => {
         sizeLabel.addEventListener("click", function() {
-          console.log("click");
-          checkQty();
+          let selectedQty = sizeLabel.getAttribute("data-qty");
+           displayQty(selectedQty);
         });
       })
     });
