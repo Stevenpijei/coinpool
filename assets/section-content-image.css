@@ -44,6 +44,8 @@
 }
 
 .content-image__title span.trademark {
+  display: inline-block;
+  vertical-align: top;
   font-size: 14px;
 }
 
