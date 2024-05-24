@@ -728,7 +728,9 @@
 
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-      console.log("product page loaded");
+      // we need to check for selected size and get qty count
+      let selectedSize = document.querySelector("input[name='Size'].checked");
+      console.log(selectedSize);
     });
   </script>
 
