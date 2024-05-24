@@ -732,7 +732,11 @@
     document.addEventListener("DOMContentLoaded", function () {
 
       function displayQty(qty) {
-        console.log(qty);
+        if (qty <= 0) {
+          document.querySelector("p.qty_notice").innerHTML = "Shipping in August";
+        } else {
+          document.querySelector("p.qty_notice").innerHTML = "";
+        }
       }
 
       function checkQty() {
