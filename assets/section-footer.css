@@ -692,8 +692,8 @@
   }
 
   .footer__content-top .footer-block--newsletter {
-    max-width: 250px;
-    margin-top: 30px;
+    max-width: unset;
+    margin: 30px auto;
   }
 
   .footer .newsletter-form__field-wrapper .field__input {
