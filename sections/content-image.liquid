@@ -22,7 +22,7 @@
                   <h3 class="general-content__heading t-h6 scroll-trigger animate--slide-in">{{ section.settings.subheading }}</h3>
                 {% endif %}
                 {% if section.settings.title != blank %}
-                  <h2 class="content-image__title t-h3">{{ section.settings.title }}</h2>
+                  <h2 class="content-image__title t-h3">{{ section.settings.title | replace: "™", "<span>™</span>" }}</h2>
                 {% endif %}
                 {% if section.settings.content != blank %}
                   <div class="content-image__copy">
