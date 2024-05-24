@@ -114,10 +114,8 @@ body {
 
 p.qty_notice {
   color: #000000;
-  border: 1px solid #ffcc8b;
   display: block;
   text-align: center;
-  padding: 5px 0;
 }
 
 .btn {
