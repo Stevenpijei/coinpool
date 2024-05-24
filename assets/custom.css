@@ -113,7 +113,7 @@ body {
 }
 
 p.qty_notice {
-  color: var(--gradient-background);
+  color: #ffcc8b;
 }
 
 .btn {
