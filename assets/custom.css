@@ -112,6 +112,10 @@ body {
   object-fit: cover;
 }
 
+p.qty_notice {
+  color: #ffcc8b;
+}
+
 .btn {
   display: inline-block;
   appearance: none;
