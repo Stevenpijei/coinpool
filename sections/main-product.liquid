@@ -730,7 +730,8 @@
     document.addEventListener("DOMContentLoaded", function () {
       // we need to check for selected size and get qty count
       let selectedSize = document.querySelector('input[name="Size"]:checked');
-      console.log(selectedSize);
+      let selectedLabel = selectedSize.nextElementSibling;
+      console.log(selectedLabel);
     });
   </script>
 
