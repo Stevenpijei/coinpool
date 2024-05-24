@@ -18,7 +18,7 @@
         "slide_iFzw3H": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_1432_1ec50afe-2c2b-4c52-8641-dd01ba97c455.jpg"
+            "image": "shopify:\/\/shop_images\/rachelcloverfinallandingpage-1.jpg"
           }
         }
       },
@@ -151,6 +151,7 @@
         "content": "<h5>BREATH IN AND EXPLORE<\/h5><p><\/p>",
         "alignment": "right",
         "text_alignment": "top",
+        "mobile_text_alignment": "bottom",
         "background_color": "#1773b0"
       }
     },
