@@ -15,6 +15,10 @@
   width: auto;
 }
 
+.list-social__item .icon.icon-twitter {
+  height: 3rem;
+}
+
 .list-social__link {
   align-items: center;
   display: flex;
