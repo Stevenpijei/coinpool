@@ -19,6 +19,7 @@
   assign variants_option1_arr = product.variants | map: 'option1'
   assign variants_option2_arr = product.variants | map: 'option2'
   assign variants_option3_arr = product.variants | map: 'option3'
+  assign qty_arr = product.variants | map: 'inventory_quantity'
 
   assign product_form_id = 'product-form-' | append: section.id
 -%}
@@ -59,7 +60,7 @@
         class="disabled"
       {% endif %}
     >
-    <label data-qty="{{ product.variants }}" for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
+    <label data-qty="{{ qty_arr }}" for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
       {{ value -}}
       <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
     </label>
