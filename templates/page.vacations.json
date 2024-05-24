@@ -24,6 +24,7 @@
         "content": "<p>Vacations is a travel blog we created to document the world through the eyes of Absorb Island. Taking you along our journey as we travel the globe in our product. <\/p>",
         "alignment": "right",
         "text_alignment": "center",
+        "mobile_text_alignment": "bottom",
         "background_color": "#499cd4"
       }
     },
@@ -31,7 +32,7 @@
       "type": "centered-media",
       "settings": {
         "image": "shopify:\/\/shop_images\/fbf6719e71fbdfcc61a5f81efdc8e4e6.jpg",
-        "credit": "<p>The Sunrise Shack | 2335 Kalakaua Ave, Honolulu, HI 96815, United States<\/p>",
+        "credit": "<p>The Sunrise Shack | 2335 Kalakaua Ave, Honolulu, HI <\/p>",
         "details": ""
       }
     },
@@ -48,6 +49,7 @@
         "content": "<p>Our first stop O’ahu where we did our first campaign shoot.  From crystalline beaches to lush rainforests, the aloha spirit permeates every aspect of life on O’ahu.  Unofficially known as “The Gathering Place”, O’ahu is a mesmerizing blend of natural beauty, rich culture and vibrant communities rooted in the traditions of the Hawaiian people. The third-largest island nestled within the Hawaiian archipelago, O’ahu is a revered paradise for locals and visitors. <\/p>",
         "alignment": "right",
         "text_alignment": "center",
+        "mobile_text_alignment": "bottom",
         "background_color": ""
       }
     },
@@ -73,6 +75,7 @@
         "content": "<p>When in Hawai’i remember to practice ‘Kuleana’: the responsibility, privilege and duty to learn and honor Hawai’ian culture. According to the Hawai’ian custom, kuleana is grantedto those who express a readiness and worthiness to undertake the responsibility of being among a native and most sacred land. <\/p><p>On the picturesque North Shore of O’ahu, where the swaying palms and salty breeze watch surfers’ shred, you find roadside treasures at every turn. Case in point: the Kakuku Land Farms fruit stands. From tangy pineapple to creamy mangos, the humble roadside stalls boast a variety of fresh, harvested fruits sourced from local farms. Our<br\/>favorite snack to stop for is the fried bananas or banana lumpia. Crunchy and sweet with a caramelized crust, we catch ourselves daydreaming about this budget-friendly bite often. <\/p>",
         "alignment": "left",
         "text_alignment": "center",
+        "mobile_text_alignment": "bottom",
         "background_color": ""
       }
     },
@@ -100,6 +103,7 @@
         "content": "<p>The tradition of surfing or he’e nalu on the Hawaiian Islands can be traced back to the 4th century. Initially an activity reserved for the ruling class, ancient Hawaiians used long wooden boards called olo to ride waves. Considered one of the world’s most famous surf spots, the North Shore of O’ahu is known for its challenging waves that attract pro surfers from around the globe. <\/p>",
         "alignment": "right",
         "text_alignment": "center",
+        "mobile_text_alignment": "bottom",
         "background_color": "rgba(0,0,0,0)"
       }
     },
@@ -117,6 +121,7 @@
         "content": "<p>We deeply understand the importance of freshness and durability when it comes to drying off.  Our recycled yarns have built-in SILVADUR™ antimicrobial and anti-odor technology for advanced protection against bacteria that causes smelly towel syndrome. <\/p>",
         "alignment": "right",
         "text_alignment": "top",
+        "mobile_text_alignment": "bottom",
         "background_color": ""
       }
     },
