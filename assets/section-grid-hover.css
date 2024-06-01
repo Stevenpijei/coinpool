@@ -116,6 +116,10 @@
     aspect-ratio: 4/3;
   }
 
+  .grid-hover__item:hover::after {
+    opacity: 0;
+  }
+
   .grid-hover__item:last-child {
     margin-bottom: 0;
   }
