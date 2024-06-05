@@ -213,7 +213,7 @@
             {%- when 'size_guide' -%}
               {%- if product.metafields.custom.size_guide != blank -%}
                 <div class="product__size-guide">
-                   {{ product.metafields.custom.size_guide | image_url: width: 450 }}
+                   <img src={{ product.metafields.custom.size_guide | image_url: width: 450 }} />
                 </div>
               {%- endif -%}
             {%- when 'sku' -%}
