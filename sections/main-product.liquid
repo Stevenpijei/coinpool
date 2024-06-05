@@ -210,6 +210,12 @@
                   {{ product.metafields.custom.product_details_summary | metafield_tag }}
                 </div>
               {%- endif -%}
+            {%- when 'size_guide' -%}
+              {%- if product.metafields.custom.size_guide != blank -%}
+                <div class="product__size-guide">
+                   {{ product.metafields.custom.size_guide | image_url: width: 450 }}
+                </div>
+              {%- endif -%}
             {%- when 'sku' -%}
               <p
                 class="product__sku no-js-hidden{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"
