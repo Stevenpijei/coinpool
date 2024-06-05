@@ -42,6 +42,11 @@
             "show_gift_card_recipient": false
           }
         },
+        "size_guide_FgXJ8n": {
+          "type": "size_guide",
+          "settings": {
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -56,6 +61,7 @@
         "variant_picker_jpfVnc",
         "quantity_selector",
         "buy_buttons",
+        "size_guide_FgXJ8n",
         "description"
       ],
       "settings": {
