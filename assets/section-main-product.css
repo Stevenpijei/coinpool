@@ -12,7 +12,14 @@
 }
 
 .product__size-guide {
-  display: none;
+  display: block;
+  width: 100%;
+}
+
+.product__size-guide img, .product__size-guide video {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .product__media-wrapper {
