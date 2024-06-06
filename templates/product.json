@@ -42,13 +42,13 @@
             "show_gift_card_recipient": false
           }
         },
-        "size_guide_FgXJ8n": {
-          "type": "size_guide",
+        "description": {
+          "type": "description",
           "settings": {
           }
         },
-        "description": {
-          "type": "description",
+        "size_guide_FgXJ8n": {
+          "type": "size_guide",
           "settings": {
           }
         }
@@ -61,8 +61,8 @@
         "variant_picker_jpfVnc",
         "quantity_selector",
         "buy_buttons",
-        "size_guide_FgXJ8n",
-        "description"
+        "description",
+        "size_guide_FgXJ8n"
       ],
       "settings": {
         "enable_sticky_info": false,
